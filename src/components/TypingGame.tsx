@@ -14,8 +14,10 @@ const GAME_DURATION_SECONDS = 60;
 const PERFECT_BONUS_INTERVAL = 8;
 const PERFECT_BONUS_SECONDS = 2;
 const BONUS_MESSAGE_DURATION_MS = 1000;
+const COUNTDOWN_STEPS = ["3", "2", "1", "GO"] as const;
+const COUNTDOWN_STEP_MS = 750;
 
-type GameStatus = "ready" | "playing" | "finished";
+type GameStatus = "ready" | "countdown" | "playing" | "finished";
 
 const POS_LABELS: Record<string, string> = {
   noun: "名詞",
@@ -55,7 +57,7 @@ function createWordOrder(sourceWords: GameWordEntry[], avoidFirstWord?: string) 
   return shuffledWords;
 }
 
-function parseLevelMode(value: string | undefined) {
+function parseLevelMode(value: string | undefined): LevelMode | null {
   if (value === "all") {
     return "all";
   }
@@ -78,16 +80,19 @@ export function TypingGame() {
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [missedWords, setMissedWords] = useState<GameWordEntry[]>([]);
   const [showPerfectBonus, setShowPerfectBonus] = useState(false);
+  const [countdownIndex, setCountdownIndex] = useState(0);
   const [wordIndex, setWordIndex] = useState(0);
   const [typedLength, setTypedLength] = useState(0);
   const [wordOrder, setWordOrder] = useState<GameWordEntry[]>([]);
   const gameRef = useRef<HTMLDivElement>(null);
   const currentWordHadMissRef = useRef(false);
   const bonusMessageTimeoutRef = useRef<number | null>(null);
+  const countdownTimeoutRef = useRef<number | null>(null);
 
   const playableWords = useMemo(() => getWordsForLevel(selectedLevel), [selectedLevel]);
   const currentWord = wordOrder[wordIndex];
   const isPlaying = status === "playing";
+  const countdownValue = COUNTDOWN_STEPS[countdownIndex] ?? COUNTDOWN_STEPS[0];
   const averageWpm = useMemo(() => {
     if (elapsedSeconds === 0) {
       return 0;
@@ -103,6 +108,13 @@ export function TypingGame() {
     }
   }, []);
 
+  const clearCountdown = useCallback(() => {
+    if (countdownTimeoutRef.current !== null) {
+      window.clearTimeout(countdownTimeoutRef.current);
+      countdownTimeoutRef.current = null;
+    }
+  }, []);
+
   const startGame = useCallback((levelOverride?: LevelMode) => {
     const nextPlayableWords = levelOverride ? getWordsForLevel(levelOverride) : playableWords;
 
@@ -111,10 +123,11 @@ export function TypingGame() {
     }
 
     clearBonusMessage();
-    if (levelOverride) {
+    clearCountdown();
+    if (levelOverride !== undefined) {
       setSelectedLevel(levelOverride);
     }
-    setStatus("playing");
+    setStatus("countdown");
     setTimeLeft(GAME_DURATION_SECONDS);
     setScore(0);
     setMisses(0);
@@ -126,13 +139,15 @@ export function TypingGame() {
     setMissedWords([]);
     currentWordHadMissRef.current = false;
     setShowPerfectBonus(false);
+    setCountdownIndex(0);
     setWordIndex(0);
     setTypedLength(0);
     setWordOrder(createWordOrder(nextPlayableWords));
-  }, [clearBonusMessage, playableWords]);
+  }, [clearBonusMessage, clearCountdown, playableWords]);
 
   const changeLevel = useCallback(() => {
     clearBonusMessage();
+    clearCountdown();
     setStatus("ready");
     setTimeLeft(GAME_DURATION_SECONDS);
     setScore(0);
@@ -144,11 +159,12 @@ export function TypingGame() {
     setElapsedSeconds(0);
     setMissedWords([]);
     setShowPerfectBonus(false);
+    setCountdownIndex(0);
     setWordIndex(0);
     setTypedLength(0);
     setWordOrder([]);
     currentWordHadMissRef.current = false;
-  }, [clearBonusMessage]);
+  }, [clearBonusMessage, clearCountdown]);
 
   const moveToNextWord = useCallback(() => {
     if (!currentWord) {
@@ -200,7 +216,7 @@ export function TypingGame() {
           return;
         }
 
-        if (status === "playing" || status === "finished") {
+        if (status === "countdown" || status === "playing" || status === "finished") {
           event.preventDefault();
           changeLevel();
         }
@@ -274,6 +290,28 @@ export function TypingGame() {
   }, [handleKeyDown]);
 
   useEffect(() => {
+    if (status !== "countdown") {
+      return;
+    }
+
+    gameRef.current?.focus();
+    countdownTimeoutRef.current = window.setTimeout(() => {
+      countdownTimeoutRef.current = null;
+
+      if (countdownIndex >= COUNTDOWN_STEPS.length - 1) {
+        setStatus("playing");
+        return;
+      }
+
+      setCountdownIndex((currentIndex) => currentIndex + 1);
+    }, COUNTDOWN_STEP_MS);
+
+    return () => {
+      clearCountdown();
+    };
+  }, [clearCountdown, countdownIndex, status]);
+
+  useEffect(() => {
     if (!isPlaying) {
       return;
     }
@@ -299,16 +337,32 @@ export function TypingGame() {
   useEffect(() => {
     return () => {
       clearBonusMessage();
+      clearCountdown();
     };
-  }, [clearBonusMessage]);
+  }, [clearBonusMessage, clearCountdown]);
 
   return (
-    <main className="min-h-screen bg-[#f8faf7] text-[#18231f]">
+    <main className="relative min-h-screen overflow-x-hidden bg-[#18231f] text-[#18231f]">
+      <div
+        aria-hidden="true"
+        className="fixed inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/study-workspace-bg.jpg')" }}
+      />
+      <div aria-hidden="true" className="fixed inset-0 bg-[#f8faf7]/82 backdrop-blur-[1.5px]" />
       <section
         ref={gameRef}
         tabIndex={-1}
-        className="relative mx-auto flex min-h-screen w-full max-w-5xl flex-col px-5 py-6 outline-none sm:px-8"
+        className="relative z-10 mx-auto flex min-h-screen w-full max-w-5xl flex-col px-4 py-4 outline-none sm:px-8 sm:py-6"
       >
+        <header className="mb-3 flex justify-end">
+          <a
+            href="/credits"
+            className="border border-[#cfd8cf]/80 bg-white/72 px-3 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#40706a] shadow-[3px_3px_0_rgba(24,35,31,0.06)] backdrop-blur-md transition hover:-translate-y-0.5 hover:bg-white focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#f0a202]/45"
+          >
+            Credits
+          </a>
+        </header>
+
         {isPlaying && showPerfectBonus ? (
           <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-[125%] border border-[#f0a202] bg-white px-6 py-4 text-center text-2xl font-black text-[#0f766e] shadow-[6px_6px_0_#f0a202] sm:text-4xl">
             PERFECT! +2 sec
@@ -323,21 +377,21 @@ export function TypingGame() {
           />
         ) : (
           <>
-            <div className="grid grid-cols-2 gap-3 border-b border-[#cfd8cf] pb-5 text-center sm:grid-cols-4 sm:gap-4">
+            <div className="grid grid-cols-2 gap-3 border border-[#cfd8cf]/85 bg-white/82 p-4 text-center shadow-[6px_6px_0_rgba(24,35,31,0.08)] backdrop-blur-md sm:grid-cols-4 sm:gap-4">
               <Stat label="残り時間" value={`${timeLeft}s`} tone="teal" />
               <Stat label="スコア" value={score.toLocaleString()} tone="ink" />
               <Stat label="ミス" value={misses.toLocaleString()} tone="red" />
               <Stat label="Streak" value={perfectStreak.toLocaleString()} tone="gold" />
             </div>
-            {status === "playing" ? (
+            {status === "countdown" || status === "playing" ? (
               <p className="mt-3 text-right text-xs font-bold uppercase tracking-[0.14em] text-[#6b756f]">
                 Esc : Exit
               </p>
             ) : null}
 
-            <div className="flex flex-1 flex-col items-center justify-center gap-8 py-8 text-center">
+            <div className="flex flex-1 flex-col items-center justify-center gap-6 py-6 text-center">
               <div className="w-full">
-                <p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-[#40706a]">
+                <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#40706a]">
                   {status === "finished" ? "Result" : getLevelLabel(selectedLevel)}
                 </p>
 
@@ -354,11 +408,13 @@ export function TypingGame() {
                     perfectWordCount={perfectWordCount}
                     score={score}
                   />
+                ) : status === "countdown" ? (
+                  <CountdownScreen value={countdownValue} />
                 ) : currentWord ? (
                   <>
                     <WordDisplay typedLength={typedLength} word={currentWord} />
-                    <TypedInputLine typedLength={typedLength} word={currentWord} />
                     <MeaningList word={currentWord} />
+                    <TypedInputLine typedLength={typedLength} word={currentWord} />
                   </>
                 ) : null}
               </div>
@@ -367,7 +423,8 @@ export function TypingGame() {
                 <button
                   type="button"
                   onClick={() => startGame()}
-                  className="min-h-12 border border-[#18231f] bg-[#18231f] px-7 text-base font-bold text-white shadow-[5px_5px_0_#f0a202] transition hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#f0a202] focus:outline-none focus:ring-4 focus:ring-[#f0a202]/45"
+                  aria-label="現在のレベルでゲームをリスタート"
+                  className="min-h-12 border border-[#18231f] bg-[#18231f] px-7 text-base font-bold text-white shadow-[5px_5px_0_#f0a202] transition hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#f0a202] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#f0a202]/45"
                 >
                   リスタート
                 </button>
@@ -388,11 +445,17 @@ type StartScreenProps = {
 
 function StartScreen({ onSelectLevel, onStart, selectedLevel }: StartScreenProps) {
   return (
-    <div className="flex flex-1 flex-col justify-center py-8">
-      <div className="mx-auto w-full max-w-4xl">
-        <div className="mb-8 text-center">
+    <div className="flex flex-1 flex-col justify-center py-4 sm:py-8">
+      <div className="mx-auto w-full max-w-4xl border border-white/65 bg-white/68 px-4 py-6 shadow-[10px_10px_0_rgba(24,35,31,0.08)] backdrop-blur-md sm:px-7 sm:py-7">
+        <div className="mb-6 text-center sm:mb-8">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#40706a]">English Typing</p>
-          <h1 className="mt-3 text-5xl font-black text-[#18231f] sm:text-7xl">Choose Level</h1>
+          <h1 className="mt-3 text-4xl font-black text-[#18231f] sm:text-6xl md:text-7xl">Choose Level</h1>
+          <p className="mx-auto mt-4 max-w-2xl text-sm font-bold leading-7 text-[#4f5d56] sm:text-base">
+            意味を確認しながら英単語をタイプ。60秒間でハイスコアを目指そう。
+          </p>
+          <p className="mx-auto mt-3 max-w-xl border border-[#d7dfd6] bg-white/76 px-3 py-2 text-xs font-bold text-[#6b756f] sm:hidden">
+            キーボードを使用できるPCでのプレイを推奨します。
+          </p>
         </div>
 
         <div className="grid gap-3 sm:grid-cols-2">
@@ -406,7 +469,8 @@ function StartScreen({ onSelectLevel, onStart, selectedLevel }: StartScreenProps
                 data-level-mode={String(option.mode)}
                 onClick={() => onSelectLevel(option.mode)}
                 aria-pressed={selected}
-                className={`min-h-32 border px-5 py-4 text-left transition focus:outline-none focus:ring-4 focus:ring-[#f0a202]/45 ${
+                aria-label={`${option.label} ${option.title}を選択`}
+                className={`min-h-28 border px-4 py-4 text-left transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#f0a202]/45 sm:min-h-32 sm:px-5 ${
                   selected
                     ? "border-[#18231f] bg-white shadow-[6px_6px_0_#f0a202]"
                     : "border-[#cfd8cf] bg-white shadow-[4px_4px_0_#dce6dc] hover:-translate-y-0.5"
@@ -427,13 +491,32 @@ function StartScreen({ onSelectLevel, onStart, selectedLevel }: StartScreenProps
           <button
             type="button"
             onClick={() => onStart()}
-            className="min-h-12 border border-[#18231f] bg-[#18231f] px-9 text-base font-bold text-white shadow-[5px_5px_0_#f0a202] transition hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#f0a202] focus:outline-none focus:ring-4 focus:ring-[#f0a202]/45"
+            aria-label="選択中のレベルでゲームを開始"
+            className="min-h-12 border border-[#18231f] bg-[#18231f] px-9 text-base font-bold text-white shadow-[5px_5px_0_#f0a202] transition hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#f0a202] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#f0a202]/45"
           >
             Start
           </button>
-          <p className="mt-4 text-xs font-bold uppercase tracking-[0.14em] text-[#6b756f]">Enter : Start</p>
+          <div className="mt-4 flex flex-wrap justify-center gap-2 text-xs font-bold uppercase tracking-[0.14em] text-[#6b756f]">
+            <span className="border border-[#d7dfd6] bg-white/80 px-3 py-2">Enter : Start</span>
+            <span className="border border-[#d7dfd6] bg-white/80 px-3 py-2">Esc : Exit</span>
+          </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+type CountdownScreenProps = {
+  value: string;
+};
+
+function CountdownScreen({ value }: CountdownScreenProps) {
+  return (
+    <div className="mx-auto flex min-h-[22rem] w-full max-w-2xl flex-col items-center justify-center border border-[#cfd8cf]/85 bg-white/78 px-6 py-10 shadow-[8px_8px_0_rgba(240,162,2,0.28)] backdrop-blur-md">
+      <p className="text-sm font-black uppercase tracking-[0.22em] text-[#40706a]">Ready</p>
+      <p key={value} className="countdown-pop mt-5 font-mono text-8xl font-black leading-none text-[#18231f] sm:text-9xl">
+        {value}
+      </p>
     </div>
   );
 }
@@ -445,7 +528,7 @@ type WordDisplayProps = {
 
 function WordDisplay({ typedLength, word }: WordDisplayProps) {
   return (
-    <div className="min-h-28 font-mono text-5xl font-black leading-none sm:text-7xl md:text-8xl">
+    <div className="mx-auto flex min-h-20 max-w-full flex-wrap justify-center font-mono text-4xl font-black leading-none drop-shadow-[0_2px_0_rgba(255,255,255,0.85)] sm:min-h-24 sm:text-6xl md:text-7xl lg:text-8xl">
       {word.word.split("").map((character, index) => {
         const state = index < typedLength ? "typed" : index === typedLength ? "current" : "waiting";
 
@@ -473,7 +556,7 @@ function TypedInputLine({ typedLength, word }: WordDisplayProps) {
   const remainingText = word.word.slice(typedLength);
 
   return (
-    <div className="mx-auto mt-5 flex min-h-12 w-full max-w-2xl items-center justify-center border-y border-[#d7dfd6] bg-white/70 px-4 font-mono text-xl font-black sm:text-3xl">
+    <div className="mx-auto mt-4 flex min-h-12 w-full max-w-2xl flex-wrap items-center justify-center border-y border-[#d7dfd6] bg-white/82 px-4 font-mono text-lg font-black shadow-[4px_4px_0_rgba(24,35,31,0.06)] backdrop-blur-sm sm:text-2xl md:text-3xl">
       <span className="text-[#0f766e]">{typedText}</span>
       <span className="text-[#c1cac4]">{remainingText}</span>
     </div>
@@ -488,16 +571,18 @@ function MeaningList({ word }: MeaningListProps) {
   const meanings = word.primaryMeanings.slice(0, 3);
 
   return (
-    <div className="mx-auto mt-5 grid min-h-44 w-full max-w-2xl content-start gap-3 text-left">
+    <div className="mx-auto mt-3 grid min-h-36 w-full max-w-2xl content-start gap-2 text-left sm:min-h-40">
       {meanings.map((meaning) => (
         <div
           key={`${word.word}-${meaning.pos}-${meaning.definitions.join("-")}`}
-          className="grid grid-cols-[5.5rem_1fr] items-center border border-[#d7dfd6] bg-white px-4 py-3 shadow-[4px_4px_0_#dce6dc]"
+          className="grid grid-cols-[4.75rem_1fr] items-center border border-[#d7dfd6] bg-white/90 px-3 py-2.5 shadow-[4px_4px_0_rgba(24,35,31,0.07)] backdrop-blur-sm sm:grid-cols-[5.5rem_1fr] sm:px-4"
         >
           <div className="mr-3 inline-flex justify-center border border-[#cfd8cf] bg-[#f8faf7] px-2 py-1 text-xs font-black text-[#40706a]">
             {formatPos(meaning.pos)}
           </div>
-          <p className="text-lg font-bold text-[#d94c3f] sm:text-2xl">{meaning.definitions.join("・")}</p>
+          <p className="break-words text-base font-bold text-[#d94c3f] sm:text-xl md:text-2xl">
+            {meaning.definitions.join("・")}
+          </p>
         </div>
       ))}
     </div>
@@ -572,14 +657,14 @@ function ResultScreen({
         <button
           type="button"
           onClick={() => onRetry()}
-          className="min-h-12 border border-[#18231f] bg-[#18231f] px-8 text-base font-bold text-white shadow-[5px_5px_0_#f0a202] transition hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#f0a202] focus:outline-none focus:ring-4 focus:ring-[#f0a202]/45"
+          className="min-h-12 border border-[#18231f] bg-[#18231f] px-8 text-base font-bold text-white shadow-[5px_5px_0_#f0a202] transition hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#f0a202] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#f0a202]/45"
         >
           Retry
         </button>
         <button
           type="button"
           onClick={onChangeLevel}
-          className="min-h-12 border border-[#18231f] bg-white px-8 text-base font-bold text-[#18231f] shadow-[5px_5px_0_#dce6dc] transition hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#dce6dc] focus:outline-none focus:ring-4 focus:ring-[#f0a202]/45"
+          className="min-h-12 border border-[#18231f] bg-white px-8 text-base font-bold text-[#18231f] shadow-[5px_5px_0_#dce6dc] transition hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#dce6dc] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#f0a202]/45"
         >
           Change Level
         </button>

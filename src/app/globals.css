@@ -16,6 +16,35 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 button {
   font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+@keyframes countdown-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+
+  24% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.countdown-pop {
+  animation: countdown-pop 520ms ease-out both;
 }
