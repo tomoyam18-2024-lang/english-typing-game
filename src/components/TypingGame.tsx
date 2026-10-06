@@ -10,7 +10,11 @@ import {
   type LevelMode,
 } from "@/data/gameWords";
 
-const GAME_DURATION_SECONDS = 60;
+const DEFAULT_GAME_DURATION_SECONDS = 60;
+const GAME_DURATION_OPTIONS = [
+  { seconds: 60, label: "1 Minute" },
+  { seconds: 120, label: "2 Minutes" },
+] as const;
 const PERFECT_BONUS_INTERVAL = 8;
 const PERFECT_BONUS_SECONDS = 2;
 const BONUS_MESSAGE_DURATION_MS = 1000;
@@ -18,6 +22,7 @@ const COUNTDOWN_STEPS = ["3", "2", "1", "GO"] as const;
 const COUNTDOWN_STEP_MS = 750;
 
 type GameStatus = "ready" | "countdown" | "playing" | "finished";
+type GameDurationSeconds = (typeof GAME_DURATION_OPTIONS)[number]["seconds"];
 
 const POS_LABELS: Record<string, string> = {
   noun: "名詞",
@@ -67,10 +72,21 @@ function parseLevelMode(value: string | undefined): LevelMode | null {
   return numericLevel === 1 || numericLevel === 2 || numericLevel === 3 ? numericLevel : null;
 }
 
+function parseDuration(value: string | undefined): GameDurationSeconds | null {
+  const numericDuration = Number(value);
+
+  return numericDuration === 60 || numericDuration === 120 ? numericDuration : null;
+}
+
+function formatDuration(seconds: GameDurationSeconds) {
+  return GAME_DURATION_OPTIONS.find((option) => option.seconds === seconds)?.label ?? "1 Minute";
+}
+
 export function TypingGame() {
   const [status, setStatus] = useState<GameStatus>("ready");
   const [selectedLevel, setSelectedLevel] = useState<LevelMode>(1);
-  const [timeLeft, setTimeLeft] = useState(GAME_DURATION_SECONDS);
+  const [selectedDuration, setSelectedDuration] = useState<GameDurationSeconds>(DEFAULT_GAME_DURATION_SECONDS);
+  const [timeLeft, setTimeLeft] = useState(DEFAULT_GAME_DURATION_SECONDS);
   const [score, setScore] = useState(0);
   const [misses, setMisses] = useState(0);
   const [perfectStreak, setPerfectStreak] = useState(0);
@@ -128,7 +144,7 @@ export function TypingGame() {
       setSelectedLevel(levelOverride);
     }
     setStatus("countdown");
-    setTimeLeft(GAME_DURATION_SECONDS);
+    setTimeLeft(selectedDuration);
     setScore(0);
     setMisses(0);
     setPerfectStreak(0);
@@ -143,13 +159,13 @@ export function TypingGame() {
     setWordIndex(0);
     setTypedLength(0);
     setWordOrder(createWordOrder(nextPlayableWords));
-  }, [clearBonusMessage, clearCountdown, playableWords]);
+  }, [clearBonusMessage, clearCountdown, playableWords, selectedDuration]);
 
   const changeLevel = useCallback(() => {
     clearBonusMessage();
     clearCountdown();
     setStatus("ready");
-    setTimeLeft(GAME_DURATION_SECONDS);
+    setTimeLeft(selectedDuration);
     setScore(0);
     setMisses(0);
     setPerfectStreak(0);
@@ -164,7 +180,12 @@ export function TypingGame() {
     setTypedLength(0);
     setWordOrder([]);
     currentWordHadMissRef.current = false;
-  }, [clearBonusMessage, clearCountdown]);
+  }, [clearBonusMessage, clearCountdown, selectedDuration]);
+
+  const selectDuration = useCallback((duration: GameDurationSeconds) => {
+    setSelectedDuration(duration);
+    setTimeLeft(duration);
+  }, []);
 
   const moveToNextWord = useCallback(() => {
     if (!currentWord) {
@@ -202,9 +223,15 @@ export function TypingGame() {
         if (status === "ready") {
           const target = event.target instanceof HTMLElement ? event.target : null;
           const targetButton = target?.closest("button");
+          const targetDuration = parseDuration(targetButton?.dataset.durationSeconds);
           const targetLevel = parseLevelMode(targetButton?.dataset.levelMode);
 
           event.preventDefault();
+          if (targetDuration !== null) {
+            selectDuration(targetDuration);
+            return;
+          }
+
           startGame(targetLevel ?? undefined);
         }
 
@@ -278,7 +305,18 @@ export function TypingGame() {
 
       setTypedLength(nextTypedLength);
     },
-    [changeLevel, currentWord, isPlaying, moveToNextWord, perfectStreak, showBonusMessage, startGame, status, typedLength],
+    [
+      changeLevel,
+      currentWord,
+      isPlaying,
+      moveToNextWord,
+      perfectStreak,
+      selectDuration,
+      showBonusMessage,
+      startGame,
+      status,
+      typedLength,
+    ],
   );
 
   useEffect(() => {
@@ -363,16 +401,11 @@ export function TypingGame() {
           </a>
         </header>
 
-        {isPlaying && showPerfectBonus ? (
-          <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-[125%] border border-[#f0a202] bg-white px-6 py-4 text-center text-2xl font-black text-[#0f766e] shadow-[6px_6px_0_#f0a202] sm:text-4xl">
-            PERFECT! +2 sec
-          </div>
-        ) : null}
-
         {status === "ready" ? (
           <StartScreen
-            onSelectLevel={setSelectedLevel}
-            onStart={startGame}
+            onSelectDuration={selectDuration}
+            onStartLevel={startGame}
+            selectedDuration={selectedDuration}
             selectedLevel={selectedLevel}
           />
         ) : (
@@ -388,8 +421,15 @@ export function TypingGame() {
                 Esc : Exit
               </p>
             ) : null}
+            <div className="mt-2 flex min-h-14 items-center justify-center">
+              {isPlaying && showPerfectBonus ? (
+                <div className="pointer-events-none border border-[#f0a202] bg-white px-5 py-3 text-center text-xl font-black text-[#0f766e] shadow-[5px_5px_0_#f0a202] sm:text-2xl">
+                  PERFECT! +2 sec
+                </div>
+              ) : null}
+            </div>
 
-            <div className="flex flex-1 flex-col items-center justify-center gap-6 py-6 text-center">
+            <div className="flex flex-1 flex-col items-center justify-center gap-5 py-4 text-center">
               <div className="w-full">
                 <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#40706a]">
                   {status === "finished" ? "Result" : getLevelLabel(selectedLevel)}
@@ -399,6 +439,7 @@ export function TypingGame() {
                   <ResultScreen
                     averageWpm={averageWpm}
                     completedWordCount={completedWordCount}
+                    durationLabel={formatDuration(selectedDuration)}
                     levelLabel={getLevelLabel(selectedLevel)}
                     maxPerfectStreak={maxPerfectStreak}
                     missedWords={missedWords}
@@ -438,18 +479,19 @@ export function TypingGame() {
 }
 
 type StartScreenProps = {
-  onSelectLevel: (level: LevelMode) => void;
-  onStart: () => void;
+  onSelectDuration: (duration: GameDurationSeconds) => void;
+  onStartLevel: (level: LevelMode) => void;
+  selectedDuration: GameDurationSeconds;
   selectedLevel: LevelMode;
 };
 
-function StartScreen({ onSelectLevel, onStart, selectedLevel }: StartScreenProps) {
+function StartScreen({ onSelectDuration, onStartLevel, selectedDuration, selectedLevel }: StartScreenProps) {
   return (
     <div className="flex flex-1 flex-col justify-center py-4 sm:py-8">
       <div className="mx-auto w-full max-w-4xl border border-white/65 bg-white/68 px-4 py-6 shadow-[10px_10px_0_rgba(24,35,31,0.08)] backdrop-blur-md sm:px-7 sm:py-7">
         <div className="mb-6 text-center sm:mb-8">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#40706a]">English Typing</p>
-          <h1 className="mt-3 text-4xl font-black text-[#18231f] sm:text-6xl md:text-7xl">Choose Level</h1>
+          <h1 className="mt-3 text-4xl font-black text-[#18231f] sm:text-6xl md:text-7xl">English Typing</h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm font-bold leading-7 text-[#4f5d56] sm:text-base">
             意味を確認しながら英単語をタイプ。60秒間でハイスコアを目指そう。
           </p>
@@ -458,7 +500,40 @@ function StartScreen({ onSelectLevel, onStart, selectedLevel }: StartScreenProps
           </p>
         </div>
 
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div>
+          <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#40706a]">Choose Time</h2>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2">
+            {GAME_DURATION_OPTIONS.map((option) => {
+              const selected = option.seconds === selectedDuration;
+
+              return (
+                <button
+                  key={option.seconds}
+                  type="button"
+                  data-duration-seconds={String(option.seconds)}
+                  onClick={() => onSelectDuration(option.seconds)}
+                  aria-pressed={selected}
+                  aria-label={`${option.label}を選択`}
+                  className={`min-h-16 border px-4 py-3 text-left transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#f0a202]/45 ${
+                    selected
+                      ? "border-[#18231f] bg-white shadow-[5px_5px_0_#f0a202]"
+                      : "border-[#cfd8cf] bg-white shadow-[4px_4px_0_#dce6dc] hover:-translate-y-0.5"
+                  }`}
+                >
+                  <span className="block text-xl font-black text-[#18231f]">{option.label}</span>
+                  <span className="mt-1 block text-sm font-bold text-[#6b756f]">{option.seconds} sec</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="mt-7">
+          <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#40706a]">Choose Level</h2>
+          <p className="mt-2 text-xs font-bold text-[#6b756f]">カードをクリックするとすぐにカウントダウンが始まります。</p>
+        </div>
+
+        <div className="mt-3 grid gap-3 sm:grid-cols-2">
           {LEVEL_OPTIONS.map((option) => {
             const selected = option.mode === selectedLevel;
 
@@ -467,9 +542,9 @@ function StartScreen({ onSelectLevel, onStart, selectedLevel }: StartScreenProps
                 key={String(option.mode)}
                 type="button"
                 data-level-mode={String(option.mode)}
-                onClick={() => onSelectLevel(option.mode)}
+                onClick={() => onStartLevel(option.mode)}
                 aria-pressed={selected}
-                aria-label={`${option.label} ${option.title}を選択`}
+                aria-label={`${option.label} ${option.title}でゲームを開始`}
                 className={`min-h-28 border px-4 py-4 text-left transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#f0a202]/45 sm:min-h-32 sm:px-5 ${
                   selected
                     ? "border-[#18231f] bg-white shadow-[6px_6px_0_#f0a202]"
@@ -488,15 +563,7 @@ function StartScreen({ onSelectLevel, onStart, selectedLevel }: StartScreenProps
         </div>
 
         <div className="mt-8 text-center">
-          <button
-            type="button"
-            onClick={() => onStart()}
-            aria-label="選択中のレベルでゲームを開始"
-            className="min-h-12 border border-[#18231f] bg-[#18231f] px-9 text-base font-bold text-white shadow-[5px_5px_0_#f0a202] transition hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#f0a202] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#f0a202]/45"
-          >
-            Start
-          </button>
-          <div className="mt-4 flex flex-wrap justify-center gap-2 text-xs font-bold uppercase tracking-[0.14em] text-[#6b756f]">
+          <div className="flex flex-wrap justify-center gap-2 text-xs font-bold uppercase tracking-[0.14em] text-[#6b756f]">
             <span className="border border-[#d7dfd6] bg-white/80 px-3 py-2">Enter : Start</span>
             <span className="border border-[#d7dfd6] bg-white/80 px-3 py-2">Esc : Exit</span>
           </div>
@@ -596,6 +663,7 @@ function formatMeaningSummary(word: GameWordEntry) {
 type ResultScreenProps = {
   averageWpm: number;
   completedWordCount: number;
+  durationLabel: string;
   levelLabel: string;
   maxPerfectStreak: number;
   missedWords: GameWordEntry[];
@@ -609,6 +677,7 @@ type ResultScreenProps = {
 function ResultScreen({
   averageWpm,
   completedWordCount,
+  durationLabel,
   levelLabel,
   maxPerfectStreak,
   missedWords,
@@ -622,6 +691,7 @@ function ResultScreen({
     <div className="mx-auto w-full max-w-3xl border border-[#cfd8cf] bg-white text-left shadow-[8px_8px_0_#dce6dc]">
       <div className="px-5 py-6 text-center sm:px-8">
         <p className="text-base font-bold text-[#40706a]">{levelLabel}</p>
+        <p className="mt-1 text-sm font-bold text-[#6b756f]">{durationLabel}</p>
         <p className="mt-2 text-base font-bold text-[#40706a]">最終スコア</p>
         <p className="mt-3 text-6xl font-black text-[#18231f] sm:text-7xl">{score.toLocaleString()}</p>
       </div>
