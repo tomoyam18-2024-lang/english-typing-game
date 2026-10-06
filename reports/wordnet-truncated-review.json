@@ -1,0 +1,2546 @@
+[
+  {
+    "word": "quit",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "verb",
+        "synset": "02680814-v",
+        "japanese": "止める・廃す",
+        "allJapaneseLemmas": [
+          "うち切り",
+          "とり止まる",
+          "とり止める",
+          "ほうる",
+          "ストップ",
+          "中止",
+          "停める",
+          "停止",
+          "取りやめる",
+          "取り止める",
+          "取止める",
+          "廃す",
+          "廃する",
+          "打ち切り",
+          "打ち切る",
+          "抛る",
+          "措く",
+          "放る",
+          "断ちきる",
+          "断つ",
+          "止す",
+          "止める",
+          "止らす",
+          "留める",
+          "終える",
+          "絶つ",
+          "置く"
+        ],
+        "senseRank": 0,
+        "tagCount": 13,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 13 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 27 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "verb",
+        "synset": "02008396-v",
+        "japanese": "去る・離れる",
+        "allJapaneseLemmas": [
+          "去る",
+          "引き上げる",
+          "引き下がる",
+          "引き払う",
+          "引き揚げる",
+          "引上げる",
+          "引下がる",
+          "立ちさる",
+          "立ち去る",
+          "立去る",
+          "辞す",
+          "辞する",
+          "退去",
+          "退散",
+          "離れさる",
+          "離れる",
+          "離れ去る",
+          "離去る"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 18 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "verb",
+        "synset": "02382367-v",
+        "japanese": "辞める・辞す",
+        "allJapaneseLemmas": [
+          "下りる",
+          "罷める",
+          "辞す",
+          "辞する",
+          "辞める",
+          "辞任",
+          "辞職",
+          "退く",
+          "退陣",
+          "降りる"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 10 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "verb",
+        "synset": "01083044-v",
+        "japanese": "諦める・参る",
+        "allJapaneseLemmas": [
+          "ギブアップ",
+          "万歳",
+          "参る",
+          "思断つ",
+          "断念",
+          "棄権",
+          "絶念",
+          "観念",
+          "諦める",
+          "降参"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 10 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 5,
+        "pos": "verb",
+        "synset": "02227487-v",
+        "japanese": "断つ・絶つ",
+        "allJapaneseLemmas": [
+          "捨てる",
+          "断つ",
+          "絶つ"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 3 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "purse",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "02774152-n",
+        "japanese": "ハンドバッグ・ハンドバック",
+        "allJapaneseLemmas": [
+          "ハンドバック",
+          "ハンドバッグ"
+        ],
+        "senseRank": 0,
+        "tagCount": 5,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 5 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "04026417-n",
+        "japanese": "財布・金入",
+        "allJapaneseLemmas": [
+          "がま口",
+          "パース",
+          "蝦蟇口",
+          "蟇口",
+          "財嚢",
+          "財布",
+          "金入",
+          "金入れ",
+          "銭入",
+          "銭入れ"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 10 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "13413294-n",
+        "japanese": "財布",
+        "allJapaneseLemmas": [
+          "財布"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 4,
+        "pos": "verb",
+        "synset": "00145902-v",
+        "japanese": "口をすぼめる",
+        "allJapaneseLemmas": [
+          "口をすぼめる"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 5,
+        "pos": "verb",
+        "synset": "01279305-v",
+        "japanese": "皺む・皺める",
+        "allJapaneseLemmas": [
+          "皺む",
+          "皺める",
+          "窄める",
+          "縮らす",
+          "縮れる"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 5 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "authorization",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "06556481-n",
+        "japanese": "承認・許可",
+        "allJapaneseLemmas": [
+          "お墨付き",
+          "免許",
+          "公認",
+          "命",
+          "命令",
+          "御墨付き",
+          "承認",
+          "指し図",
+          "指図",
+          "授権",
+          "許可",
+          "認可",
+          "認定"
+        ],
+        "senseRank": 0,
+        "tagCount": 5,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 5 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 13 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "01138670-n",
+        "japanese": "認可・免許",
+        "allJapaneseLemmas": [
+          "オーソライズ",
+          "免許",
+          "公認",
+          "認可",
+          "認定"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 5 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "05176607-n",
+        "japanese": "認可・免許",
+        "allJapaneseLemmas": [
+          "お墨付き",
+          "オーソライズ",
+          "免許",
+          "公認",
+          "御墨付き",
+          "裁可",
+          "裁許",
+          "認可",
+          "認定"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 9 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because a selected synset already has the same display lemmas"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "05196582-n",
+        "japanese": "委任・権力",
+        "allJapaneseLemmas": [
+          "委任",
+          "権",
+          "権力",
+          "権能",
+          "権限",
+          "決定権"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      }
+    ]
+  },
+  {
+    "word": "correction",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "00258854-n",
+        "japanese": "修正・訂正",
+        "allJapaneseLemmas": [
+          "修正",
+          "修繕",
+          "修訂",
+          "加筆",
+          "匡正",
+          "手直し",
+          "改削",
+          "改善",
+          "改正",
+          "斧正",
+          "是正",
+          "是正措置",
+          "更正",
+          "更訂",
+          "校訂",
+          "校閲",
+          "添削",
+          "直し",
+          "直し物",
+          "矯正",
+          "筆削",
+          "補正",
+          "規正",
+          "訂正"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 24 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "06428537-n",
+        "japanese": "訂正",
+        "allJapaneseLemmas": [
+          "訂正"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "13755957-n",
+        "japanese": "補正",
+        "allJapaneseLemmas": [
+          "補正"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "00662527-n",
+        "japanese": "矯正",
+        "allJapaneseLemmas": [
+          "矯正"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 5,
+        "pos": "noun",
+        "synset": "01161821-n",
+        "japanese": "懲戒・懲罰",
+        "allJapaneseLemmas": [
+          "懲らしめ",
+          "懲戒",
+          "懲罰",
+          "誅罰"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 4 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 6,
+        "pos": "noun",
+        "synset": "06714288-n",
+        "japanese": "折檻・懲らしめ",
+        "allJapaneseLemmas": [
+          "懲らしめ",
+          "折檻"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "resume",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "verb",
+        "synset": "00350104-v",
+        "japanese": "仕直す・やり直す",
+        "allJapaneseLemmas": [
+          "やり直す",
+          "仕直す",
+          "再開",
+          "続開",
+          "遣り直す"
+        ],
+        "senseRank": 0,
+        "tagCount": 17,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 17 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 5 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "06469694-n",
+        "japanese": "展望・概観",
+        "allJapaneseLemmas": [
+          "レジメ",
+          "レジュメ",
+          "展望",
+          "概観",
+          "約説",
+          "素描",
+          "要覧"
+        ],
+        "senseRank": 0,
+        "tagCount": 4,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 4 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 7 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "06468403-n",
+        "japanese": "履歴書",
+        "allJapaneseLemmas": [
+          "履歴書"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "verb",
+        "synset": "00350283-v",
+        "japanese": "取戻す・取返す",
+        "allJapaneseLemmas": [
+          "取り戻す",
+          "取戻す",
+          "取返す",
+          "復する"
+        ],
+        "senseRank": 0,
+        "tagCount": 5,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 5 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 4 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 5,
+        "pos": "verb",
+        "synset": "02381951-v",
+        "japanese": "再開",
+        "allJapaneseLemmas": [
+          "再開"
+        ],
+        "senseRank": 0,
+        "tagCount": 4,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 4 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 6,
+        "pos": "verb",
+        "synset": "01007924-v",
+        "japanese": "抓む・摘む",
+        "allJapaneseLemmas": [
+          "かいつまむ",
+          "かい摘む",
+          "ダイジェスト",
+          "抓む",
+          "掻いつまむ",
+          "掻い取る",
+          "掻い摘まむ",
+          "掻い摘む",
+          "掻取る",
+          "掻摘む",
+          "摘む",
+          "撮む",
+          "概括",
+          "概要を述べる",
+          "概言",
+          "略言",
+          "略説",
+          "略論",
+          "略述",
+          "約言",
+          "要す",
+          "要する",
+          "要略",
+          "要約"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 24 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "bound",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "13903079-n",
+        "japanese": "境界・境目",
+        "allJapaneseLemmas": [
+          "へり",
+          "リミット",
+          "境界",
+          "境界線",
+          "境目",
+          "疆界",
+          "端",
+          "経界",
+          "縁"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 9 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "00120202-n",
+        "japanese": "勢み・弾み",
+        "allJapaneseLemmas": [
+          "バウンド",
+          "勢み",
+          "弾み"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 3 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "05124057-n",
+        "japanese": "局限・方量",
+        "allJapaneseLemmas": [
+          "リミット",
+          "局限",
+          "方量",
+          "極限",
+          "辺際",
+          "限り",
+          "限度",
+          "限界",
+          "際涯",
+          "際限"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 10 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "08512259-n",
+        "japanese": "地境・地界",
+        "allJapaneseLemmas": [
+          "バウンダリ",
+          "バウンド",
+          "リミット",
+          "地境",
+          "地界",
+          "境",
+          "境域",
+          "境界",
+          "境界線",
+          "境目",
+          "疆域",
+          "疆界",
+          "経界",
+          "限界"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 14 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 5,
+        "pos": "verb",
+        "synset": "01963942-v",
+        "japanese": "弾む・跳ぶ",
+        "allJapaneseLemmas": [
+          "はね上がる",
+          "弾む",
+          "跳ねる",
+          "跳ぶ",
+          "跳る",
+          "跳躍",
+          "躍る",
+          "飛びあがる",
+          "飛び上がる",
+          "飛び跳ねる",
+          "飛上がる",
+          "飛躍"
+        ],
+        "senseRank": 0,
+        "tagCount": 4,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 4 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 12 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 6,
+        "pos": "verb",
+        "synset": "00233335-v",
+        "japanese": "限る・抑える",
+        "allJapaneseLemmas": [
+          "セーブ",
+          "セーヴ",
+          "制約",
+          "抑える",
+          "抑制",
+          "押える",
+          "押さえる",
+          "限る",
+          "限定"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 9 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 7,
+        "pos": "verb",
+        "synset": "01892104-v",
+        "japanese": "弾む・跳る",
+        "allJapaneseLemmas": [
+          "はね上がる",
+          "バウンド",
+          "リバウンド",
+          "刎ね上がる",
+          "弾む",
+          "跳ねあがる",
+          "跳ねかえる",
+          "跳ねる",
+          "跳ね上がる",
+          "跳ね上る",
+          "跳ね返る",
+          "跳び上がる",
+          "跳び出す",
+          "跳る",
+          "跳上がる",
+          "跳上る",
+          "跳返る"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 17 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 8,
+        "pos": "adjective",
+        "synset": "00252954-a",
+        "japanese": "縛られた",
+        "allJapaneseLemmas": [
+          "縛られた"
+        ],
+        "senseRank": 0,
+        "tagCount": 4,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 4 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 9,
+        "pos": "adjective",
+        "synset": "01682822-a",
+        "japanese": "運命的",
+        "allJapaneseLemmas": [
+          "運命的"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "neutral",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "adjective",
+        "synset": "01615625-a",
+        "japanese": "中立的・ニュートラル",
+        "allJapaneseLemmas": [
+          "ニュートラル",
+          "中立的"
+        ],
+        "senseRank": 0,
+        "tagCount": 5,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 5 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "adjective",
+        "synset": "00732160-a",
+        "japanese": "中立の・ニュートラル",
+        "allJapaneseLemmas": [
+          "ニュートラル",
+          "中立の"
+        ],
+        "senseRank": 0,
+        "tagCount": 3,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 3 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "adjective",
+        "synset": "00408284-a",
+        "japanese": "特徴のない",
+        "allJapaneseLemmas": [
+          "特徴のない"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "adjective",
+        "synset": "01930004-a",
+        "japanese": "不活性",
+        "allJapaneseLemmas": [
+          "不活性"
+        ],
+        "senseRank": 0,
+        "tagCount": 4,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 4 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "inhibition",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "01070892-n",
+        "japanese": "制御・制禦",
+        "allJapaneseLemmas": [
+          "制御",
+          "制禦",
+          "制馭",
+          "圧殺",
+          "抑制",
+          "抑圧",
+          "抑止",
+          "押さえ"
+        ],
+        "senseRank": 0,
+        "tagCount": 3,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 3 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 8 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "04884072-n",
+        "japanese": "禁止",
+        "allJapaneseLemmas": [
+          "禁止"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "00201923-n",
+        "japanese": "抑制・禁止",
+        "allJapaneseLemmas": [
+          "抑制",
+          "禁止"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "13500214-n",
+        "japanese": "抑制",
+        "allJapaneseLemmas": [
+          "抑制"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "impulse",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "09180431-n",
+        "japanese": "衝動・衝迫",
+        "allJapaneseLemmas": [
+          "衝動",
+          "衝迫"
+        ],
+        "senseRank": 0,
+        "tagCount": 10,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 10 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "07490579-n",
+        "japanese": "衝動・衝迫",
+        "allJapaneseLemmas": [
+          "でき心",
+          "出来心",
+          "心のはずみ",
+          "気まぐれ",
+          "気紛れ",
+          "衝動",
+          "衝迫"
+        ],
+        "senseRank": 0,
+        "tagCount": 3,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 3 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 7 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because a selected synset already has the same display lemmas"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "07308042-n",
+        "japanese": "活動電位・神経衝撃",
+        "allJapaneseLemmas": [
+          "インパルス",
+          "活動電位",
+          "神経インパルス",
+          "神経衝撃"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 4 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "00104249-n",
+        "japanese": "余勢・衝動",
+        "allJapaneseLemmas": [
+          "インパルス",
+          "余勢",
+          "衝動",
+          "衝撃",
+          "調子",
+          "運動力"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 5,
+        "pos": "noun",
+        "synset": "07420991-n",
+        "japanese": "周波・活動電位",
+        "allJapaneseLemmas": [
+          "インパルス",
+          "パルス",
+          "プルス",
+          "周波",
+          "活動電位"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 5 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 6,
+        "pos": "noun",
+        "synset": "05035820-n",
+        "japanese": "余勢・勢い",
+        "allJapaneseLemmas": [
+          "余勢",
+          "勢",
+          "勢い",
+          "推進力"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 4 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "drain",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "00396029-n",
+        "japanese": "排水・除水",
+        "allJapaneseLemmas": [
+          "排水",
+          "水抜き",
+          "除水",
+          "駆水"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 4 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "01062255-n",
+        "japanese": "枯渇・流出",
+        "allJapaneseLemmas": [
+          "枯渇",
+          "流出"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "03231912-n",
+        "japanese": "明渠・流出",
+        "allJapaneseLemmas": [
+          "ドレイン",
+          "排水管",
+          "放水管",
+          "明渠",
+          "流出",
+          "雨樋"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 4,
+        "pos": "verb",
+        "synset": "02071457-v",
+        "japanese": "流出す・流れだす",
+        "allJapaneseLemmas": [
+          "流れだす",
+          "流れ出す",
+          "流れ出る",
+          "流出",
+          "流出す"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 5 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 5,
+        "pos": "verb",
+        "synset": "00451648-v",
+        "japanese": "乾す・干す",
+        "allJapaneseLemmas": [
+          "乾す",
+          "干す",
+          "排水",
+          "流す"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 4 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 6,
+        "pos": "verb",
+        "synset": "01158022-v",
+        "japanese": "涸す・涸らす",
+        "allJapaneseLemmas": [
+          "枯渇させる",
+          "涸す",
+          "涸らす"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 3 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 7,
+        "pos": "verb",
+        "synset": "00389638-v",
+        "japanese": "弱める",
+        "allJapaneseLemmas": [
+          "弱める"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "say",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "verb",
+        "synset": "01009240-v",
+        "japanese": "云う・仰る",
+        "allJapaneseLemmas": [
+          "いう",
+          "おっしゃる",
+          "もうし上げる",
+          "もの申す",
+          "云う",
+          "仰しゃる",
+          "仰せられる",
+          "仰っしゃる",
+          "仰る",
+          "仰有る",
+          "啓する",
+          "啓上",
+          "喋る",
+          "宣う",
+          "曰う",
+          "物申す",
+          "物語る",
+          "申しあげる",
+          "申し上げる",
+          "申し述べる",
+          "申す",
+          "申上げる",
+          "申述べる",
+          "発する",
+          "発言",
+          "発語",
+          "言い表す",
+          "言い表わす",
+          "言う",
+          "言上",
+          "言表す",
+          "話す",
+          "語る",
+          "謂う",
+          "述べる",
+          "陳じる",
+          "陳ずる",
+          "陳べる",
+          "陳述"
+        ],
+        "senseRank": 0,
+        "tagCount": 1861,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1861 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 39 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "verb",
+        "synset": "01016002-v",
+        "japanese": "主張",
+        "allJapaneseLemmas": [
+          "主張"
+        ],
+        "senseRank": 0,
+        "tagCount": 254,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 254 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "verb",
+        "synset": "00917300-v",
+        "japanese": "看做す・見なす",
+        "allJapaneseLemmas": [
+          "仮定",
+          "仮想",
+          "想定",
+          "看做す",
+          "見なす",
+          "見做す"
+        ],
+        "senseRank": 0,
+        "tagCount": 29,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 29 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 4,
+        "pos": "verb",
+        "synset": "00746718-v",
+        "japanese": "命じる・命ずる",
+        "allJapaneseLemmas": [
+          "下命",
+          "下知",
+          "令する",
+          "仰せつける",
+          "仰せ付ける",
+          "仰付ける",
+          "命じる",
+          "命ずる",
+          "命令",
+          "指令",
+          "指揮",
+          "指示",
+          "指顧",
+          "申しつける",
+          "申し付ける",
+          "申付ける",
+          "言いつける",
+          "言い付ける",
+          "言っつける",
+          "言っ付ける",
+          "言付ける"
+        ],
+        "senseRank": 0,
+        "tagCount": 8,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 8 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 21 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 5,
+        "pos": "verb",
+        "synset": "02730813-v",
+        "japanese": "云う・言う",
+        "allJapaneseLemmas": [
+          "いう",
+          "云う",
+          "言う",
+          "読み取れる",
+          "謂う",
+          "述べる"
+        ],
+        "senseRank": 0,
+        "tagCount": 8,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 8 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 6,
+        "pos": "noun",
+        "synset": "14485526-n",
+        "japanese": "意見",
+        "allJapaneseLemmas": [
+          "意見"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 7,
+        "pos": "verb",
+        "synset": "00978549-v",
+        "japanese": "云う・言う",
+        "allJapaneseLemmas": [
+          "いう",
+          "云う",
+          "発する",
+          "発音",
+          "言う",
+          "謂う"
+        ],
+        "senseRank": 0,
+        "tagCount": 4,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 4 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 8,
+        "pos": "verb",
+        "synset": "00928959-v",
+        "japanese": "語る",
+        "allJapaneseLemmas": [
+          "語る"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 9,
+        "pos": "verb",
+        "synset": "00979870-v",
+        "japanese": "云う・仰る",
+        "allJapaneseLemmas": [
+          "いう",
+          "おっしゃる",
+          "もうし上げる",
+          "云う",
+          "仰しゃる",
+          "仰せられる",
+          "仰っしゃる",
+          "仰る",
+          "仰有る",
+          "喋る",
+          "宣う",
+          "物申す",
+          "申しあげる",
+          "申し上げる",
+          "申す",
+          "申上げる",
+          "発語",
+          "言う",
+          "話す",
+          "謂う"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 20 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because a selected synset already has the same display lemmas"
+      },
+      {
+        "priority": 10,
+        "pos": "verb",
+        "synset": "00945499-v",
+        "japanese": "言う・申し上げる",
+        "allJapaneseLemmas": [
+          "申し上げる",
+          "言う"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 11,
+        "pos": "verb",
+        "synset": "01009821-v",
+        "japanese": "言う",
+        "allJapaneseLemmas": [
+          "言う"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "course",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "00884466-n",
+        "japanese": "課程・講座",
+        "allJapaneseLemmas": [
+          "コース",
+          "教科課程",
+          "教育課程",
+          "課程",
+          "講座"
+        ],
+        "senseRank": 0,
+        "tagCount": 61,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 61 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 5 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "08377085-n",
+        "japanese": "方向・方角",
+        "allJapaneseLemmas": [
+          "コース",
+          "方向",
+          "方角",
+          "方針",
+          "路線",
+          "過程"
+        ],
+        "senseRank": 0,
+        "tagCount": 14,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 14 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "08681222-n",
+        "japanese": "水先・流れ",
+        "allJapaneseLemmas": [
+          "コース",
+          "水先",
+          "流れ",
+          "行路",
+          "進路",
+          "針路"
+        ],
+        "senseRank": 0,
+        "tagCount": 11,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 11 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "00038262-n",
+        "japanese": "方針・遣方",
+        "allJapaneseLemmas": [
+          "やり方",
+          "方針",
+          "行動様式",
+          "遣り方",
+          "遣方"
+        ],
+        "senseRank": 0,
+        "tagCount": 9,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 9 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 5 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 5,
+        "pos": "noun",
+        "synset": "09387222-n",
+        "japanese": "径路・水路",
+        "allJapaneseLemmas": [
+          "コース",
+          "ルート",
+          "径路",
+          "水路",
+          "経絡",
+          "経路",
+          "路",
+          "路線",
+          "軌跡",
+          "軌道",
+          "迹",
+          "逕路",
+          "通い路",
+          "通った跡",
+          "通り路",
+          "通り道",
+          "通路",
+          "通道",
+          "進路",
+          "道",
+          "道筋",
+          "雲路"
+        ],
+        "senseRank": 0,
+        "tagCount": 5,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 5 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 22 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 6,
+        "pos": "noun",
+        "synset": "03120029-n",
+        "japanese": "並び",
+        "allJapaneseLemmas": [
+          "並び"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 7,
+        "pos": "noun",
+        "synset": "08238463-n",
+        "japanese": "学年・学級",
+        "allJapaneseLemmas": [
+          "クラス",
+          "コース",
+          "学年",
+          "学級",
+          "年級",
+          "教室"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 8,
+        "pos": "noun",
+        "synset": "03119790-n",
+        "japanese": "コース",
+        "allJapaneseLemmas": [
+          "コース"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 9,
+        "pos": "noun",
+        "synset": "07556970-n",
+        "japanese": "お皿・皿",
+        "allJapaneseLemmas": [
+          "お皿",
+          "皿"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 10,
+        "pos": "verb",
+        "synset": "02066939-v",
+        "japanese": "流れる",
+        "allJapaneseLemmas": [
+          "流れる"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 11,
+        "pos": "adverb",
+        "synset": "00038625-r",
+        "japanese": "論なく・論無く",
+        "allJapaneseLemmas": [
+          "もち",
+          "勿論",
+          "当然",
+          "無論",
+          "論なく",
+          "論無く"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      }
+    ]
+  },
+  {
+    "word": "increase",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "verb",
+        "synset": "00156601-v",
+        "japanese": "益す・増える",
+        "allJapaneseLemmas": [
+          "増える",
+          "増さる",
+          "増加",
+          "増大",
+          "増殖",
+          "殖える",
+          "益す",
+          "繁殖"
+        ],
+        "senseRank": 0,
+        "tagCount": 86,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 86 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 8 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "verb",
+        "synset": "00153263-v",
+        "japanese": "増す・益す",
+        "allJapaneseLemmas": [
+          "加える",
+          "加増",
+          "増す",
+          "増やす",
+          "増加",
+          "増大",
+          "増益",
+          "大きくする",
+          "殖やす",
+          "益す"
+        ],
+        "senseRank": 0,
+        "tagCount": 61,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 61 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 10 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "13754293-n",
+        "japanese": "加増・加算",
+        "allJapaneseLemmas": [
+          "加増",
+          "加算",
+          "増",
+          "増し",
+          "増分",
+          "増加",
+          "増加数",
+          "増大",
+          "追加"
+        ],
+        "senseRank": 0,
+        "tagCount": 49,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 49 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 9 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "07356676-n",
+        "japanese": "上昇・加増",
+        "allJapaneseLemmas": [
+          "上昇",
+          "加増",
+          "増加",
+          "増量",
+          "増額",
+          "引き上げ",
+          "引き揚げ",
+          "引上",
+          "引上げ",
+          "引揚",
+          "引揚げ"
+        ],
+        "senseRank": 0,
+        "tagCount": 21,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 21 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 11 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 5,
+        "pos": "noun",
+        "synset": "13497135-n",
+        "japanese": "上昇・伸び",
+        "allJapaneseLemmas": [
+          "上昇",
+          "伸び",
+          "伸張",
+          "伸暢",
+          "伸長",
+          "加増",
+          "加重",
+          "増",
+          "増し",
+          "増加",
+          "増大",
+          "増嵩",
+          "増殖",
+          "増進",
+          "延び",
+          "拡張",
+          "累加",
+          "膨脹"
+        ],
+        "senseRank": 0,
+        "tagCount": 7,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 7 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 18 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 6,
+        "pos": "noun",
+        "synset": "00363260-n",
+        "japanese": "加増・増し",
+        "allJapaneseLemmas": [
+          "加",
+          "加増",
+          "増",
+          "増し",
+          "増やし",
+          "増加",
+          "増量",
+          "引き上げ",
+          "引き揚げ",
+          "引上",
+          "引上げ",
+          "引揚",
+          "引揚げ",
+          "累加"
+        ],
+        "senseRank": 0,
+        "tagCount": 3,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 3 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 14 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 7,
+        "pos": "noun",
+        "synset": "05108947-n",
+        "japanese": "伸び・加増",
+        "allJapaneseLemmas": [
+          "伸び",
+          "加増",
+          "増",
+          "増し",
+          "増分",
+          "増加",
+          "増加分",
+          "増大",
+          "増進",
+          "増量"
+        ],
+        "senseRank": 0,
+        "tagCount": 3,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 3 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 10 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "development",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "00250259-n",
+        "japanese": "発展させること",
+        "allJapaneseLemmas": [
+          "発展させること"
+        ],
+        "senseRank": 0,
+        "tagCount": 52,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 52 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "13464820-n",
+        "japanese": "展開・発展",
+        "allJapaneseLemmas": [
+          "エボリューション",
+          "エヴォリューション",
+          "展開",
+          "発展",
+          "発達",
+          "進化",
+          "進展",
+          "進歩"
+        ],
+        "senseRank": 0,
+        "tagCount": 46,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 46 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 8 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "13489037-n",
+        "japanese": "化生・増殖",
+        "allJapaneseLemmas": [
+          "個体発生",
+          "化生",
+          "増殖",
+          "成熟",
+          "成育",
+          "成長",
+          "生育",
+          "生長",
+          "発育",
+          "発達",
+          "育ち"
+        ],
+        "senseRank": 0,
+        "tagCount": 11,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 11 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 11 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "00948206-n",
+        "japanese": "開拓・開発",
+        "allJapaneseLemmas": [
+          "開拓",
+          "開発"
+        ],
+        "senseRank": 0,
+        "tagCount": 7,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 7 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 5,
+        "pos": "noun",
+        "synset": "08549070-n",
+        "japanese": "造成地",
+        "allJapaneseLemmas": [
+          "造成地"
+        ],
+        "senseRank": 0,
+        "tagCount": 6,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 6 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 6,
+        "pos": "noun",
+        "synset": "14422871-n",
+        "japanese": "駒の展開",
+        "allJapaneseLemmas": [
+          "駒の展開"
+        ],
+        "senseRank": 0,
+        "tagCount": 4,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 4 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 7,
+        "pos": "noun",
+        "synset": "13464557-n",
+        "japanese": "啓発・展開",
+        "allJapaneseLemmas": [
+          "デベロップメント",
+          "啓発",
+          "展開",
+          "成長",
+          "現像",
+          "生育",
+          "発展",
+          "発育",
+          "発達",
+          "経過",
+          "進歩",
+          "開発",
+          "養成"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 13 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "situation",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "13927383-n",
+        "japanese": "事態・具合",
+        "allJapaneseLemmas": [
+          "シチュエイション",
+          "シチュエーション",
+          "事態",
+          "具合",
+          "境遇",
+          "局勢",
+          "形勢",
+          "情勢",
+          "情態",
+          "情況",
+          "時局",
+          "景況",
+          "様子",
+          "様態",
+          "状勢",
+          "状態",
+          "状況",
+          "状相",
+          "相貌"
+        ],
+        "senseRank": 0,
+        "tagCount": 66,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 66 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 19 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "13925752-n",
+        "japanese": "境遇・立場",
+        "allJapaneseLemmas": [
+          "シチュエイション",
+          "シチュエーション",
+          "シテュエーション",
+          "境遇",
+          "立場",
+          "身の上",
+          "身分"
+        ],
+        "senseRank": 0,
+        "tagCount": 18,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 18 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 7 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "noun",
+        "synset": "00586262-n",
+        "japanese": "位地・地位",
+        "allJapaneseLemmas": [
+          "ポジション",
+          "ポスト",
+          "位地",
+          "地位",
+          "役職",
+          "立場",
+          "身分"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 7 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "14411243-n",
+        "japanese": "状況",
+        "allJapaneseLemmas": [
+          "状況"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  },
+  {
+    "word": "charge",
+    "candidates": [
+      {
+        "priority": 1,
+        "pos": "noun",
+        "synset": "00974762-n",
+        "japanese": "突撃・突貫",
+        "allJapaneseLemmas": [
+          "突っ込み",
+          "突撃",
+          "突貫",
+          "突進"
+        ],
+        "senseRank": 0,
+        "tagCount": 16,
+        "selected": "YES",
+        "primaryRank": 1,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 16 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 4 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 2,
+        "pos": "noun",
+        "synset": "06561942-n",
+        "japanese": "告発・告訴",
+        "allJapaneseLemmas": [
+          "告発",
+          "告訴"
+        ],
+        "senseRank": 0,
+        "tagCount": 13,
+        "selected": "YES",
+        "primaryRank": 3,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 13 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 3,
+        "pos": "verb",
+        "synset": "01121719-v",
+        "japanese": "突撃・突貫",
+        "allJapaneseLemmas": [
+          "突撃",
+          "突貫",
+          "突進",
+          "襲撃",
+          "進撃"
+        ],
+        "senseRank": 0,
+        "tagCount": 16,
+        "selected": "YES",
+        "primaryRank": 2,
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 16 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 5 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved"
+      },
+      {
+        "priority": 4,
+        "pos": "noun",
+        "synset": "13306870-n",
+        "japanese": "代価・代金",
+        "allJapaneseLemmas": [
+          "チャージ",
+          "プライス",
+          "代",
+          "代価",
+          "代金",
+          "価",
+          "価格",
+          "値",
+          "値段",
+          "料",
+          "料金",
+          "課金"
+        ],
+        "senseRank": 0,
+        "tagCount": 4,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 4 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 12 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 5,
+        "pos": "verb",
+        "synset": "00843468-v",
+        "japanese": "責める・難じる",
+        "allJapaneseLemmas": [
+          "指弾",
+          "責める",
+          "難じる"
+        ],
+        "senseRank": 0,
+        "tagCount": 10,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 10 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 3 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 6,
+        "pos": "noun",
+        "synset": "11435028-n",
+        "japanese": "荷電・電荷",
+        "allJapaneseLemmas": [
+          "荷電",
+          "電荷"
+        ],
+        "senseRank": 0,
+        "tagCount": 3,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 3 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 7,
+        "pos": "noun",
+        "synset": "00731222-n",
+        "japanese": "特務",
+        "allJapaneseLemmas": [
+          "特務"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 8,
+        "pos": "noun",
+        "synset": "00829378-n",
+        "japanese": "後見",
+        "allJapaneseLemmas": [
+          "後見"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 9,
+        "pos": "noun",
+        "synset": "03008275-n",
+        "japanese": "代価・容疑",
+        "allJapaneseLemmas": [
+          "チャージ",
+          "代価",
+          "受け持ち",
+          "受持ち",
+          "容疑",
+          "突貫",
+          "装填",
+          "負担"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 8 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 10,
+        "pos": "noun",
+        "synset": "06730780-n",
+        "japanese": "告発",
+        "allJapaneseLemmas": [
+          "告発"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 11,
+        "pos": "noun",
+        "synset": "07169480-n",
+        "japanese": "上前・作為",
+        "allJapaneseLemmas": [
+          "コミッション",
+          "上前",
+          "作為",
+          "取り次ぎ",
+          "取次",
+          "周旋料",
+          "命",
+          "命令",
+          "職権"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 9 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 12,
+        "pos": "noun",
+        "synset": "07190941-n",
+        "japanese": "請求・清算書",
+        "allJapaneseLemmas": [
+          "清算書",
+          "請求",
+          "請求書"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 3 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 13,
+        "pos": "noun",
+        "synset": "07528470-n",
+        "japanese": "快哉・快感",
+        "allJapaneseLemmas": [
+          "あわただしさ",
+          "スリル",
+          "快哉",
+          "快感",
+          "活気",
+          "興奮"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 14,
+        "pos": "noun",
+        "synset": "09185612-n",
+        "japanese": "充電・荷電",
+        "allJapaneseLemmas": [
+          "充電",
+          "荷電"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 15,
+        "pos": "noun",
+        "synset": "13400798-n",
+        "japanese": "代価・容疑",
+        "allJapaneseLemmas": [
+          "チャージ",
+          "代価",
+          "受け持ち",
+          "受持ち",
+          "容疑",
+          "突貫",
+          "負担"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 7 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 16,
+        "pos": "verb",
+        "synset": "02475922-v",
+        "japanese": "任じる・任ずる",
+        "allJapaneseLemmas": [
+          "仰せつける",
+          "仰せ付ける",
+          "任じる",
+          "任ずる",
+          "任命",
+          "叙任",
+          "命じる",
+          "命ずる",
+          "嘱託",
+          "委任",
+          "封ずる",
+          "就ける",
+          "属託",
+          "指名",
+          "言いつける",
+          "言い付ける",
+          "言付ける",
+          "託する",
+          "選任"
+        ],
+        "senseRank": 0,
+        "tagCount": 4,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 4 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 19 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 17,
+        "pos": "verb",
+        "synset": "02320374-v",
+        "japanese": "請求・チャージ",
+        "allJapaneseLemmas": [
+          "チャージ",
+          "請求"
+        ],
+        "senseRank": 0,
+        "tagCount": 7,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 7 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 18,
+        "pos": "verb",
+        "synset": "00843959-v",
+        "japanese": "問う・突く",
+        "allJapaneseLemmas": [
+          "告発",
+          "問う",
+          "攻撃",
+          "突く",
+          "責める",
+          "難じる"
+        ],
+        "senseRank": 0,
+        "tagCount": 3,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 3 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 19,
+        "pos": "verb",
+        "synset": "02055267-v",
+        "japanese": "突撃・突貫",
+        "allJapaneseLemmas": [
+          "突撃",
+          "突貫",
+          "突進"
+        ],
+        "senseRank": 0,
+        "tagCount": 6,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 6 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 3 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because a selected synset already has the same display lemmas"
+      },
+      {
+        "priority": 20,
+        "pos": "verb",
+        "synset": "01488956-v",
+        "japanese": "被せる・申し受ける",
+        "allJapaneseLemmas": [
+          "充電",
+          "申し受ける",
+          "被せる"
+        ],
+        "senseRank": 0,
+        "tagCount": 2,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 2 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 3 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 21,
+        "pos": "verb",
+        "synset": "00727991-v",
+        "japanese": "被せる",
+        "allJapaneseLemmas": [
+          "被せる"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 22,
+        "pos": "verb",
+        "synset": "00750532-v",
+        "japanese": "負わせる・担当させる",
+        "allJapaneseLemmas": [
+          "嘱託",
+          "委任",
+          "属託",
+          "担当させる",
+          "託する",
+          "負わせる"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 23,
+        "pos": "verb",
+        "synset": "01152214-v",
+        "japanese": "向ける・差し付ける",
+        "allJapaneseLemmas": [
+          "向ける",
+          "差し付ける"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 24,
+        "pos": "verb",
+        "synset": "01490336-v",
+        "japanese": "積む・被せる",
+        "allJapaneseLemmas": [
+          "充電",
+          "搭載",
+          "申し受ける",
+          "積む",
+          "被せる",
+          "載積"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 6 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 25,
+        "pos": "verb",
+        "synset": "01685960-v",
+        "japanese": "被せる・申し受ける",
+        "allJapaneseLemmas": [
+          "充電",
+          "申し受ける",
+          "被せる"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 3 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 26,
+        "pos": "verb",
+        "synset": "02347637-v",
+        "japanese": "預ける",
+        "allJapaneseLemmas": [
+          "預ける"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 27,
+        "pos": "verb",
+        "synset": "02348568-v",
+        "japanese": "送る・入れる",
+        "allJapaneseLemmas": [
+          "入れる",
+          "送る",
+          "送込む"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 3 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 28,
+        "pos": "verb",
+        "synset": "00869931-v",
+        "japanese": "告発・訴追",
+        "allJapaneseLemmas": [
+          "告発",
+          "訴追"
+        ],
+        "senseRank": 0,
+        "tagCount": 3,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 3 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 29,
+        "pos": "verb",
+        "synset": "02321046-v",
+        "japanese": "請求",
+        "allJapaneseLemmas": [
+          "請求"
+        ],
+        "senseRank": 0,
+        "tagCount": 1,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 1 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 30,
+        "pos": "verb",
+        "synset": "00517847-v",
+        "japanese": "充電・チャージ",
+        "allJapaneseLemmas": [
+          "チャージ",
+          "充電"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 2 representative lemma(s) from 2 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 31,
+        "pos": "verb",
+        "synset": "00518115-v",
+        "japanese": "充電",
+        "allJapaneseLemmas": [
+          "充電"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 32,
+        "pos": "verb",
+        "synset": "00700517-v",
+        "japanese": "請求",
+        "allJapaneseLemmas": [
+          "請求"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      },
+      {
+        "priority": 33,
+        "pos": "verb",
+        "synset": "01762528-v",
+        "japanese": "刺激",
+        "allJapaneseLemmas": [
+          "刺激"
+        ],
+        "senseRank": 0,
+        "tagCount": 0,
+        "selected": "NO",
+        "primaryRank": "",
+        "reason": "sense rank 0 used as a weak lower-is-better signal; tag count/freq 0 used as a weak higher-is-better signal; selected 1 representative lemma(s) from 1 lemma(s) in this synset; lemma choice is heuristic; raw Japanese WordNet lemmas are preserved; not selected because max 3 display rows were already filled by higher-priority candidates"
+      }
+    ]
+  }
+]

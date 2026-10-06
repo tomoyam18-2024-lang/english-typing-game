@@ -1,0 +1,247 @@
+word,level,primaryMeaning1,primaryMeaning2,primaryMeaning3,wordConfidence,reviewReasons,wordnetCoverage,wiktionaryCoverage,decision,decisionReason
+alternate,1,noun: 代え・代り [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+amuse,1,verb: 楽しませる・楽しむ [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+appreciation,1,noun: 評価・把捉 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+badge,1,noun: バッジ・記章 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+cab,1,noun: 運転室・運転台 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+cart,1,noun: 荷車・台車 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+clip,1,noun: 弾倉・マガジン [medium],noun: とき・回 [medium],verb: 切る・摘み取る [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+cloth,1,noun: 布・切地 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+consent,1,noun: 同意・承認 [medium],verb: 同意する・宜う [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+defective,1,adjective: 欠ける・不完全 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+fare,1,noun: 運賃・乗賃 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+fax,1,noun: ファクシミリ機・電話ファクシミリ [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+flu,1,noun: 感冒・流感 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+flyer,1,noun: 散らし・散広告 [medium],noun: 飛行家 [medium],,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+goods,1,noun: 美徳・善行 [medium],noun: 商品 [medium],noun: 本物 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+graphic,1,adjective: グラフィックの・生々しい [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+gym,1,noun: 体操場・体育館 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+highway,1,noun: 幹線道路・街道 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+identification,1,noun: 同一性の証明・任命 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+lamp,1,noun: ランプ・照明器具 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+laundry,1,noun: 洗濯 [medium],noun: 洗濯場 [medium],noun: 洗濯屋・クリーニング屋 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+manual,1,noun: 便覧・入門 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+midnight,1,noun: 深夜・真夜中 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+mister,1,noun: -氏 [low],,,low,UNNATURAL_JAPANESE|LOW_CONFIDENCE,true,false,NEEDS_REVIEW,Word-level confidence is LOW.
+nap,1,noun: 仮寝・仮眠 [medium],noun: 昼寝・眠り [medium],verb: 午睡・昼寝 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+noon,1,noun: 正午・昼 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+packet,1,noun: 包み・包物 [medium],noun: 小包・小包み [medium],noun: 郵船・郵便船 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+payable,1,noun: 買い掛け金 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+preview,1,noun: 下見・下調べ [medium],noun: 試写・試演 [medium],verb: 下見する・試写を見せる [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+projector,1,noun: 立案者・映写機 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+prospective,1,adjective: 見込みある・見込まれる [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+publish,1,verb: 出版する・掲げる [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+purse,1,noun: ハンドバッグ・ハンドバック [medium],noun: 財布 [medium],verb: 口をすぼめる [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+rainy,1,adjective: 雨の・雨の多い [medium],adjective: 雨天の [medium],adjective: 雨を含んだ [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+referee,1,noun: 審判・審判員 [medium],noun: 校閲者 [medium],verb: 査読 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+renew,1,verb: 再開する・新たにする [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+subscribe,1,verb: 寄付する・署する [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+subscriber,1,noun: 購読者・裏書人 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+subscription,1,noun: 寄付・出捐 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+sunny,1,adjective: 快活・朗ら [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+tag,1,noun: 下札・付札 [medium],noun: 鬼ごっこ [medium],verb: ダグ付けする・ラベル付けする [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+transaction,1,noun: 処理・取扱い [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+turnover,1,noun: 退職率・離職率 [medium],noun: 上高・上げ高 [medium],noun: 転覆・返し [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+upgrade,1,noun: アップデート版・アップグレード版 [medium],noun: 格上げ [medium],verb: 上げる・進める [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+upstairs,1,adverb: 階上へ・上の階へ [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+vacancy,1,noun: 空位・空席 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+vacation,1,noun: 休暇・バカンス [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+verbal,1,adjective: 言葉の・言語による [medium],adjective: 口頭の・口述の [medium],noun: 準動詞 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+acclaim,2,verb: 称える・褒める [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+amenity,2,noun: 快適性・快適さ [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+apprehensive,2,adjective: 恐れて・気掛かり [medium],adjective: 気遣っている・悩ましい [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+await,2,verb: 待つ・待ち望む [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+bilingual,2,noun: バイリンガル [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+bye,2,noun: 左様なら・おさらば [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+cage,2,noun: 伏篭・臥篭 [medium],noun: ケージ・バッティングケージ [medium],verb: 縛り付ける [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+careless,2,adjective: 不注意な・卒爾 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+clap,2,noun: 淋病 [medium],noun: かちん [medium],verb: 褒める・賛える [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+collective,2,adjective: 集合の・集団の [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+commerce,2,noun: 商業・互市 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+competence,2,noun: 能力・伎倆 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+complication,2,noun: 縺れ・錯綜 [medium],noun: 煩雑・紛糾 [medium],noun: 交錯・併発 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+continental,2,adjective: 大陸の・大陸性の [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+cooler,2,noun: クーラー [medium],noun: 冷蔵庫・クーラー [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+correlate,2,noun: 相関・相関的 [medium],verb: 相関・関連 [medium],verb: 関連 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+courtesy,2,noun: 礼儀正しい行為 [medium],noun: 厚意 [medium],adjective: 儀礼上の [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+debit,2,noun: 借方 [medium],noun: 銀行口座からの引き出し額 [medium],verb: 借方に記入する [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+deviation,2,noun: 逸脱 [medium],noun: 偏差 [medium],noun: 偏り・偏差 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+discard,2,verb: 捨てる・廃棄する [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+dispatch,2,verb: 派遣する・出す [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+diverse,2,adjective: 多様な・様様な [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+dose,2,noun: 一服・一回分 [medium],noun: 用量・服用量 [medium],noun: 性病 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+drum,2,noun: 太鼓・膜鳴楽器 [medium],noun: ドラム缶 [medium],verb: リズミカルに打つ [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+embed,2,verb: 嵌める・植える [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+evacuate,2,verb: 避難させる・空っぽにする [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+ex,2,noun: 先妻 [medium],noun: 前夫 [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+excellence,2,noun: 優等・優良 [medium],noun: 出色・素晴らしさ [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+exotic,2,adjective: 外来の・外来性 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+expedite,2,verb: 促進する・捗らせる [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+faculty,2,noun: 能力・技能 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+favorable,2,adjective: 好意的な・承諾の [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+fiscal,2,adjective: 会計の・国庫の [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+fixture,2,noun: 修正・修復 [medium],noun: 設備・作付け [medium],noun: 堅さ・不抜 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+foster,2,noun: 保護する・フォスター [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+getaway,2,noun: 逃亡・逃げ [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+gum,2,noun: 歯元・歯肉 [medium],noun: 護謨 [medium],noun: 接着剤・糊 [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+habitual,2,adjective: 習慣的な・慣例的 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+impatient,2,adjective: せっかちな・歯痒い [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+inclusive,2,adjective: 全てを含んだ・包括的な [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+induction,2,noun: 入会・就任 [medium],noun: 感応・誘導 [medium],noun: 誘導 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+infect,2,verb: 感染させる・移す [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+integral,2,adjective: 必須の・不可欠な [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+interval,2,noun: 時間・期間 [medium],noun: 区間 [medium],noun: 狭間・空隙 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+junk,2,noun: 屑・らくた [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+leaf,2,noun: 葉・樹葉 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+likelihood,2,noun: 可能性・公算 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+linear,2,adjective: 線状の [medium],adjective: 線の [medium],adjective: 長くて狭い [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+marginal,2,adjective: 端っこの [medium],adjective: 欄外の [medium],adjective: ぎりぎりの [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+mediate,2,verb: 仲裁する・取成す [medium],adjective: 仲介の・間接的 [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+messenger,2,noun: 伝令・使者 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+oral,2,adjective: 経口の・経口的 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+outfit,2,noun: 一揃いの衣服・部隊 [medium],noun: 用具一式・道具一式 [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+pad,2,noun: 印肉 [medium],noun: 下宿 [medium],verb: 歩む・重い足取りで歩く [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+parcel,2,noun: 小包・小荷物 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+partition,2,noun: 中隔・仕切 [medium],noun: 分割・分周 [medium],verb: 仕切る・分割 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+pillow,2,noun: 枕・敷妙 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+pole,2,noun: 棒・ポール [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+poorly,2,adverb: 貧しく・貧困に瀕して [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+probe,2,noun: 調査・審査 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+pulse,2,noun: 周波・活動電位 [medium],noun: 心悸・心拍 [medium],verb: 拍動・搏動 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+refresh,2,verb: 爽やかにする・元気付ける [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+selective,2,adjective: 選択的な・選択の [medium],adjective: 選び抜かれた・精選の [medium],adjective: 目の肥えた・うるさい [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+slot,2,noun: 透き・隙間 [medium],noun: スロット [medium],verb: 時間枠に組み入れる [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+span,2,noun: 時間・期間 [medium],verb: 渡る・横たわる [medium],noun: 径間・梁間 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+staple,2,noun: 必需品・恒常商品 [medium],noun: 元種・原料 [medium],verb: 留める [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+steer,2,noun: 去勢牛 [medium],noun: ヒント [medium],verb: 進路を取る [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+stripe,2,noun: 縞・筋 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+substitution,2,noun: 代理・代用 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+systematic,2,adjective: 規律正しい・秩序立った [medium],adjective: 分類法の・分類学的 [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+tablet,2,noun: 平板・銘板 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+teller,2,noun: 話し手・語り [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+temporal,2,adjective: 現世の・世俗の [medium],adjective: 時の・時間の [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+termination,2,noun: 打ち切り・中止 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+thrill,2,noun: 快哉・快感 [medium],noun: 寒慄・戦き [medium],verb: 浮かす・ぞくぞく [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+timely,2,adjective: 時宜に適った・タイムリ [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+tumor,2,noun: 腫瘍・新生物 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+unity,2,noun: 一つ・ワン [medium],noun: 兼併・合一 [medium],noun: 個体・完全 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+unusually,2,adverb: 一風変わって・著しく [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+variant,2,adjective: 異形の・別様 [medium],noun: 異形・品種 [medium],noun: 変異体・変異型 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+waive,2,verb: 差し控える・失う [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+wrinkle,2,noun: 皺・皺襞 [medium],verb: 皺を作る・皺む [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+a,3,noun: ビタミンA [medium],noun: オングストローム [medium],noun: A型 [medium],low,AMBIGUOUS_PRIMARY_SENSE|UNNATURAL_JAPANESE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+about,3,adverb: 先ず・凡そ [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+across,3,adverb: 横切って [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+ago,3,adverb: 以前に [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+along,3,adverb: 先へ・前へ [medium],adverb: 伴って・持って [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+and,3,conjunction: ある複数の事柄を並列・列挙するときに用いる [medium],conjunction: 時間的な経過の順序を表す [medium],conjunction: 物事の連続や進行を表す [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+another,3,adjective: 別個・別 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+any,3,adverb: 何らか・何等か [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+artifact,3,noun: 人為的な結果・アーチファクト [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+as,3,adverb: 斉しく・等しく [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+at,3,noun: アット [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+bang,3,noun: 強打・激しい一撃 [medium],noun: 快哉・快感 [medium],verb: 叩く・かっ飛ばす [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+be,3,verb: でご座る・で御座る [medium],verb: 候う・在す [medium],noun: ベリリウム [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+billion,3,noun: 億兆・百萬 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+book,3,noun: 本・書物 [medium],noun: 帳簿・元帳 [medium],,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+but,3,adverb: 一人・僅々 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+can,3,verb: できる・缶詰にする [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+care,3,noun: 懇切・ご念 [medium],verb: 大事にする・構う [medium],,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+cheat,3,verb: いかさまをする・偽る [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+chunk,3,noun: 大きな塊・厚切り [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+city,3,noun: 都市・市 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+composite,3,noun: 合成物・混成物 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+coordination,3,noun: 調整・一致 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+cyclic,3,adjective: 周期的な・周期性 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+deflection,3,noun: 屈折 [medium],noun: 反り [medium],noun: 余談・枝路 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+dense,3,adjective: 密集した・密度の高い [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+dictionary,3,noun: 辞書・辞典 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+eight,3,noun: 八つ・エイト [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+eighty,3,noun: 八十 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+either,3,det: どちらか一方の・どちらの〜でも [medium],det: どちらか一方の [medium],pronoun: どちらか一方・どちらでも [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+elaborate,3,adjective: 精巧な・綿密な [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+even,3,adjective: 平な・水平な [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+event,3,noun: 出来事・事象 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+ever,3,adverb: 決して・曽て [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+every,3,adjective: 毎 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+example,3,noun: 例・事例 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+father,3,noun: 父・乃父 [medium],noun: 年配の男性や神父の呼びかけ語・父なる神 [medium],verb: 父親になる・生む [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+fever,3,noun: 熱・高熱 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+few,3,adjective: わずかの・少い [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+fifty,3,noun: 五十・五拾 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+flux,3,noun: 流量 [medium],noun: 流出 [medium],verb: 合す・交ざる [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+for,3,conjunction: 故に・なぜならば [medium],conjunction: するために [medium],preposition: 時間・期間の長さを示す [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+forty,3,noun: 四十 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+four,3,noun: 四つ・四物 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+gross,3,adjective: いまいましい・全般的 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+hear,3,verb: 聞く・聞える [medium],verb: 耳にする・聞き伝える [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+house,3,noun: 家・人家 [medium],verb: 収納する・収める [medium],,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+inferior,3,adjective: 劣った・悪い [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+inject,3,verb: 採り入れる・導入 [medium],verb: 注入・注射 [medium],verb: 挟む・挾む [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+intervene,3,verb: 介入する・干渉する [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+it,3,pronoun: それは [medium],pronoun: それを [medium],noun: 鬼ごっこの鬼 [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+just,3,adjective: 正確な・良い [medium],adjective: 公正な・正しい [medium],adverb: 単に・単純に [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+kind,3,adjective: 親切な・厚い [medium],noun: 種・種類 [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+lump,3,noun: 塊・欠片 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+many,3,adjective: 多い・数多い [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+maybe,3,adverb: 多分・或は [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+million,3,noun: 大衆・億兆 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+minus,3,noun: 減法・マイナス [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+mole,3,noun: グラム分子・モル [medium],noun: 黒子・黒痣 [medium],noun: 土竜・土龍 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+monkey,3,noun: 尾の長い猴・山猿 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+morality,3,noun: 人倫・倫理 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+naked,3,adjective: 裸の・露わ [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+near,3,adverb: 近く・近々 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+nicely,3,adverb: 良く・上手く [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+nine,3,noun: 九つ・ナイン [medium],noun: 球団・野球クラブ [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+ninety,3,noun: 九十 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+no,3,adjective: 不 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|TOO_MANY_SENSES|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+nominal,3,adjective: 名前の・ちょっとした [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+null,3,noun: 不存在・無価値 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+on,3,adverb: 先へ・前へ [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|TOO_MANY_SENSES|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+only,3,adjective: 唯一の・単一 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+or,3,noun: 金色・オレゴン州 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+other,3,adjective: 他し・別 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+over,3,adverb: 隈なく・隈無く [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|TOO_MANY_SENSES|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+parent,3,noun: 親・単数形では父親 [medium],verb: 親として振る舞う・養育する [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+person,3,noun: 人称・人間 [medium],noun: 人格・人間 [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+please,3,verb: 喜ばせる・楽しませる [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+polar,3,adjective: 極の・極性がある [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+prejudice,3,noun: 偏見・先入観 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+primitive,3,adjective: 元始的・原始的 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+pronounce,3,verb: 声を出して読む・云う [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+public,3,adjective: 公の・公然 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+realism,3,noun: 没理想・実学主義 [medium],noun: 現つ・現実 [medium],noun: 実在論・実念論 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+rub,3,verb: 擦る・揉む [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+seven,3,noun: 七つ・セブン [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+seventy,3,noun: 七十 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+several,3,adjective: 別々・異々 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+she,3,pron: 彼女 [medium],pron: それ [medium],noun: 女性 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+sixty,3,noun: 六十 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+slash,3,verb: 伐倒す・切倒す [medium],noun: 固相線 [medium],noun: 切傷・切り傷 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+so,3,adverb: 其は・然許 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|TOO_MANY_SENSES|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+some,3,adjective: いくらか・幾 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+static,3,noun: 静的・空電 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+such,3,adverb: 是程・此程 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+suicide,3,noun: 自殺・自害 [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+susceptible,3,adjective: 影響され易い・感じ易い [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+synthetic,3,adjective: 総合の・総合的 [medium],adjective: 人工の・人工的 [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+ten,3,noun: テン [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+thirteen,3,noun: 十三 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+thirty,3,noun: 三十・三十路 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+three,3,noun: 三つ・参 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+today,3,noun: きょう・今日 [medium],adverb: 今日この日に・今では [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+triangle,3,noun: 三角 [medium],noun: 三角形 [medium],noun: 三角座 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,true,false,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+trillion,3,noun: 一兆 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+twelve,3,adjective: 十二の [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+twenty,3,noun: 二十 [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+ultimate,3,adjective: 究極の・終いに到達する所の [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+under,3,adverb: 従属して・圧倒されて [low],,,low,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|TOO_MANY_SENSES|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+very,3,adverb: ても・大変 [medium],adjective: 真実の・実の [medium],,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+want,3,verb: 念う・望む [medium],verb: 求む・求める [medium],noun: 貧困・困窮 [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+what,3,det: 何の・どんな [medium],det: する全ての [medium],pronoun: 何が [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+when,3,adverb: いつ [medium],pronoun: いつ [medium],pronoun: そのとき [medium],medium,AMBIGUOUS_PRIMARY_SENSE|TOO_MANY_SENSES,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+where,3,adverb: どこに・どこへ [medium],adverb: どの点で [medium],noun: 場所 [medium],medium,AMBIGUOUS_PRIMARY_SENSE,false,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+yes,3,noun: 肯定的な返答 [low],,,low,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,NEEDS_REVIEW,Word-level confidence is LOW.
+yet,3,adverb: まだ・いまだ [medium],,,medium,AMBIGUOUS_PRIMARY_SENSE,true,true,NEEDS_REVIEW,AMBIGUOUS_PRIMARY_SENSE remains and no selected primary meaning has HIGH confidence.
+zero,3,noun: 皆無・絶無 [medium],noun: ゼロ・零 [medium],noun: ZERO [medium],low,AMBIGUOUS_PRIMARY_SENSE|UNNATURAL_JAPANESE|TOO_MANY_SENSES,true,true,NEEDS_REVIEW,Word-level confidence is LOW.

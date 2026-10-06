@@ -1,0 +1,245 @@
+{
+  "generatedAt": "2026-10-05T09:13:51.978Z",
+  "validation": {
+    "total": 2500,
+    "levelCounts": {
+      "1": 700,
+      "2": 800,
+      "3": 1000
+    },
+    "duplicates": 0,
+    "emptyWords": 0,
+    "wordsWithSpaces": 0,
+    "wordsWithDigits": 0,
+    "invalidWords": 0,
+    "missingSources": 0
+  },
+  "sourceCounts": {
+    "TSL": {
+      "accepted": 1242,
+      "rejected": 8
+    },
+    "NAWL": {
+      "accepted": 957,
+      "rejected": 0
+    },
+    "NGSL-GR": {
+      "accepted": 5029,
+      "rejected": 21
+    }
+  },
+  "rejectedWords": {
+    "TSL": [
+      {
+        "source": "TSL",
+        "rawWord": "e-book",
+        "normalizedWord": "e-book",
+        "rank": 4,
+        "reason": "contains-hyphen"
+      },
+      {
+        "source": "TSL",
+        "rawWord": "o'clock",
+        "normalizedWord": "o'clock",
+        "rank": 10,
+        "reason": "non-alpha"
+      },
+      {
+        "source": "TSL",
+        "rawWord": "r�sum�",
+        "normalizedWord": "r�sum�",
+        "rank": 26,
+        "reason": "non-alpha"
+      },
+      {
+        "source": "TSL",
+        "rawWord": "caf�",
+        "normalizedWord": "caf�",
+        "rank": 105,
+        "reason": "non-alpha"
+      },
+      {
+        "source": "TSL",
+        "rawWord": "ice cream",
+        "normalizedWord": "ice cream",
+        "rank": 291,
+        "reason": "contains-space"
+      },
+      {
+        "source": "TSL",
+        "rawWord": "entr�e",
+        "normalizedWord": "entr�e",
+        "rank": 714,
+        "reason": "non-alpha"
+      },
+      {
+        "source": "TSL",
+        "rawWord": "ma'am",
+        "normalizedWord": "ma'am",
+        "rank": 725,
+        "reason": "non-alpha"
+      },
+      {
+        "source": "TSL",
+        "rawWord": "by-law",
+        "normalizedWord": "by-law",
+        "rank": 1203,
+        "reason": "contains-hyphen"
+      }
+    ],
+    "NAWL": [],
+    "NGSL-GR": [
+      {
+        "source": "NGSL-GR",
+        "rawWord": "Monday",
+        "normalizedWord": "monday",
+        "rank": 1,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "Tuesday",
+        "normalizedWord": "tuesday",
+        "rank": 2,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "Wednesday",
+        "normalizedWord": "wednesday",
+        "rank": 3,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "Thursday",
+        "normalizedWord": "thursday",
+        "rank": 4,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "Friday",
+        "normalizedWord": "friday",
+        "rank": 5,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "Saturday",
+        "normalizedWord": "saturday",
+        "rank": 6,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "Sunday",
+        "normalizedWord": "sunday",
+        "rank": 7,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "January",
+        "normalizedWord": "january",
+        "rank": 8,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "February",
+        "normalizedWord": "february",
+        "rank": 9,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "April",
+        "normalizedWord": "april",
+        "rank": 10,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "June",
+        "normalizedWord": "june",
+        "rank": 11,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "July",
+        "normalizedWord": "july",
+        "rank": 12,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "august",
+        "normalizedWord": "august",
+        "rank": 13,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "September",
+        "normalizedWord": "september",
+        "rank": 14,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "October",
+        "normalizedWord": "october",
+        "rank": 15,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "November",
+        "normalizedWord": "november",
+        "rank": 16,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "December",
+        "normalizedWord": "december",
+        "rank": 17,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "TRUE",
+        "normalizedWord": "true",
+        "rank": 528,
+        "reason": "abbreviation"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "FALSE",
+        "normalizedWord": "false",
+        "rank": 2148,
+        "reason": "abbreviation"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "march",
+        "normalizedWord": "march",
+        "rank": 2503,
+        "reason": "known-proper-word"
+      },
+      {
+        "source": "NGSL-GR",
+        "rawWord": "café",
+        "normalizedWord": "café",
+        "rank": 2884,
+        "reason": "non-alpha"
+      }
+    ]
+  },
+  "notes": [
+    "No automatic stemming is applied. Source lists are treated as ranked headword/flemma lists to avoid unsafe merges.",
+    "This app level assignment is independent and does not imply an official TOEIC or TOEFL score mapping."
+  ]
+}

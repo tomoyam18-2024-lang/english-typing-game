@@ -1,0 +1,280 @@
+word,level,issue,proposed_action,base_word,reason,sources,ranks
+authority,1,word-family,KEEP,author,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NAWL|NGSL-GR,TSL:224|NAWL:11|NGSL-GR:2860
+authorization,1,word-family,KEEP,author,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:661
+authorize,1,word-family,KEEP,author,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:213|NGSL-GR:3318
+cab,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:283|NGSL-GR:4090
+ceiling,1,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",TSL|NGSL-GR,TSL:567|NGSL-GR:3010
+certificate,1,word-family,KEEP,certif,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:159|NGSL-GR:2964
+certification,1,word-family,KEEP,certif,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:542
+certify,1,word-family,KEEP,certif,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:664
+conditioner,1,word-family,KEEP,condit,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:352
+developer,1,word-family,KEEP,develop,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:202|NGSL-GR:3448
+distract,1,word-family,KEEP,distract,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:415|NGSL-GR:4278
+distractor,1,word-family,KEEP,distract,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:120
+economical,1,word-family,KEEP,econom,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:365
+enthusiastic,1,word-family,KEEP,enthusiast,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:521|NGSL-GR:3880
+fax,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:9|NGSL-GR:2876
+flu,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:225|NGSL-GR:4465
+generic,1,word-family,KEEP,gener,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:635|NGSL-GR:4895
+generous,1,word-family,KEEP,gener,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:369|NGSL-GR:3158
+goods,1,plural,KEEP,good,Plural-like form has an independent lexical meaning; keep unless later review says otherwise.,TSL|NAWL,TSL:15|NAWL:647
+graph,1,word-family,KEEP,graph,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NAWL|NGSL-GR,TSL:312|NAWL:18|NGSL-GR:2891
+graphic,1,word-family,KEEP,graph,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:464|NGSL-GR:4615
+gym,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:160|NGSL-GR:3636
+icy,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL,TSL:523
+ink,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:198|NGSL-GR:4408
+inspect,1,word-family,KEEP,inspect,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:139|NGSL-GR:4232
+inspection,1,word-family,KEEP,inspect,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:136|NGSL-GR:3027
+inspector,1,word-family,KEEP,inspect,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:306|NGSL-GR:3189
+jam,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:548|NGSL-GR:3194
+jet,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:382|NGSL-GR:3156
+jog,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL,TSL:404
+kit,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:605|NGSL-GR:3620
+lab,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NAWL|NGSL-GR,TSL:156|NAWL:799|NGSL-GR:3251
+nap,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL,TSL:406
+nominate,1,word-family,KEEP,nomin,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:608|NGSL-GR:3851
+ongoing,1,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL|NGSL-GR,TSL:641|NGSL-GR:3022
+opt,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:609|NGSL-GR:3798
+outdated,1,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL,TSL:446
+outstanding,1,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL|NGSL-GR,TSL:167|NGSL-GR:2902
+periodically,1,word-family,KEEP,period,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:642
+pet,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:301|NGSL-GR:2995
+photographer,1,word-family,KEEP,photograph,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:182|NGSL-GR:3438
+photography,1,word-family,KEEP,photograph,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:286|NGSL-GR:4081
+pie,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:643|NGSL-GR:3121
+statistics,1,word-family,KEEP,statist,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NAWL,TSL:510|NAWL:853
+tag,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:184|NGSL-GR:3493
+terminal,1,word-family,KEEP,termin,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NAWL|NGSL-GR,TSL:193|NAWL:346|NGSL-GR:3164
+terminate,1,word-family,KEEP,termin,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:475|NGSL-GR:4398
+tow,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL,TSL:692
+unattended,1,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL,TSL:431
+unexpected,1,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL|NGSL-GR,TSL:589|NGSL-GR:3019
+unlimited,1,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL,TSL:512
+unspecified,1,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL,TSL:590
+upcoming,1,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL,TSL:86
+valid,1,word-family,KEEP,valid,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NAWL|NGSL-GR,TSL:94|NAWL:195|NGSL-GR:3144
+zoo,1,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:514|NGSL-GR:3038
+adaptation,2,word-family,KEEP,adapt,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL|NGSL-GR,NAWL:138|NGSL-GR:4104
+adapter,2,word-family,KEEP,adapt,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:1023
+arc,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:1101|NGSL-GR:4959
+bug,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:893|NGSL-GR:3987
+bye,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:807|NGSL-GR:3279
+characterization,2,very-long,KEEP,,"Long word, but spelling looks normal and long words remain useful typing targets.",NAWL,NAWL:267
+conditional,2,word-family,KEEP,condit,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL,NAWL:251
+cue,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:325|NGSL-GR:4396
+developmental,2,word-family,KEEP,develop,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL|NGSL-GR,NAWL:34|NGSL-GR:3830
+differential,2,word-family,KEEP,differenti,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL|NGSL-GR,NAWL:92|NGSL-GR:4868
+differentiate,2,word-family,KEEP,differenti,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL|NGSL-GR,NAWL:298|NGSL-GR:4136
+differentiation,2,word-family|very-long,KEEP,differenti,"Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning. Long word, but spelling looks normal and long words remain useful typing targets.",NAWL,NAWL:319
+distraction,2,word-family,KEEP,distract,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:904
+economically,2,word-family,KEEP,econom,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NAWL|NGSL-GR,TSL:974|NAWL:725|NGSL-GR:4405
+economize,2,word-family,KEEP,econom,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:713
+embed,2,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",TSL|NAWL|NGSL-GR,TSL:1044|NAWL:199|NGSL-GR:3791
+enthusiast,2,word-family,KEEP,enthusiast,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:908
+enthusiastically,2,word-family|very-long,KEEP,enthusiast,"Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning. Long word, but spelling looks normal and long words remain useful typing targets.",TSL,TSL:863
+environmentally,2,very-long,KEEP,,"Long word, but spelling looks normal and long words remain useful typing targets.",TSL,TSL:818
+ex,2,very-short|typing-suitability,REVIEW,,"Very short, but short lexical words are kept unless another issue applies. One- or two-letter word may be awkward and too easy for typing-game practice.",NAWL|NGSL-GR,NAWL:162|NGSL-GR:3122
+fog,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL,TSL:983
+fry,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:717|NGSL-GR:3744
+generalization,2,word-family,KEEP,gener,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NAWL,TSL:822|NAWL:334
+generalize,2,word-family,KEEP,gener,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL|NGSL-GR,NAWL:93|NGSL-GR:4883
+graphics,2,plural|word-family,REVIEW,graph|graphic,Plural-like form with an independent graphics/visuals sense; review rather than auto-removing. Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:773|NGSL-GR:3716
+gum,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL,TSL:824
+hardworking,2,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL,TSL:1139
+incoming,2,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL,TSL:1222
+internationally,2,very-long,KEEP,,"Long word, but spelling looks normal and long words remain useful typing targets.",TSL,TSL:867
+ion,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL,NAWL:14
+lighter,2,comparative-superlative,REVIEW,light,"Possible comparative/superlative form, but may also be an independent word; review manually.",TSL,TSL:992
+mid,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:174|NGSL-GR:2889
+morphological,2,specialized,REVIEW,,Specialized academic-looking term; review suitability for a general advanced typing game.,NAWL,NAWL:255
+nomination,2,word-family,KEEP,nomin,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:998|NGSL-GR:3458
+non,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:233|NGSL-GR:4132
+pad,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:780|NGSL-GR:3559
+pan,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:728|NGSL-GR:3827
+par,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:13|NGSL-GR:2975
+periodic,2,word-family,KEEP,period,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL,NAWL:240
+periodical,2,word-family,KEEP,period,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:731
+phonological,2,specialized,REVIEW,,Specialized academic-looking term; review suitability for a general advanced typing game.,NAWL,NAWL:76
+physiological,2,specialized,REVIEW,,Specialized academic-looking term; review suitability for a general advanced typing game.,NAWL,NAWL:311
+pre,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL,NAWL:303
+publicity,2,word-family,KEEP,public,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL|NGSL-GR,TSL:784|NGSL-GR:3011
+publicize,2,word-family,KEEP,public,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:935
+ray,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NAWL|NGSL-GR,TSL:936|NAWL:536|NGSL-GR:4418
+rug,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL,TSL:1079
+sew,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:1176|NGSL-GR:4374
+sin,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:119|NGSL-GR:3141
+spa,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL,TSL:790
+statistical,2,word-family,KEEP,statist,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL|NGSL-GR,NAWL:51|NGSL-GR:3354
+sue,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NGSL-GR,TSL:1014|NGSL-GR:3398
+telecommunication,2,very-long,KEEP,,"Long word, but spelling looks normal and long words remain useful typing targets.",TSL|NGSL-GR,TSL:842|NGSL-GR:4477
+termination,2,word-family,KEEP,termin,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:949
+ton,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL|NAWL|NGSL-GR,TSL:747|NAWL:679|NGSL-GR:3082
+unauthorized,2,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL,TSL:1247
+unemployed,2,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL|NAWL|NGSL-GR,TSL:1190|NAWL:759|NGSL-GR:3407
+unused,2,inflection,REVIEW,,"Looks participial, but is commonly used as an adjective or fixed lexical item; review before any removal.",TSL,TSL:954
+validate,2,word-family,KEEP,valid,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,TSL,TSL:1191
+validity,2,word-family,KEEP,valid,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL|NGSL-GR,NAWL:239|NGSL-GR:4360
+videoconference,2,very-long,KEEP,,"Long word, but spelling looks normal and long words remain useful typing targets.",TSL,TSL:1250
+yen,2,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",TSL,TSL:956
+a,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:56
+about,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:87
+adaptive,3,word-family,KEEP,adapt,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL,NAWL:349
+add,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:464
+after,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:134
+again,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:225
+age,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:332
+ago,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:422
+all,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:83
+also,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:122
+and,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:53
+anthropology,3,specialized,REVIEW,,Specialized academic-looking term; review suitability for a general advanced typing game.,NAWL,NAWL:638
+any,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:133
+anything,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NGSL-GR,NGSL-GR:368
+as,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:72
+ask,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:184
+at,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:73
+back,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:144
+bad,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:318
+bat,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:667|NGSL-GR:3205
+be,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:52
+because,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:112
+big,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:234
+bit,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:402
+bleed,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NAWL|NGSL-GR,NAWL:764|NGSL-GR:3792
+but,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:75
+buy,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:292
+by,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:77
+can,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:88
+car,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:310
+come,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:115
+condition,3,word-family,KEEP,condit,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NGSL-GR,NGSL-GR:495
+cut,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:506
+day,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:135
+develop,3,word-family,KEEP,develop,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NGSL-GR,NGSL-GR:400
+development,3,word-family,KEEP,develop,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NGSL-GR,NGSL-GR:413
+die,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:504
+do,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:71
+down,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:159
+during,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NGSL-GR,NGSL-GR:232
+dye,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL,NAWL:720
+eat,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:526
+economic,3,word-family,KEEP,econom,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NGSL-GR,NGSL-GR:543
+end,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:202
+epidemiology,3,specialized,REVIEW,,Specialized academic-looking term; review suitability for a general advanced typing game.,NAWL,NAWL:653
+everything,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NGSL-GR,NGSL-GR:472
+eye,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:441
+far,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:295
+few,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:245
+fin,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL,NAWL:813
+for,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:62
+from,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:76
+general,3,word-family,KEEP,gener,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NGSL-GR,NGSL-GR:454
+get,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:93
+give,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:127
+go,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:81
+good,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:106
+gut,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:784|NGSL-GR:3694
+have,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:58
+he,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:61
+headquarters,3,plural,KEEP,headquarter,Plural-like form has an independent lexical meaning; keep unless later review says otherwise.,NAWL,NAWL:876
+here,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:148
+hip,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:728|NGSL-GR:3154
+how,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:143
+hundred,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NGSL-GR,NGSL-GR:45
+i,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:70
+if,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:84
+in,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:57
+industrialization,3,very-long,KEEP,,"Long word, but spelling looks normal and long words remain useful typing targets.",NAWL,NAWL:798
+it,3,abbreviation|very-short|too-basic|typing-suitability,REVIEW,,Flagged by the audit abbreviation token list after lowercasing; review because this entry is more likely a very basic pronoun/function word than a true acronym. Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:59
+job,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:281
+know,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:91
+law,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:471
+let,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:224
+like,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:95
+linguistics,3,plural,KEEP,linguistic,Plural-like form has an independent lexical meaning; keep unless later review says otherwise.,NAWL,NAWL:385
+look,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:125
+lot,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:173
+low,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:333
+make,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:98
+man,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:162
+may,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:147
+morning,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NGSL-GR,NGSL-GR:484
+naked,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NAWL|NGSL-GR,NAWL:843|NGSL-GR:3449
+neo,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL,NAWL:944
+new,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:129
+no,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:110
+nominal,3,word-family,KEEP,nomin,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL,NAWL:406
+not,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:64
+nothing,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NGSL-GR,NGSL-GR:386
+now,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:120
+of,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:54
+off,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:200
+offspring,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NAWL|NGSL-GR,NAWL:418|NGSL-GR:4493
+old,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:194
+on,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:67
+one,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:85
+or,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:79
+out,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:105
+own,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:179
+pay,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:270
+people,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:107
+per,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:423
+period,3,word-family,KEEP,period,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NGSL-GR,NGSL-GR:432
+photographic,3,word-family,KEEP,photograph,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL,NAWL:864
+pi,3,very-short|typing-suitability,REVIEW,,"Very short, but short lexical words are kept unless another issue applies. One- or two-letter word may be awkward and too easy for typing-game practice.",NAWL,NAWL:372
+psychologist,3,specialized,REVIEW,,Specialized academic-looking term; review suitability for a general advanced typing game.,NAWL|NGSL-GR,NAWL:660|NGSL-GR:4147
+public,3,word-family,KEEP,public,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NGSL-GR,NGSL-GR:337
+put,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:189
+rub,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:908|NGSL-GR:3471
+run,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:242
+say,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:80
+see,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:100
+set,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:235
+she,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:74
+sit,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:406
+six,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:23
+so,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:82
+social,3,word-family,KEEP,social,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NGSL-GR,NGSL-GR:431
+socialize,3,word-family,KEEP,social,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL,NAWL:882
+socially,3,word-family,KEEP,social,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL|NGSL-GR,NAWL:505|NGSL-GR:4087
+some,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:103
+something,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NGSL-GR,NGSL-GR:188
+sometimes,3,plural,KEEP,sometime,Plural-like form has an independent lexical meaning; keep unless later review says otherwise.,NGSL-GR,NGSL-GR:494
+statistically,3,word-family,KEEP,statist,Part of a derivational word-family candidate; keep by default because derived forms can differ by POS or meaning.,NAWL,NAWL:341
+straightforward,3,very-long,KEEP,,"Long word, but spelling looks normal and long words remain useful typing targets.",NAWL|NGSL-GR,NAWL:393|NGSL-GR:3740
+sub,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NAWL|NGSL-GR,NAWL:790|NGSL-GR:4700
+take,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:109
+ten,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:27
+that,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:65
+the,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:51
+then,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:121
+there,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:90
+they,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:63
+this,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:69
+time,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:99
+to,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:55
+too,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:168
+top,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:425
+try,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:175
+two,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:19
+up,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:102
+use,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:118
+want,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:126
+war,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:485
+watershed,3,inflection,KEEP,,"Looks suffix-like, but is a common independent lexical item; do not remove by suffix alone.",NAWL,NAWL:871
+way,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:130
+we,3,very-short|too-basic|typing-suitability,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level. One- or two-letter word may be awkward and too easy for typing-game practice.,NGSL-GR,NGSL-GR:66
+what,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:101
+when,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:96
+which,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:89
+who,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:94
+why,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:204
+will,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:78
+win,3,very-short,KEEP,,"Very short, but short lexical words are kept unless another issue applies.",NGSL-GR,NGSL-GR:427
+with,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:68
+work,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:117
+write,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:171
+year,3,too-basic,REVIEW,,Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:108
+yes,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:278
+yet,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:361
+you,3,very-short|too-basic,REVIEW,,Very short and very basic for the app's advanced-learning target; review for possible replacement. Audit marked it as very basic for its advanced level.,NGSL-GR,NGSL-GR:60

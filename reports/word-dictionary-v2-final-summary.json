@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-06T02:30:50.467Z",
+  "total": 2308,
+  "reviewCsv": "C:\\\\Users\\\\Tomoya Matsui\\\\Desktop\\\\word-master-v2-human-review-reviewed.csv",
+  "humanReviewedEditApplied": 63,
+  "humanReviewedReplaceApplied": 11,
+  "replacementWordsAdded": 11,
+  "replacementWordsAccepted": 10,
+  "replacementWordsRequiringReview": 1,
+  "finalStatus": {
+    "accepted": 2307,
+    "needsReview": 1,
+    "missingData": 0
+  },
+  "levelCounts": {
+    "1": 700,
+    "2": 800,
+    "3": 808
+  },
+  "duplicates": 0,
+  "validationErrors": [],
+  "files": {
+    "wordMaster": "src/data/wordMasterV2Final.json",
+    "wordDictionary": "src/data/generated/wordDictionaryV2Final.json",
+    "replacementReview": "reports/replacement-review.csv",
+    "replacementHistory": "reports/word-master-v2-final-replacements.csv",
+    "summary": "reports/word-dictionary-v2-final-summary.json"
+  }
+}

@@ -1,0 +1,280 @@
+word,level,sources,categories,reasons
+authority,1,TSL:224|NAWL:11|NGSL-GR:2860,word-family-candidate,Part of derivational family candidate: author.
+authorization,1,TSL:661,word-family-candidate,Part of derivational family candidate: author.
+authorize,1,TSL:213|NGSL-GR:3318,word-family-candidate,Part of derivational family candidate: author.
+cab,1,TSL:283|NGSL-GR:4090,very-short,3 letters or fewer.
+ceiling,1,TSL:567|NGSL-GR:3010,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+certificate,1,TSL:159|NGSL-GR:2964,word-family-candidate,Part of derivational family candidate: certif.
+certification,1,TSL:542,word-family-candidate,Part of derivational family candidate: certif.
+certify,1,TSL:664,word-family-candidate,Part of derivational family candidate: certif.
+conditioner,1,TSL:352,word-family-candidate,Part of derivational family candidate: condit.
+developer,1,TSL:202|NGSL-GR:3448,word-family-candidate,Part of derivational family candidate: develop.
+distract,1,TSL:415|NGSL-GR:4278,word-family-candidate,Part of derivational family candidate: distract.
+distractor,1,TSL:120,word-family-candidate,Part of derivational family candidate: distract.
+economical,1,TSL:365,word-family-candidate,Part of derivational family candidate: econom.
+enthusiastic,1,TSL:521|NGSL-GR:3880,word-family-candidate,Part of derivational family candidate: enthusiast.
+fax,1,TSL:9|NGSL-GR:2876,very-short,3 letters or fewer.
+flu,1,TSL:225|NGSL-GR:4465,very-short,3 letters or fewer.
+generic,1,TSL:635|NGSL-GR:4895,word-family-candidate,Part of derivational family candidate: gener.
+generous,1,TSL:369|NGSL-GR:3158,word-family-candidate,Part of derivational family candidate: gener.
+goods,1,TSL:15|NAWL:647,potential-plural,Looks like a plural form of: good.
+graph,1,TSL:312|NAWL:18|NGSL-GR:2891,word-family-candidate,Part of derivational family candidate: graph.
+graphic,1,TSL:464|NGSL-GR:4615,word-family-candidate,Part of derivational family candidate: graph.
+gym,1,TSL:160|NGSL-GR:3636,very-short,3 letters or fewer.
+icy,1,TSL:523,very-short,3 letters or fewer.
+ink,1,TSL:198|NGSL-GR:4408,very-short,3 letters or fewer.
+inspect,1,TSL:139|NGSL-GR:4232,word-family-candidate,Part of derivational family candidate: inspect.
+inspection,1,TSL:136|NGSL-GR:3027,word-family-candidate,Part of derivational family candidate: inspect.
+inspector,1,TSL:306|NGSL-GR:3189,word-family-candidate,Part of derivational family candidate: inspect.
+jam,1,TSL:548|NGSL-GR:3194,very-short,3 letters or fewer.
+jet,1,TSL:382|NGSL-GR:3156,very-short,3 letters or fewer.
+jog,1,TSL:404,very-short,3 letters or fewer.
+kit,1,TSL:605|NGSL-GR:3620,very-short,3 letters or fewer.
+lab,1,TSL:156|NAWL:799|NGSL-GR:3251,very-short,3 letters or fewer.
+nap,1,TSL:406,very-short,3 letters or fewer.
+nominate,1,TSL:608|NGSL-GR:3851,word-family-candidate,Part of derivational family candidate: nomin.
+ongoing,1,TSL:641|NGSL-GR:3022,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+opt,1,TSL:609|NGSL-GR:3798,very-short,3 letters or fewer.
+outdated,1,TSL:446,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+outstanding,1,TSL:167|NGSL-GR:2902,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+periodically,1,TSL:642,word-family-candidate,Part of derivational family candidate: period.
+pet,1,TSL:301|NGSL-GR:2995,very-short,3 letters or fewer.
+photographer,1,TSL:182|NGSL-GR:3438,word-family-candidate,Part of derivational family candidate: photograph.
+photography,1,TSL:286|NGSL-GR:4081,word-family-candidate,Part of derivational family candidate: photograph.
+pie,1,TSL:643|NGSL-GR:3121,very-short,3 letters or fewer.
+statistics,1,TSL:510|NAWL:853,word-family-candidate,Part of derivational family candidate: statist.
+tag,1,TSL:184|NGSL-GR:3493,very-short,3 letters or fewer.
+terminal,1,TSL:193|NAWL:346|NGSL-GR:3164,word-family-candidate,Part of derivational family candidate: termin.
+terminate,1,TSL:475|NGSL-GR:4398,word-family-candidate,Part of derivational family candidate: termin.
+tow,1,TSL:692,very-short,3 letters or fewer.
+unattended,1,TSL:431,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+unexpected,1,TSL:589|NGSL-GR:3019,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+unlimited,1,TSL:512,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+unspecified,1,TSL:590,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+upcoming,1,TSL:86,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+valid,1,TSL:94|NAWL:195|NGSL-GR:3144,word-family-candidate,Part of derivational family candidate: valid.
+zoo,1,TSL:514|NGSL-GR:3038,very-short,3 letters or fewer.
+adaptation,2,NAWL:138|NGSL-GR:4104,word-family-candidate,Part of derivational family candidate: adapt.
+adapter,2,TSL:1023,word-family-candidate,Part of derivational family candidate: adapt.
+arc,2,TSL:1101|NGSL-GR:4959,very-short,3 letters or fewer.
+bug,2,TSL:893|NGSL-GR:3987,very-short,3 letters or fewer.
+bye,2,TSL:807|NGSL-GR:3279,very-short,3 letters or fewer.
+characterization,2,NAWL:267,very-long,15 letters or more.
+conditional,2,NAWL:251,word-family-candidate,Part of derivational family candidate: condit.
+cue,2,NAWL:325|NGSL-GR:4396,very-short,3 letters or fewer.
+developmental,2,NAWL:34|NGSL-GR:3830,word-family-candidate,Part of derivational family candidate: develop.
+differential,2,NAWL:92|NGSL-GR:4868,word-family-candidate,Part of derivational family candidate: differenti.
+differentiate,2,NAWL:298|NGSL-GR:4136,word-family-candidate,Part of derivational family candidate: differenti.
+differentiation,2,NAWL:319,word-family-candidate|very-long,Part of derivational family candidate: differenti. / 15 letters or more.
+distraction,2,TSL:904,word-family-candidate,Part of derivational family candidate: distract.
+economically,2,TSL:974|NAWL:725|NGSL-GR:4405,word-family-candidate,Part of derivational family candidate: econom.
+economize,2,TSL:713,word-family-candidate,Part of derivational family candidate: econom.
+embed,2,TSL:1044|NAWL:199|NGSL-GR:3791,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+enthusiast,2,TSL:908,word-family-candidate,Part of derivational family candidate: enthusiast.
+enthusiastically,2,TSL:863,word-family-candidate|very-long,Part of derivational family candidate: enthusiast. / 15 letters or more.
+environmentally,2,TSL:818,very-long,15 letters or more.
+ex,2,NAWL:162|NGSL-GR:3122,very-short|typing-suitability,3 letters or fewer. / Length may be awkward for the typing-game target experience.
+fog,2,TSL:983,very-short,3 letters or fewer.
+fry,2,TSL:717|NGSL-GR:3744,very-short,3 letters or fewer.
+generalization,2,TSL:822|NAWL:334,word-family-candidate,Part of derivational family candidate: gener.
+generalize,2,NAWL:93|NGSL-GR:4883,word-family-candidate,Part of derivational family candidate: gener.
+graphics,2,TSL:773|NGSL-GR:3716,potential-plural|word-family-candidate,Looks like a plural form of: graphic. / Part of derivational family candidate: graph.
+gum,2,TSL:824,very-short,3 letters or fewer.
+hardworking,2,TSL:1139,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+incoming,2,TSL:1222,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+internationally,2,TSL:867,very-long,15 letters or more.
+ion,2,NAWL:14,very-short,3 letters or fewer.
+lighter,2,TSL:992,comparative-superlative,Looks like a comparative/superlative form of: light.
+mid,2,NAWL:174|NGSL-GR:2889,very-short,3 letters or fewer.
+morphological,2,NAWL:255,possibly-specialized,Long academic-looking technical form; review suitability for typing practice.
+nomination,2,TSL:998|NGSL-GR:3458,word-family-candidate,Part of derivational family candidate: nomin.
+non,2,NAWL:233|NGSL-GR:4132,very-short,3 letters or fewer.
+pad,2,TSL:780|NGSL-GR:3559,very-short,3 letters or fewer.
+pan,2,TSL:728|NGSL-GR:3827,very-short,3 letters or fewer.
+par,2,NAWL:13|NGSL-GR:2975,very-short,3 letters or fewer.
+periodic,2,NAWL:240,word-family-candidate,Part of derivational family candidate: period.
+periodical,2,TSL:731,word-family-candidate,Part of derivational family candidate: period.
+phonological,2,NAWL:76,possibly-specialized,Long academic-looking technical form; review suitability for typing practice.
+physiological,2,NAWL:311,possibly-specialized,Long academic-looking technical form; review suitability for typing practice.
+pre,2,NAWL:303,very-short,3 letters or fewer.
+publicity,2,TSL:784|NGSL-GR:3011,word-family-candidate,Part of derivational family candidate: public.
+publicize,2,TSL:935,word-family-candidate,Part of derivational family candidate: public.
+ray,2,TSL:936|NAWL:536|NGSL-GR:4418,very-short,3 letters or fewer.
+rug,2,TSL:1079,very-short,3 letters or fewer.
+sew,2,TSL:1176|NGSL-GR:4374,very-short,3 letters or fewer.
+sin,2,NAWL:119|NGSL-GR:3141,very-short,3 letters or fewer.
+spa,2,TSL:790,very-short,3 letters or fewer.
+statistical,2,NAWL:51|NGSL-GR:3354,word-family-candidate,Part of derivational family candidate: statist.
+sue,2,TSL:1014|NGSL-GR:3398,very-short,3 letters or fewer.
+telecommunication,2,TSL:842|NGSL-GR:4477,very-long,15 letters or more.
+termination,2,TSL:949,word-family-candidate,Part of derivational family candidate: termin.
+ton,2,TSL:747|NAWL:679|NGSL-GR:3082,very-short,3 letters or fewer.
+unauthorized,2,TSL:1247,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+unemployed,2,TSL:1190|NAWL:759|NGSL-GR:3407,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+unused,2,TSL:954,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+validate,2,TSL:1191,word-family-candidate,Part of derivational family candidate: valid.
+validity,2,NAWL:239|NGSL-GR:4360,word-family-candidate,Part of derivational family candidate: valid.
+videoconference,2,TSL:1250,very-long,15 letters or more.
+yen,2,TSL:956,very-short,3 letters or fewer.
+a,3,NGSL-GR:56,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+about,3,NGSL-GR:87,possibly-too-basic,Common basic word appears in an advanced level.
+adaptive,3,NAWL:349,word-family-candidate,Part of derivational family candidate: adapt.
+add,3,NGSL-GR:464,very-short,3 letters or fewer.
+after,3,NGSL-GR:134,possibly-too-basic,Common basic word appears in an advanced level.
+again,3,NGSL-GR:225,possibly-too-basic,Common basic word appears in an advanced level.
+age,3,NGSL-GR:332,very-short,3 letters or fewer.
+ago,3,NGSL-GR:422,very-short,3 letters or fewer.
+all,3,NGSL-GR:83,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+also,3,NGSL-GR:122,possibly-too-basic,Common basic word appears in an advanced level.
+and,3,NGSL-GR:53,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+anthropology,3,NAWL:638,possibly-specialized,Long academic-looking technical form; review suitability for typing practice.
+any,3,NGSL-GR:133,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+anything,3,NGSL-GR:368,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+as,3,NGSL-GR:72,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+ask,3,NGSL-GR:184,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+at,3,NGSL-GR:73,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+back,3,NGSL-GR:144,possibly-too-basic,Common basic word appears in an advanced level.
+bad,3,NGSL-GR:318,very-short,3 letters or fewer.
+bat,3,NAWL:667|NGSL-GR:3205,very-short,3 letters or fewer.
+be,3,NGSL-GR:52,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+because,3,NGSL-GR:112,possibly-too-basic,Common basic word appears in an advanced level.
+big,3,NGSL-GR:234,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+bit,3,NGSL-GR:402,very-short,3 letters or fewer.
+bleed,3,NAWL:764|NGSL-GR:3792,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+but,3,NGSL-GR:75,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+buy,3,NGSL-GR:292,very-short,3 letters or fewer.
+by,3,NGSL-GR:77,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+can,3,NGSL-GR:88,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+car,3,NGSL-GR:310,very-short,3 letters or fewer.
+come,3,NGSL-GR:115,possibly-too-basic,Common basic word appears in an advanced level.
+condition,3,NGSL-GR:495,word-family-candidate,Part of derivational family candidate: condit.
+cut,3,NGSL-GR:506,very-short,3 letters or fewer.
+day,3,NGSL-GR:135,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+develop,3,NGSL-GR:400,word-family-candidate,Part of derivational family candidate: develop.
+development,3,NGSL-GR:413,word-family-candidate,Part of derivational family candidate: develop.
+die,3,NGSL-GR:504,very-short,3 letters or fewer.
+do,3,NGSL-GR:71,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+down,3,NGSL-GR:159,possibly-too-basic,Common basic word appears in an advanced level.
+during,3,NGSL-GR:232,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+dye,3,NAWL:720,very-short,3 letters or fewer.
+eat,3,NGSL-GR:526,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+economic,3,NGSL-GR:543,word-family-candidate,Part of derivational family candidate: econom.
+end,3,NGSL-GR:202,very-short,3 letters or fewer.
+epidemiology,3,NAWL:653,possibly-specialized,Long academic-looking technical form; review suitability for typing practice.
+everything,3,NGSL-GR:472,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+eye,3,NGSL-GR:441,very-short,3 letters or fewer.
+far,3,NGSL-GR:295,very-short,3 letters or fewer.
+few,3,NGSL-GR:245,very-short,3 letters or fewer.
+fin,3,NAWL:813,very-short,3 letters or fewer.
+for,3,NGSL-GR:62,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+from,3,NGSL-GR:76,possibly-too-basic,Common basic word appears in an advanced level.
+general,3,NGSL-GR:454,word-family-candidate,Part of derivational family candidate: gener.
+get,3,NGSL-GR:93,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+give,3,NGSL-GR:127,possibly-too-basic,Common basic word appears in an advanced level.
+go,3,NGSL-GR:81,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+good,3,NGSL-GR:106,possibly-too-basic,Common basic word appears in an advanced level.
+gut,3,NAWL:784|NGSL-GR:3694,very-short,3 letters or fewer.
+have,3,NGSL-GR:58,possibly-too-basic,Common basic word appears in an advanced level.
+he,3,NGSL-GR:61,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+headquarters,3,NAWL:876,potential-plural,Looks like a plural form of: headquarter.
+here,3,NGSL-GR:148,possibly-too-basic,Common basic word appears in an advanced level.
+hip,3,NAWL:728|NGSL-GR:3154,very-short,3 letters or fewer.
+how,3,NGSL-GR:143,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+hundred,3,NGSL-GR:45,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+i,3,NGSL-GR:70,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+if,3,NGSL-GR:84,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+in,3,NGSL-GR:57,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+industrialization,3,NAWL:798,very-long,15 letters or more.
+it,3,NGSL-GR:59,potential-abbreviation|very-short|possibly-too-basic|typing-suitability,Known abbreviation-like token after lowercasing. / 3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+job,3,NGSL-GR:281,very-short,3 letters or fewer.
+know,3,NGSL-GR:91,possibly-too-basic,Common basic word appears in an advanced level.
+law,3,NGSL-GR:471,very-short,3 letters or fewer.
+let,3,NGSL-GR:224,very-short,3 letters or fewer.
+like,3,NGSL-GR:95,possibly-too-basic,Common basic word appears in an advanced level.
+linguistics,3,NAWL:385,potential-plural,Looks like a plural form of: linguistic.
+look,3,NGSL-GR:125,possibly-too-basic,Common basic word appears in an advanced level.
+lot,3,NGSL-GR:173,very-short,3 letters or fewer.
+low,3,NGSL-GR:333,very-short,3 letters or fewer.
+make,3,NGSL-GR:98,possibly-too-basic,Common basic word appears in an advanced level.
+man,3,NGSL-GR:162,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+may,3,NGSL-GR:147,very-short,3 letters or fewer.
+morning,3,NGSL-GR:484,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+naked,3,NAWL:843|NGSL-GR:3449,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+neo,3,NAWL:944,very-short,3 letters or fewer.
+new,3,NGSL-GR:129,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+no,3,NGSL-GR:110,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+nominal,3,NAWL:406,word-family-candidate,Part of derivational family candidate: nomin.
+not,3,NGSL-GR:64,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+nothing,3,NGSL-GR:386,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+now,3,NGSL-GR:120,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+of,3,NGSL-GR:54,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+off,3,NGSL-GR:200,very-short,3 letters or fewer.
+offspring,3,NAWL:418|NGSL-GR:4493,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+old,3,NGSL-GR:194,very-short,3 letters or fewer.
+on,3,NGSL-GR:67,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+one,3,NGSL-GR:85,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+or,3,NGSL-GR:79,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+out,3,NGSL-GR:105,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+own,3,NGSL-GR:179,very-short,3 letters or fewer.
+pay,3,NGSL-GR:270,very-short,3 letters or fewer.
+people,3,NGSL-GR:107,possibly-too-basic,Common basic word appears in an advanced level.
+per,3,NGSL-GR:423,very-short,3 letters or fewer.
+period,3,NGSL-GR:432,word-family-candidate,Part of derivational family candidate: period.
+photographic,3,NAWL:864,word-family-candidate,Part of derivational family candidate: photograph.
+pi,3,NAWL:372,very-short|typing-suitability,3 letters or fewer. / Length may be awkward for the typing-game target experience.
+psychologist,3,NAWL:660|NGSL-GR:4147,possibly-specialized,Long academic-looking technical form; review suitability for typing practice.
+public,3,NGSL-GR:337,word-family-candidate,Part of derivational family candidate: public.
+put,3,NGSL-GR:189,very-short,3 letters or fewer.
+rub,3,NAWL:908|NGSL-GR:3471,very-short,3 letters or fewer.
+run,3,NGSL-GR:242,very-short,3 letters or fewer.
+say,3,NGSL-GR:80,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+see,3,NGSL-GR:100,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+set,3,NGSL-GR:235,very-short,3 letters or fewer.
+she,3,NGSL-GR:74,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+sit,3,NGSL-GR:406,very-short,3 letters or fewer.
+six,3,NGSL-GR:23,very-short,3 letters or fewer.
+so,3,NGSL-GR:82,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+social,3,NGSL-GR:431,word-family-candidate,Part of derivational family candidate: social.
+socialize,3,NAWL:882,word-family-candidate,Part of derivational family candidate: social.
+socially,3,NAWL:505|NGSL-GR:4087,word-family-candidate,Part of derivational family candidate: social.
+some,3,NGSL-GR:103,possibly-too-basic,Common basic word appears in an advanced level.
+something,3,NGSL-GR:188,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+sometimes,3,NGSL-GR:494,potential-plural,Looks like a plural form of: sometime.
+statistically,3,NAWL:341,word-family-candidate,Part of derivational family candidate: statist.
+straightforward,3,NAWL:393|NGSL-GR:3740,very-long,15 letters or more.
+sub,3,NAWL:790|NGSL-GR:4700,very-short,3 letters or fewer.
+take,3,NGSL-GR:109,possibly-too-basic,Common basic word appears in an advanced level.
+ten,3,NGSL-GR:27,very-short,3 letters or fewer.
+that,3,NGSL-GR:65,possibly-too-basic,Common basic word appears in an advanced level.
+the,3,NGSL-GR:51,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+then,3,NGSL-GR:121,possibly-too-basic,Common basic word appears in an advanced level.
+there,3,NGSL-GR:90,possibly-too-basic,Common basic word appears in an advanced level.
+they,3,NGSL-GR:63,possibly-too-basic,Common basic word appears in an advanced level.
+this,3,NGSL-GR:69,possibly-too-basic,Common basic word appears in an advanced level.
+time,3,NGSL-GR:99,possibly-too-basic,Common basic word appears in an advanced level.
+to,3,NGSL-GR:55,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+too,3,NGSL-GR:168,very-short,3 letters or fewer.
+top,3,NGSL-GR:425,very-short,3 letters or fewer.
+try,3,NGSL-GR:175,very-short,3 letters or fewer.
+two,3,NGSL-GR:19,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+up,3,NGSL-GR:102,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+use,3,NGSL-GR:118,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+want,3,NGSL-GR:126,possibly-too-basic,Common basic word appears in an advanced level.
+war,3,NGSL-GR:485,very-short,3 letters or fewer.
+watershed,3,NAWL:871,potential-inflection,Ends with an inflection-like suffix; no matching base word found in the master list.
+way,3,NGSL-GR:130,very-short,3 letters or fewer.
+we,3,NGSL-GR:66,very-short|possibly-too-basic|typing-suitability,3 letters or fewer. / Common basic word appears in an advanced level. / Length may be awkward for the typing-game target experience.
+what,3,NGSL-GR:101,possibly-too-basic,Common basic word appears in an advanced level.
+when,3,NGSL-GR:96,possibly-too-basic,Common basic word appears in an advanced level.
+which,3,NGSL-GR:89,possibly-too-basic,Common basic word appears in an advanced level.
+who,3,NGSL-GR:94,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+why,3,NGSL-GR:204,very-short,3 letters or fewer.
+will,3,NGSL-GR:78,possibly-too-basic,Common basic word appears in an advanced level.
+win,3,NGSL-GR:427,very-short,3 letters or fewer.
+with,3,NGSL-GR:68,possibly-too-basic,Common basic word appears in an advanced level.
+work,3,NGSL-GR:117,possibly-too-basic,Common basic word appears in an advanced level.
+write,3,NGSL-GR:171,possibly-too-basic,Common basic word appears in an advanced level.
+year,3,NGSL-GR:108,possibly-too-basic,Common basic word appears in an advanced level.
+yes,3,NGSL-GR:278,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+yet,3,NGSL-GR:361,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.
+you,3,NGSL-GR:60,very-short|possibly-too-basic,3 letters or fewer. / Common basic word appears in an advanced level.

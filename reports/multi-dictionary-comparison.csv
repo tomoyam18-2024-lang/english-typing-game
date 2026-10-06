@@ -1,0 +1,51 @@
+word,WordNet-only primary meanings,WordNet + Wiktionary primary meanings,changed,reason
+mister,"[""noun: -氏""]","[""noun: -氏""]",false,No display change; Wiktionary did not provide a stronger aligned display candidate.
+correctly,"[""adverb: 正しく・正確""]","[""adverb: 正確に・正しく""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+keyboard,"[""noun: 鍵盤・キーボード""]","[""noun: 鍵盤・キーボード""]",false,"Display text is unchanged, but Wiktionary supports at least one selected meaning."
+inspection,"[""noun: 審査・検査""]","[""noun: 検査・監査""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+advisor,"[""noun: 顧問・相談役""]","[""noun: 助言する人・助言者""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+quit,"[""verb: 止める・廃す"",""verb: 去る・離れる"",""verb: 辞める・辞す""]","[""verb: やめる・断念する""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+lounge,"[""noun: 待合室・待ち合い室"",""verb: うろつく・ぶらつく"",""noun: ソファ・寝いす""]","[""noun: 待合室・待ち合い室"",""noun: ソファ・寝いす"",""verb: うろつく・ぶらつく""]",true,Candidate order changed after multi-dictionary confidence scoring.
+expertise,"[""noun: 熟練さ・熟練していること""]","[""noun: 専門的知識・熟練さ""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+garment,"[""noun: お召し物・御召し物"",""verb: 衣服を着せる""]","[""noun: 衣類・お召し物""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+spacious,"[""adjective: 広い・手広い""]","[""adjective: 広広とした・ゆったりとした""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+durable,"[""adjective: 丈夫・永続的"",""adjective: 長持ちする""]","[""adjective: 耐久性のある・長持ちする""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+purse,"[""noun: ハンドバッグ・ハンドバック"",""verb: 口をすぼめる"",""noun: 財布・金入""]","[""noun: ハンドバッグ・ハンドバック"",""noun: 財布"",""verb: 口をすぼめる""]",true,Candidate order changed after multi-dictionary confidence scoring.
+planner,"[""noun: 立案者・計画者""]","[""noun: 計画者・立案者""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+facilitate,"[""verb: 和らげる・楽にする"",""verb: 助ける・役立つ""]","[""verb: 容易にする・促す""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+satisfactory,"[""adjective: 良い・宜しい"",""adjective: 充分・十分""]","[""adjective: 満足いく・十分な""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+authorization,"[""noun: 承認・許可"",""noun: 認可・免許"",""noun: 委任・権力""]","[""noun: 公認・承認""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+compile,"[""verb: 編む・組み上げる"",""verb: 纏める・集める""]","[""verb: 編集する・編纂する""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+correction,"[""noun: 修正・訂正"",""noun: 訂正"",""noun: 補正""]","[""noun: 訂正・修正"",""noun: 矯正・更正""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+compatible,"[""adjective: 互換的・互換の""]","[""adjective: 相容れる・互換的""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+bye,"[""noun: 左様なら・おさらば"",""noun: パス""]","[""noun: 左様なら・おさらば""]",true,Candidate order changed after multi-dictionary confidence scoring.
+dealership,"[""noun: フランチャイズ""]","[""noun: フランチャイズ""]",false,No display change; Wiktionary did not provide a stronger aligned display candidate.
+enthusiasm,"[""noun: 情熱・意慾"",""noun: 忘我・情熱"",""noun: 熱狂・熱""]","[""noun: 熱中・熱意""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+activate,"[""verb: 触発・誘発"",""verb: 賦活・活性化"",""verb: 活性化""]","[""verb: 活性化する・賦活"",""verb: 作動させる・触発""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+resume,"[""verb: 仕直す・やり直す"",""noun: 展望・概観"",""noun: 履歴書""]","[""verb: 再開する・再開"",""noun: 履歴書""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+interactive,"[""adjective: 相乗的"",""adjective: 相互作用的""]","[""adjective: 相互作用の・相互作用的""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+bound,"[""noun: 境界・境目"",""verb: 弾む・跳ぶ"",""adjective: 縛られた""]","[""verb: 弾む・バウンドする"",""noun: 弾み・バウンド"",""adjective: 縛られた・束縛された""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+overcrowd,[],[],false,No display change; Wiktionary did not provide a stronger aligned display candidate.
+decoration,"[""noun: 修飾・化粧"",""noun: 修飾・勲章"",""noun: 勲章・栄典""]","[""noun: 勲章・メダル"",""noun: 装飾・修飾""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+matrix,"[""noun: 行列・マトリクス"",""noun: 基質・細胞間物質""]","[""noun: 行列・マトリクス"",""noun: 基質・細胞間物質""]",false,"Display text is unchanged, but Wiktionary supports at least one selected meaning."
+colonial,"[""noun: コロニアル""]","[""noun: コロニアル風の建築の家・コロニアル""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+adaptation,"[""noun: 改作・翻案"",""noun: 順応"",""noun: 即応・同化""]","[""noun: 改作・脚色"",""noun: 適応・適合""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+equality,"[""noun: 一律・互角"",""noun: 同一・同値""]","[""noun: 匹敵・一律"",""noun: 同等・同一""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+neutral,"[""adjective: 中立的・ニュートラル"",""adjective: 中立の・ニュートラル"",""adjective: 特徴のない""]","[""adjective: 中立の・ニュートラル""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+observer,"[""noun: 知覚者・見る者"",""noun: 評者・解説者""]","[""noun: 観察者・知覚者""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+inhibition,"[""noun: 制御・制禦"",""noun: 禁止"",""noun: 抑制・禁止""]","[""noun: 抑制・制止""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+tract,"[""noun: 土地"",""noun: 冊子・小冊"",""noun: 神経経路""]","[""noun: 小冊子・冊子"",""noun: 地域・土地""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+impulse,"[""noun: 衝動・衝迫"",""noun: 活動電位・神経衝撃"",""noun: 余勢・衝動""]","[""noun: 衝撃・衝動""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+intervene,"[""verb: 割込む・妨げる""]","[""verb: 介入する・干渉する""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+sustainable,[],"[""adjective: 維持できる"",""adjective: 環境を破壊せず利用できる""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+drain,"[""noun: 排水・除水"",""verb: 流出す・流れだす"",""noun: 枯渇・流出""]","[""noun: 排水設備・排水""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+sword,"[""noun: 兵刃・刀刃""]","[""noun: 刀剣・兵刃""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+demonstrator,"[""noun: 実地教授者・実地授業助手"",""noun: デモンストレータ・デモンストレーター"",""noun: デモンストレーター""]","[""noun: 実地教授者・実地授業助手"",""noun: デモンストレータ・デモンストレーター"",""noun: デモンストレーター""]",false,No display change; Wiktionary did not provide a stronger aligned display candidate.
+say,"[""verb: 云う・仰る"",""noun: 意見"",""verb: 主張""]","[""verb: 言う・話す"",""noun: 意見""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+may,"[""noun: 五月""]","[""noun: 五月・グレゴリオ暦において""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+course,"[""noun: 課程・講座"",""verb: 流れる"",""adverb: 論なく・論無く""]","[""noun: 進路・コース"",""noun: 方針・遣方"",""noun: 課程・講座""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+increase,"[""verb: 益す・増える"",""noun: 加増・加算"",""verb: 増す・益す""]","[""verb: 増える・増加する"",""noun: 増加・増大""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+parent,"[""noun: 親者人・親じゃ人"",""verb: 育む・養う""]","[""noun: 親・単数形では父親"",""verb: 親として振る舞う・養育する""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+development,"[""noun: 発展させること"",""noun: 展開・発展"",""noun: 化生・増殖""]","[""noun: 発展・発達"",""noun: 開発・開拓"",""noun: 展開・駒の展開""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+situation,"[""noun: 事態・具合"",""noun: 境遇・立場"",""noun: 位地・地位""]","[""noun: 事態・状況"",""noun: 立場・境遇""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.
+charge,"[""noun: 突撃・突貫"",""verb: 突撃・突貫"",""noun: 告発・告訴""]","[""noun: 突撃・突貫"",""noun: 充電・荷電"",""verb: 荷を積む・荷積みする""]",true,Wiktionary POS/sense-order/gloss data changed or supported the final primary selection.

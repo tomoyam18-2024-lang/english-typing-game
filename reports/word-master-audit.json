@@ -1,0 +1,7752 @@
+{
+  "summary": {
+    "totalWords": 2500,
+    "levelCounts": {
+      "1": 700,
+      "2": 800,
+      "3": 1000
+    },
+    "basicValidation": {
+      "total": 2500,
+      "levelCounts": {
+        "1": 700,
+        "2": 800,
+        "3": 1000
+      },
+      "duplicates": 0,
+      "emptyWords": 0,
+      "wordsWithDigits": 0,
+      "wordsWithSpaces": 0,
+      "missingSources": 0,
+      "invalidLevels": 0
+    },
+    "suspiciousCounts": {
+      "potentialProperNouns": 0,
+      "potentialAbbreviations": 1,
+      "potentialInflections": 26,
+      "comparativeSuperlatives": 1,
+      "potentialPlurals": 5,
+      "wordFamilyCandidateWords": 65,
+      "veryShortWords": 135,
+      "veryLongWords": 9,
+      "possiblyTooBasic": 83,
+      "possiblySpecialized": 6,
+      "typingSuitability": 22
+    },
+    "wordFamilyGroups": 20,
+    "outputFiles": [
+      "reports/word-master-audit.json",
+      "reports/word-master-audit.csv",
+      "reports/suspicious-words.csv",
+      "reports/word-families.csv",
+      "reports/level-samples.csv",
+      "reports/level-boundaries.csv"
+    ],
+    "notes": [
+      "This audit is heuristic and intended for human review only.",
+      "No words are removed or modified by this script.",
+      "Japanese WordNet and Japanese translations are not used in this audit."
+    ]
+  },
+  "suspiciousWords": [
+    {
+      "word": "authority",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 224
+        },
+        {
+          "name": "NAWL",
+          "rank": 11
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 2860
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: author."
+      ]
+    },
+    {
+      "word": "authorization",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 661
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: author."
+      ]
+    },
+    {
+      "word": "authorize",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 213
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3318
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: author."
+      ]
+    },
+    {
+      "word": "cab",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 283
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4090
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "ceiling",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 567
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3010
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "certificate",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 159
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 2964
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: certif."
+      ]
+    },
+    {
+      "word": "certification",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 542
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: certif."
+      ]
+    },
+    {
+      "word": "certify",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 664
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: certif."
+      ]
+    },
+    {
+      "word": "conditioner",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 352
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: condit."
+      ]
+    },
+    {
+      "word": "developer",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 202
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3448
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: develop."
+      ]
+    },
+    {
+      "word": "distract",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 415
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4278
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: distract."
+      ]
+    },
+    {
+      "word": "distractor",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 120
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: distract."
+      ]
+    },
+    {
+      "word": "economical",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 365
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: econom."
+      ]
+    },
+    {
+      "word": "enthusiastic",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 521
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3880
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: enthusiast."
+      ]
+    },
+    {
+      "word": "fax",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 9
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 2876
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "flu",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 225
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4465
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "generic",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 635
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4895
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: gener."
+      ]
+    },
+    {
+      "word": "generous",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 369
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3158
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: gener."
+      ]
+    },
+    {
+      "word": "goods",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 15
+        },
+        {
+          "name": "NAWL",
+          "rank": 647
+        }
+      ],
+      "categories": [
+        "potential-plural"
+      ],
+      "reasons": [
+        "Looks like a plural form of: good."
+      ]
+    },
+    {
+      "word": "graph",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 312
+        },
+        {
+          "name": "NAWL",
+          "rank": 18
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 2891
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: graph."
+      ]
+    },
+    {
+      "word": "graphic",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 464
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4615
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: graph."
+      ]
+    },
+    {
+      "word": "gym",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 160
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3636
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "icy",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 523
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "ink",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 198
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4408
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "inspect",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 139
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4232
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: inspect."
+      ]
+    },
+    {
+      "word": "inspection",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 136
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3027
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: inspect."
+      ]
+    },
+    {
+      "word": "inspector",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 306
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3189
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: inspect."
+      ]
+    },
+    {
+      "word": "jam",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 548
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3194
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "jet",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 382
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3156
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "jog",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 404
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "kit",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 605
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3620
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "lab",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 156
+        },
+        {
+          "name": "NAWL",
+          "rank": 799
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3251
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "nap",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 406
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "nominate",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 608
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3851
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: nomin."
+      ]
+    },
+    {
+      "word": "ongoing",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 641
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3022
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "opt",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 609
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3798
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "outdated",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 446
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "outstanding",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 167
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 2902
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "periodically",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 642
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: period."
+      ]
+    },
+    {
+      "word": "pet",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 301
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 2995
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "photographer",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 182
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3438
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: photograph."
+      ]
+    },
+    {
+      "word": "photography",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 286
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4081
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: photograph."
+      ]
+    },
+    {
+      "word": "pie",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 643
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3121
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "statistics",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 510
+        },
+        {
+          "name": "NAWL",
+          "rank": 853
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: statist."
+      ]
+    },
+    {
+      "word": "tag",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 184
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3493
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "terminal",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 193
+        },
+        {
+          "name": "NAWL",
+          "rank": 346
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3164
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: termin."
+      ]
+    },
+    {
+      "word": "terminate",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 475
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4398
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: termin."
+      ]
+    },
+    {
+      "word": "tow",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 692
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "unattended",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 431
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "unexpected",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 589
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3019
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "unlimited",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 512
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "unspecified",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 590
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "upcoming",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 86
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "valid",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 94
+        },
+        {
+          "name": "NAWL",
+          "rank": 195
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3144
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: valid."
+      ]
+    },
+    {
+      "word": "zoo",
+      "level": 1,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 514
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3038
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "adaptation",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 138
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4104
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: adapt."
+      ]
+    },
+    {
+      "word": "adapter",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1023
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: adapt."
+      ]
+    },
+    {
+      "word": "arc",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1101
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4959
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "bug",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 893
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3987
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "bye",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 807
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3279
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "characterization",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 267
+        }
+      ],
+      "categories": [
+        "very-long"
+      ],
+      "reasons": [
+        "15 letters or more."
+      ]
+    },
+    {
+      "word": "conditional",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 251
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: condit."
+      ]
+    },
+    {
+      "word": "cue",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 325
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4396
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "developmental",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 34
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3830
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: develop."
+      ]
+    },
+    {
+      "word": "differential",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 92
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4868
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: differenti."
+      ]
+    },
+    {
+      "word": "differentiate",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 298
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4136
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: differenti."
+      ]
+    },
+    {
+      "word": "differentiation",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 319
+        }
+      ],
+      "categories": [
+        "word-family-candidate",
+        "very-long"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: differenti.",
+        "15 letters or more."
+      ]
+    },
+    {
+      "word": "distraction",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 904
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: distract."
+      ]
+    },
+    {
+      "word": "economically",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 974
+        },
+        {
+          "name": "NAWL",
+          "rank": 725
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4405
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: econom."
+      ]
+    },
+    {
+      "word": "economize",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 713
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: econom."
+      ]
+    },
+    {
+      "word": "embed",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1044
+        },
+        {
+          "name": "NAWL",
+          "rank": 199
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3791
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "enthusiast",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 908
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: enthusiast."
+      ]
+    },
+    {
+      "word": "enthusiastically",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 863
+        }
+      ],
+      "categories": [
+        "word-family-candidate",
+        "very-long"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: enthusiast.",
+        "15 letters or more."
+      ]
+    },
+    {
+      "word": "environmentally",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 818
+        }
+      ],
+      "categories": [
+        "very-long"
+      ],
+      "reasons": [
+        "15 letters or more."
+      ]
+    },
+    {
+      "word": "ex",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 162
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3122
+        }
+      ],
+      "categories": [
+        "very-short",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "fog",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 983
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "fry",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 717
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3744
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "generalization",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 822
+        },
+        {
+          "name": "NAWL",
+          "rank": 334
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: gener."
+      ]
+    },
+    {
+      "word": "generalize",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 93
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4883
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: gener."
+      ]
+    },
+    {
+      "word": "graphics",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 773
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3716
+        }
+      ],
+      "categories": [
+        "potential-plural",
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Looks like a plural form of: graphic.",
+        "Part of derivational family candidate: graph."
+      ]
+    },
+    {
+      "word": "gum",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 824
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "hardworking",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1139
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "incoming",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1222
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "internationally",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 867
+        }
+      ],
+      "categories": [
+        "very-long"
+      ],
+      "reasons": [
+        "15 letters or more."
+      ]
+    },
+    {
+      "word": "ion",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 14
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "lighter",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 992
+        }
+      ],
+      "categories": [
+        "comparative-superlative"
+      ],
+      "reasons": [
+        "Looks like a comparative/superlative form of: light."
+      ]
+    },
+    {
+      "word": "mid",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 174
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 2889
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "morphological",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 255
+        }
+      ],
+      "categories": [
+        "possibly-specialized"
+      ],
+      "reasons": [
+        "Long academic-looking technical form; review suitability for typing practice."
+      ]
+    },
+    {
+      "word": "nomination",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 998
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3458
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: nomin."
+      ]
+    },
+    {
+      "word": "non",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 233
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4132
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "pad",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 780
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3559
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "pan",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 728
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3827
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "par",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 13
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 2975
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "periodic",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 240
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: period."
+      ]
+    },
+    {
+      "word": "periodical",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 731
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: period."
+      ]
+    },
+    {
+      "word": "phonological",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 76
+        }
+      ],
+      "categories": [
+        "possibly-specialized"
+      ],
+      "reasons": [
+        "Long academic-looking technical form; review suitability for typing practice."
+      ]
+    },
+    {
+      "word": "physiological",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 311
+        }
+      ],
+      "categories": [
+        "possibly-specialized"
+      ],
+      "reasons": [
+        "Long academic-looking technical form; review suitability for typing practice."
+      ]
+    },
+    {
+      "word": "pre",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 303
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "publicity",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 784
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3011
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: public."
+      ]
+    },
+    {
+      "word": "publicize",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 935
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: public."
+      ]
+    },
+    {
+      "word": "ray",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 936
+        },
+        {
+          "name": "NAWL",
+          "rank": 536
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4418
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "rug",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1079
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "sew",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1176
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4374
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "sin",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 119
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3141
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "spa",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 790
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "statistical",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 51
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3354
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: statist."
+      ]
+    },
+    {
+      "word": "sue",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1014
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3398
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "telecommunication",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 842
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4477
+        }
+      ],
+      "categories": [
+        "very-long"
+      ],
+      "reasons": [
+        "15 letters or more."
+      ]
+    },
+    {
+      "word": "termination",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 949
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: termin."
+      ]
+    },
+    {
+      "word": "ton",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 747
+        },
+        {
+          "name": "NAWL",
+          "rank": 679
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3082
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "unauthorized",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1247
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "unemployed",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1190
+        },
+        {
+          "name": "NAWL",
+          "rank": 759
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3407
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "unused",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 954
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "validate",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1191
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: valid."
+      ]
+    },
+    {
+      "word": "validity",
+      "level": 2,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 239
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4360
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: valid."
+      ]
+    },
+    {
+      "word": "videoconference",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 1250
+        }
+      ],
+      "categories": [
+        "very-long"
+      ],
+      "reasons": [
+        "15 letters or more."
+      ]
+    },
+    {
+      "word": "yen",
+      "level": 2,
+      "sources": [
+        {
+          "name": "TSL",
+          "rank": 956
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "a",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 56
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "about",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 87
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "adaptive",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 349
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: adapt."
+      ]
+    },
+    {
+      "word": "add",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 464
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "after",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 134
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "again",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 225
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "age",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 332
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "ago",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 422
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "all",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 83
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "also",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 122
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "and",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 53
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "anthropology",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 638
+        }
+      ],
+      "categories": [
+        "possibly-specialized"
+      ],
+      "reasons": [
+        "Long academic-looking technical form; review suitability for typing practice."
+      ]
+    },
+    {
+      "word": "any",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 133
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "anything",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 368
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "as",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 72
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "ask",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 184
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "at",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 73
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "back",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 144
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "bad",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 318
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "bat",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 667
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3205
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "be",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 52
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "because",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 112
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "big",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 234
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "bit",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 402
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "bleed",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 764
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3792
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "but",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 75
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "buy",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 292
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "by",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 77
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "can",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 88
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "car",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 310
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "come",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 115
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "condition",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 495
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: condit."
+      ]
+    },
+    {
+      "word": "cut",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 506
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "day",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 135
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "develop",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 400
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: develop."
+      ]
+    },
+    {
+      "word": "development",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 413
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: develop."
+      ]
+    },
+    {
+      "word": "die",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 504
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "do",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 71
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "down",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 159
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "during",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 232
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "dye",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 720
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "eat",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 526
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "economic",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 543
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: econom."
+      ]
+    },
+    {
+      "word": "end",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 202
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "epidemiology",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 653
+        }
+      ],
+      "categories": [
+        "possibly-specialized"
+      ],
+      "reasons": [
+        "Long academic-looking technical form; review suitability for typing practice."
+      ]
+    },
+    {
+      "word": "everything",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 472
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "eye",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 441
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "far",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 295
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "few",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 245
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "fin",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 813
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "for",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 62
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "from",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 76
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "general",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 454
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: gener."
+      ]
+    },
+    {
+      "word": "get",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 93
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "give",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 127
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "go",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 81
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "good",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 106
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "gut",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 784
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3694
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "have",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 58
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "he",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 61
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "headquarters",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 876
+        }
+      ],
+      "categories": [
+        "potential-plural"
+      ],
+      "reasons": [
+        "Looks like a plural form of: headquarter."
+      ]
+    },
+    {
+      "word": "here",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 148
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "hip",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 728
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3154
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "how",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 143
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "hundred",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 45
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "i",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 70
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "if",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 84
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "in",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 57
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "industrialization",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 798
+        }
+      ],
+      "categories": [
+        "very-long"
+      ],
+      "reasons": [
+        "15 letters or more."
+      ]
+    },
+    {
+      "word": "it",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 59
+        }
+      ],
+      "categories": [
+        "potential-abbreviation",
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "Known abbreviation-like token after lowercasing.",
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "job",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 281
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "know",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 91
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "law",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 471
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "let",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 224
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "like",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 95
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "linguistics",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 385
+        }
+      ],
+      "categories": [
+        "potential-plural"
+      ],
+      "reasons": [
+        "Looks like a plural form of: linguistic."
+      ]
+    },
+    {
+      "word": "look",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 125
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "lot",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 173
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "low",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 333
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "make",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 98
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "man",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 162
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "may",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 147
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "morning",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 484
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "naked",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 843
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3449
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "neo",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 944
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "new",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 129
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "no",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 110
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "nominal",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 406
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: nomin."
+      ]
+    },
+    {
+      "word": "not",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 64
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "nothing",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 386
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "now",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 120
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "of",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 54
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "off",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 200
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "offspring",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 418
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4493
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "old",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 194
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "on",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 67
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "one",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 85
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "or",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 79
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "out",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 105
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "own",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 179
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "pay",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 270
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "people",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 107
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "per",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 423
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "period",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 432
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: period."
+      ]
+    },
+    {
+      "word": "photographic",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 864
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: photograph."
+      ]
+    },
+    {
+      "word": "pi",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 372
+        }
+      ],
+      "categories": [
+        "very-short",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "psychologist",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 660
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4147
+        }
+      ],
+      "categories": [
+        "possibly-specialized"
+      ],
+      "reasons": [
+        "Long academic-looking technical form; review suitability for typing practice."
+      ]
+    },
+    {
+      "word": "public",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 337
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: public."
+      ]
+    },
+    {
+      "word": "put",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 189
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "rub",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 908
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3471
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "run",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 242
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "say",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 80
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "see",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 100
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "set",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 235
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "she",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 74
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "sit",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 406
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "six",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 23
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "so",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 82
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "social",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 431
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: social."
+      ]
+    },
+    {
+      "word": "socialize",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 882
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: social."
+      ]
+    },
+    {
+      "word": "socially",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 505
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4087
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: social."
+      ]
+    },
+    {
+      "word": "some",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 103
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "something",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 188
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "sometimes",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 494
+        }
+      ],
+      "categories": [
+        "potential-plural"
+      ],
+      "reasons": [
+        "Looks like a plural form of: sometime."
+      ]
+    },
+    {
+      "word": "statistically",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 341
+        }
+      ],
+      "categories": [
+        "word-family-candidate"
+      ],
+      "reasons": [
+        "Part of derivational family candidate: statist."
+      ]
+    },
+    {
+      "word": "straightforward",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 393
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 3740
+        }
+      ],
+      "categories": [
+        "very-long"
+      ],
+      "reasons": [
+        "15 letters or more."
+      ]
+    },
+    {
+      "word": "sub",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 790
+        },
+        {
+          "name": "NGSL-GR",
+          "rank": 4700
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "take",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 109
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "ten",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 27
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "that",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 65
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "the",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 51
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "then",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 121
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "there",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 90
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "they",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 63
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "this",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 69
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "time",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 99
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "to",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 55
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "too",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 168
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "top",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 425
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "try",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 175
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "two",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 19
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "up",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 102
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "use",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 118
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "want",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 126
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "war",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 485
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "watershed",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NAWL",
+          "rank": 871
+        }
+      ],
+      "categories": [
+        "potential-inflection"
+      ],
+      "reasons": [
+        "Ends with an inflection-like suffix; no matching base word found in the master list."
+      ]
+    },
+    {
+      "word": "way",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 130
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "we",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 66
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic",
+        "typing-suitability"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level.",
+        "Length may be awkward for the typing-game target experience."
+      ]
+    },
+    {
+      "word": "what",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 101
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "when",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 96
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "which",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 89
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "who",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 94
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "why",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 204
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "will",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 78
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "win",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 427
+        }
+      ],
+      "categories": [
+        "very-short"
+      ],
+      "reasons": [
+        "3 letters or fewer."
+      ]
+    },
+    {
+      "word": "with",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 68
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "work",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 117
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "write",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 171
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "year",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 108
+        }
+      ],
+      "categories": [
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "yes",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 278
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "yet",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 361
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    },
+    {
+      "word": "you",
+      "level": 3,
+      "sources": [
+        {
+          "name": "NGSL-GR",
+          "rank": 60
+        }
+      ],
+      "categories": [
+        "very-short",
+        "possibly-too-basic"
+      ],
+      "reasons": [
+        "3 letters or fewer.",
+        "Common basic word appears in an advanced level."
+      ]
+    }
+  ],
+  "wordFamilies": [
+    {
+      "base": "gener",
+      "words": [
+        "general",
+        "generalization",
+        "generalize",
+        "generic",
+        "generous"
+      ],
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "size": 5
+    },
+    {
+      "base": "develop",
+      "words": [
+        "develop",
+        "developer",
+        "development",
+        "developmental"
+      ],
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "size": 4
+    },
+    {
+      "base": "econom",
+      "words": [
+        "economic",
+        "economical",
+        "economically",
+        "economize"
+      ],
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "size": 4
+    },
+    {
+      "base": "period",
+      "words": [
+        "period",
+        "periodic",
+        "periodical",
+        "periodically"
+      ],
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "size": 4
+    },
+    {
+      "base": "adapt",
+      "words": [
+        "adaptation",
+        "adapter",
+        "adaptive"
+      ],
+      "levels": [
+        2,
+        3
+      ],
+      "size": 3
+    },
+    {
+      "base": "author",
+      "words": [
+        "authority",
+        "authorization",
+        "authorize"
+      ],
+      "levels": [
+        1
+      ],
+      "size": 3
+    },
+    {
+      "base": "certif",
+      "words": [
+        "certificate",
+        "certification",
+        "certify"
+      ],
+      "levels": [
+        1
+      ],
+      "size": 3
+    },
+    {
+      "base": "condit",
+      "words": [
+        "condition",
+        "conditional",
+        "conditioner"
+      ],
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "size": 3
+    },
+    {
+      "base": "differenti",
+      "words": [
+        "differential",
+        "differentiate",
+        "differentiation"
+      ],
+      "levels": [
+        2
+      ],
+      "size": 3
+    },
+    {
+      "base": "distract",
+      "words": [
+        "distract",
+        "distraction",
+        "distractor"
+      ],
+      "levels": [
+        1,
+        2
+      ],
+      "size": 3
+    },
+    {
+      "base": "enthusiast",
+      "words": [
+        "enthusiast",
+        "enthusiastic",
+        "enthusiastically"
+      ],
+      "levels": [
+        1,
+        2
+      ],
+      "size": 3
+    },
+    {
+      "base": "graph",
+      "words": [
+        "graph",
+        "graphic",
+        "graphics"
+      ],
+      "levels": [
+        1,
+        2
+      ],
+      "size": 3
+    },
+    {
+      "base": "inspect",
+      "words": [
+        "inspect",
+        "inspection",
+        "inspector"
+      ],
+      "levels": [
+        1
+      ],
+      "size": 3
+    },
+    {
+      "base": "nomin",
+      "words": [
+        "nominal",
+        "nominate",
+        "nomination"
+      ],
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "size": 3
+    },
+    {
+      "base": "photograph",
+      "words": [
+        "photographer",
+        "photographic",
+        "photography"
+      ],
+      "levels": [
+        1,
+        3
+      ],
+      "size": 3
+    },
+    {
+      "base": "public",
+      "words": [
+        "public",
+        "publicity",
+        "publicize"
+      ],
+      "levels": [
+        2,
+        3
+      ],
+      "size": 3
+    },
+    {
+      "base": "social",
+      "words": [
+        "social",
+        "socialize",
+        "socially"
+      ],
+      "levels": [
+        3
+      ],
+      "size": 3
+    },
+    {
+      "base": "statist",
+      "words": [
+        "statistical",
+        "statistically",
+        "statistics"
+      ],
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "size": 3
+    },
+    {
+      "base": "termin",
+      "words": [
+        "terminal",
+        "terminate",
+        "termination"
+      ],
+      "levels": [
+        1,
+        2
+      ],
+      "size": 3
+    },
+    {
+      "base": "valid",
+      "words": [
+        "valid",
+        "validate",
+        "validity"
+      ],
+      "levels": [
+        1,
+        2
+      ],
+      "size": 3
+    }
+  ],
+  "levelSamples": [
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 1,
+      "word": "mister",
+      "level": 1,
+      "sources": "TSL:1"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 2,
+      "word": "downtown",
+      "level": 1,
+      "sources": "TSL:17|NGSL-GR:3321"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 3,
+      "word": "fare",
+      "level": 1,
+      "sources": "TSL:32|NGSL-GR:3098"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 4,
+      "word": "reception",
+      "level": 1,
+      "sources": "TSL:46|NGSL-GR:2911"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 5,
+      "word": "outdoor",
+      "level": 1,
+      "sources": "TSL:61|NGSL-GR:3168"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 6,
+      "word": "coupon",
+      "level": 1,
+      "sources": "TSL:75"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 7,
+      "word": "explanatory",
+      "level": 1,
+      "sources": "TSL:89"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 8,
+      "word": "cruise",
+      "level": 1,
+      "sources": "TSL:103|NGSL-GR:3447"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 9,
+      "word": "unreal",
+      "level": 1,
+      "sources": "TSL:119"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 10,
+      "word": "provider",
+      "level": 1,
+      "sources": "TSL:133|NGSL-GR:3002"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 11,
+      "word": "workplace",
+      "level": 1,
+      "sources": "TSL:147|NGSL-GR:3550"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 12,
+      "word": "highway",
+      "level": 1,
+      "sources": "TSL:161|NGSL-GR:3210"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 13,
+      "word": "commuter",
+      "level": 1,
+      "sources": "TSL:176"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 14,
+      "word": "password",
+      "level": 1,
+      "sources": "TSL:190"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 15,
+      "word": "shuttle",
+      "level": 1,
+      "sources": "TSL:204|NAWL:932|NGSL-GR:4514"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 16,
+      "word": "affordable",
+      "level": 1,
+      "sources": "TSL:218|NGSL-GR:4845"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 17,
+      "word": "midnight",
+      "level": 1,
+      "sources": "TSL:233|NGSL-GR:3377"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 18,
+      "word": "lamp",
+      "level": 1,
+      "sources": "TSL:247|NGSL-GR:3253"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 19,
+      "word": "suite",
+      "level": 1,
+      "sources": "TSL:261|NGSL-GR:3724"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 20,
+      "word": "calculator",
+      "level": 1,
+      "sources": "TSL:276|NAWL:952"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 21,
+      "word": "defective",
+      "level": 1,
+      "sources": "TSL:290"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 22,
+      "word": "conductor",
+      "level": 1,
+      "sources": "TSL:305"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 23,
+      "word": "optional",
+      "level": 1,
+      "sources": "TSL:319"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 24,
+      "word": "lane",
+      "level": 1,
+      "sources": "TSL:334|NGSL-GR:3051"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 25,
+      "word": "overdue",
+      "level": 1,
+      "sources": "TSL:348"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 26,
+      "word": "decorate",
+      "level": 1,
+      "sources": "TSL:362|NGSL-GR:3180"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 27,
+      "word": "showroom",
+      "level": 1,
+      "sources": "TSL:376"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 28,
+      "word": "incur",
+      "level": 1,
+      "sources": "TSL:391|NGSL-GR:4546"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 29,
+      "word": "leisure",
+      "level": 1,
+      "sources": "TSL:405|NAWL:692|NGSL-GR:2922"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 30,
+      "word": "hourly",
+      "level": 1,
+      "sources": "TSL:419"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 31,
+      "word": "afterward",
+      "level": 1,
+      "sources": "TSL:433|NAWL:756|NGSL-GR:2870"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 32,
+      "word": "postcard",
+      "level": 1,
+      "sources": "TSL:448|NGSL-GR:5027"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 33,
+      "word": "equip",
+      "level": 1,
+      "sources": "TSL:462|NGSL-GR:3170"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 34,
+      "word": "translation",
+      "level": 1,
+      "sources": "TSL:476|NAWL:40|NGSL-GR:2904"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 35,
+      "word": "spokesperson",
+      "level": 1,
+      "sources": "TSL:491"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 36,
+      "word": "newsstand",
+      "level": 1,
+      "sources": "TSL:505"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 37,
+      "word": "disruption",
+      "level": 1,
+      "sources": "TSL:519"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 38,
+      "word": "recruiter",
+      "level": 1,
+      "sources": "TSL:533"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 39,
+      "word": "jam",
+      "level": 1,
+      "sources": "TSL:548|NGSL-GR:3194"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 40,
+      "word": "absent",
+      "level": 1,
+      "sources": "TSL:562|NGSL-GR:3268"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 41,
+      "word": "inappropriate",
+      "level": 1,
+      "sources": "TSL:576|NGSL-GR:4179"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 42,
+      "word": "unspecified",
+      "level": 1,
+      "sources": "TSL:590"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 43,
+      "word": "kit",
+      "level": 1,
+      "sources": "TSL:605|NGSL-GR:3620"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 44,
+      "word": "separately",
+      "level": 1,
+      "sources": "TSL:619|NAWL:395|NGSL-GR:3486"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 45,
+      "word": "elegant",
+      "level": 1,
+      "sources": "TSL:633|NGSL-GR:3397"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 46,
+      "word": "referral",
+      "level": 1,
+      "sources": "TSL:647"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 47,
+      "word": "campus",
+      "level": 1,
+      "sources": "TSL:662|NAWL:886|NGSL-GR:3059"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 48,
+      "word": "entrepreneur",
+      "level": 1,
+      "sources": "TSL:676|NGSL-GR:3685"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 49,
+      "word": "smoothly",
+      "level": 1,
+      "sources": "TSL:690|NGSL-GR:4910"
+    },
+    {
+      "sampleSet": "level-1-even-sample",
+      "sampleIndex": 50,
+      "word": "compile",
+      "level": 1,
+      "sources": "TSL:705|NGSL-GR:4273"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 1,
+      "word": "correction",
+      "level": 2,
+      "sources": "TSL:706|NAWL:384|NGSL-GR:4095"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 2,
+      "word": "introductory",
+      "level": 2,
+      "sources": "TSL:723"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 3,
+      "word": "seaside",
+      "level": 2,
+      "sources": "TSL:740"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 4,
+      "word": "compartment",
+      "level": 2,
+      "sources": "TSL:756"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 5,
+      "word": "graphics",
+      "level": 2,
+      "sources": "TSL:773|NGSL-GR:3716"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 6,
+      "word": "silently",
+      "level": 2,
+      "sources": "TSL:789"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 7,
+      "word": "bean",
+      "level": 2,
+      "sources": "TSL:805|NGSL-GR:3408"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 8,
+      "word": "generalization",
+      "level": 2,
+      "sources": "TSL:822|NAWL:334"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 9,
+      "word": "reflexive",
+      "level": 2,
+      "sources": "TSL:838"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 10,
+      "word": "checkup",
+      "level": 2,
+      "sources": "TSL:854"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 11,
+      "word": "rebate",
+      "level": 2,
+      "sources": "TSL:871"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 12,
+      "word": "ambassador",
+      "level": 2,
+      "sources": "TSL:887|NGSL-GR:3786"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 13,
+      "word": "dependence",
+      "level": 2,
+      "sources": "TSL:903|NAWL:147|NGSL-GR:4395"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 14,
+      "word": "imperative",
+      "level": 2,
+      "sources": "TSL:919|NGSL-GR:4818"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 15,
+      "word": "ray",
+      "level": 2,
+      "sources": "TSL:936|NAWL:536|NGSL-GR:4418"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 16,
+      "word": "transmission",
+      "level": 2,
+      "sources": "TSL:952|NAWL:109|NGSL-GR:3664"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 17,
+      "word": "deluxe",
+      "level": 2,
+      "sources": "TSL:968"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 18,
+      "word": "gram",
+      "level": 2,
+      "sources": "TSL:985|NAWL:815"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 19,
+      "word": "pastry",
+      "level": 2,
+      "sources": "TSL:1001"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 20,
+      "word": "tremendous",
+      "level": 2,
+      "sources": "TSL:1017|NAWL:825|NGSL-GR:2928"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 21,
+      "word": "centimeter",
+      "level": 2,
+      "sources": "TSL:1034"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 22,
+      "word": "fluctuate",
+      "level": 2,
+      "sources": "TSL:1050|NGSL-GR:4829"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 23,
+      "word": "pamphlet",
+      "level": 2,
+      "sources": "TSL:1066"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 24,
+      "word": "someday",
+      "level": 2,
+      "sources": "TSL:1083"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 25,
+      "word": "anyhow",
+      "level": 2,
+      "sources": "TSL:1099"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 26,
+      "word": "copyright",
+      "level": 2,
+      "sources": "TSL:1115|NGSL-GR:4550"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 27,
+      "word": "enrollment",
+      "level": 2,
+      "sources": "TSL:1131"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 28,
+      "word": "lifeguard",
+      "level": 2,
+      "sources": "TSL:1148"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 29,
+      "word": "railway",
+      "level": 2,
+      "sources": "TSL:1164|NGSL-GR:2885"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 30,
+      "word": "stimulus",
+      "level": 2,
+      "sources": "TSL:1180|NAWL:27|NGSL-GR:3195"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 31,
+      "word": "allergy",
+      "level": 2,
+      "sources": "TSL:1197"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 32,
+      "word": "fixture",
+      "level": 2,
+      "sources": "TSL:1214"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 33,
+      "word": "sunscreen",
+      "level": 2,
+      "sources": "TSL:1230"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 34,
+      "word": "unauthorized",
+      "level": 2,
+      "sources": "TSL:1247"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 35,
+      "word": "acid",
+      "level": 2,
+      "sources": "NAWL:21|NGSL-GR:2877"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 36,
+      "word": "coefficient",
+      "level": 2,
+      "sources": "NAWL:39"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 37,
+      "word": "node",
+      "level": 2,
+      "sources": "NAWL:58|NGSL-GR:4763"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 38,
+      "word": "onset",
+      "level": 2,
+      "sources": "NAWL:78|NGSL-GR:4675"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 39,
+      "word": "essentially",
+      "level": 2,
+      "sources": "NAWL:100|NGSL-GR:2871"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 40,
+      "word": "sin",
+      "level": 2,
+      "sources": "NAWL:119|NGSL-GR:3141"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 41,
+      "word": "systematic",
+      "level": 2,
+      "sources": "NAWL:141|NGSL-GR:3970"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 42,
+      "word": "ex",
+      "level": 2,
+      "sources": "NAWL:162|NGSL-GR:3122"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 43,
+      "word": "nonlinear",
+      "level": 2,
+      "sources": "NAWL:183"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 44,
+      "word": "organ",
+      "level": 2,
+      "sources": "NAWL:208|NGSL-GR:3043"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 45,
+      "word": "mathematical",
+      "level": 2,
+      "sources": "NAWL:225|NGSL-GR:4065"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 46,
+      "word": "atom",
+      "level": 2,
+      "sources": "NAWL:242|NGSL-GR:4336"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 47,
+      "word": "marginal",
+      "level": 2,
+      "sources": "NAWL:265|NGSL-GR:4296"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 48,
+      "word": "derivative",
+      "level": 2,
+      "sources": "NAWL:285|NGSL-GR:5003"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 49,
+      "word": "render",
+      "level": 2,
+      "sources": "NAWL:307|NGSL-GR:3009"
+    },
+    {
+      "sampleSet": "level-2-even-sample",
+      "sampleIndex": 50,
+      "word": "observer",
+      "level": 2,
+      "sources": "NAWL:331|NGSL-GR:3069"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 1,
+      "word": "inhibition",
+      "level": 3,
+      "sources": "NAWL:332"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 2,
+      "word": "pragmatic",
+      "level": 3,
+      "sources": "NAWL:359|NGSL-GR:4834"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 3,
+      "word": "hormone",
+      "level": 3,
+      "sources": "NAWL:386|NGSL-GR:3992"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 4,
+      "word": "conscious",
+      "level": 3,
+      "sources": "NAWL:414|NGSL-GR:2981"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 5,
+      "word": "manipulation",
+      "level": 3,
+      "sources": "NAWL:444|NGSL-GR:4990"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 6,
+      "word": "myth",
+      "level": 3,
+      "sources": "NAWL:473|NGSL-GR:3478"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 7,
+      "word": "legitimate",
+      "level": 3,
+      "sources": "NAWL:500|NGSL-GR:3386"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 8,
+      "word": "resistant",
+      "level": 3,
+      "sources": "NAWL:525"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 9,
+      "word": "revolutionary",
+      "level": 3,
+      "sources": "NAWL:550|NGSL-GR:3535"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 10,
+      "word": "inevitably",
+      "level": 3,
+      "sources": "NAWL:576|NGSL-GR:3277"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 11,
+      "word": "stabilize",
+      "level": 3,
+      "sources": "NAWL:604|NGSL-GR:4754"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 12,
+      "word": "rationality",
+      "level": 3,
+      "sources": "NAWL:633"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 13,
+      "word": "diary",
+      "level": 3,
+      "sources": "NAWL:663|NGSL-GR:2892"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 14,
+      "word": "sensation",
+      "level": 3,
+      "sources": "NAWL:685|NGSL-GR:3858"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 15,
+      "word": "capillary",
+      "level": 3,
+      "sources": "NAWL:710"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 16,
+      "word": "helix",
+      "level": 3,
+      "sources": "NAWL:733"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 17,
+      "word": "yeast",
+      "level": 3,
+      "sources": "NAWL:761"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 18,
+      "word": "blank",
+      "level": 3,
+      "sources": "NAWL:791|NGSL-GR:3283"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 19,
+      "word": "liable",
+      "level": 3,
+      "sources": "NAWL:816|NGSL-GR:4612"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 20,
+      "word": "powder",
+      "level": 3,
+      "sources": "NAWL:846|NGSL-GR:3750"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 21,
+      "word": "mercury",
+      "level": 3,
+      "sources": "NAWL:874"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 22,
+      "word": "reactor",
+      "level": 3,
+      "sources": "NAWL:903"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 23,
+      "word": "multi",
+      "level": 3,
+      "sources": "NAWL:927"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 24,
+      "word": "sniff",
+      "level": 3,
+      "sources": "NAWL:955|NGSL-GR:4677"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 25,
+      "word": "twenty",
+      "level": 3,
+      "sources": "NGSL-GR:37"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 26,
+      "word": "in",
+      "level": 3,
+      "sources": "NGSL-GR:57"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 27,
+      "word": "will",
+      "level": 3,
+      "sources": "NGSL-GR:78"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 28,
+      "word": "make",
+      "level": 3,
+      "sources": "NGSL-GR:98"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 29,
+      "word": "use",
+      "level": 3,
+      "sources": "NGSL-GR:118"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 30,
+      "word": "should",
+      "level": 3,
+      "sources": "NGSL-GR:139"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 31,
+      "word": "down",
+      "level": 3,
+      "sources": "NGSL-GR:159"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 32,
+      "word": "part",
+      "level": 3,
+      "sources": "NGSL-GR:180"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 33,
+      "word": "off",
+      "level": 3,
+      "sources": "NGSL-GR:200"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 34,
+      "word": "around",
+      "level": 3,
+      "sources": "NGSL-GR:220"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 35,
+      "word": "since",
+      "level": 3,
+      "sources": "NGSL-GR:241"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 36,
+      "word": "business",
+      "level": 3,
+      "sources": "NGSL-GR:261"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 37,
+      "word": "job",
+      "level": 3,
+      "sources": "NGSL-GR:281"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 38,
+      "word": "cost",
+      "level": 3,
+      "sources": "NGSL-GR:302"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 39,
+      "word": "support",
+      "level": 3,
+      "sources": "NGSL-GR:322"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 40,
+      "word": "view",
+      "level": 3,
+      "sources": "NGSL-GR:343"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 41,
+      "word": "care",
+      "level": 3,
+      "sources": "NGSL-GR:363"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 42,
+      "word": "visit",
+      "level": 3,
+      "sources": "NGSL-GR:383"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 43,
+      "word": "real",
+      "level": 3,
+      "sources": "NGSL-GR:404"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 44,
+      "word": "remain",
+      "level": 3,
+      "sources": "NGSL-GR:424"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 45,
+      "word": "free",
+      "level": 3,
+      "sources": "NGSL-GR:445"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 46,
+      "word": "rule",
+      "level": 3,
+      "sources": "NGSL-GR:465"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 47,
+      "word": "war",
+      "level": 3,
+      "sources": "NGSL-GR:485"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 48,
+      "word": "cut",
+      "level": 3,
+      "sources": "NGSL-GR:506"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 49,
+      "word": "eat",
+      "level": 3,
+      "sources": "NGSL-GR:526"
+    },
+    {
+      "sampleSet": "level-3-even-sample",
+      "sampleIndex": 50,
+      "word": "charge",
+      "level": 3,
+      "sources": "NGSL-GR:548"
+    }
+  ],
+  "levelBoundaries": [
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 1,
+      "word": "advancement",
+      "level": 1,
+      "sources": "TSL:656"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 2,
+      "word": "advertiser",
+      "level": 1,
+      "sources": "TSL:657"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 3,
+      "word": "alternatively",
+      "level": 1,
+      "sources": "TSL:658|NGSL-GR:4519"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 4,
+      "word": "amuse",
+      "level": 1,
+      "sources": "TSL:659|NGSL-GR:3319"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 5,
+      "word": "attorney",
+      "level": 1,
+      "sources": "TSL:660|NGSL-GR:2900"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 6,
+      "word": "authorization",
+      "level": 1,
+      "sources": "TSL:661"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 7,
+      "word": "campus",
+      "level": 1,
+      "sources": "TSL:662|NAWL:886|NGSL-GR:3059"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 8,
+      "word": "candy",
+      "level": 1,
+      "sources": "TSL:663"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 9,
+      "word": "certify",
+      "level": 1,
+      "sources": "TSL:664"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 10,
+      "word": "checkout",
+      "level": 1,
+      "sources": "TSL:665"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 11,
+      "word": "chemistry",
+      "level": 1,
+      "sources": "TSL:666|NAWL:642|NGSL-GR:3742"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 12,
+      "word": "circulation",
+      "level": 1,
+      "sources": "TSL:667|NAWL:420|NGSL-GR:4247"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 13,
+      "word": "concierge",
+      "level": 1,
+      "sources": "TSL:668"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 14,
+      "word": "consent",
+      "level": 1,
+      "sources": "TSL:669|NAWL:391|NGSL-GR:2985"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 15,
+      "word": "consistently",
+      "level": 1,
+      "sources": "TSL:670|NGSL-GR:3409"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 16,
+      "word": "cookie",
+      "level": 1,
+      "sources": "TSL:671|NGSL-GR:4826"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 17,
+      "word": "deck",
+      "level": 1,
+      "sources": "TSL:672|NGSL-GR:3525"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 18,
+      "word": "descriptive",
+      "level": 1,
+      "sources": "TSL:673"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 19,
+      "word": "detach",
+      "level": 1,
+      "sources": "TSL:674"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 20,
+      "word": "documentation",
+      "level": 1,
+      "sources": "TSL:675|NGSL-GR:4641"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 21,
+      "word": "entrepreneur",
+      "level": 1,
+      "sources": "TSL:676|NGSL-GR:3685"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 22,
+      "word": "exceptional",
+      "level": 1,
+      "sources": "TSL:677|NGSL-GR:4216"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 23,
+      "word": "familiarize",
+      "level": 1,
+      "sources": "TSL:678"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 24,
+      "word": "hotline",
+      "level": 1,
+      "sources": "TSL:679"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 25,
+      "word": "intonation",
+      "level": 1,
+      "sources": "TSL:680"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 26,
+      "word": "invention",
+      "level": 1,
+      "sources": "TSL:681|NGSL-GR:3450"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 27,
+      "word": "irritate",
+      "level": 1,
+      "sources": "TSL:682|NGSL-GR:4393"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 28,
+      "word": "locker",
+      "level": 1,
+      "sources": "TSL:683"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 29,
+      "word": "overlook",
+      "level": 1,
+      "sources": "TSL:684|NGSL-GR:3016"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 30,
+      "word": "patent",
+      "level": 1,
+      "sources": "TSL:685|NGSL-GR:3588"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 31,
+      "word": "payable",
+      "level": 1,
+      "sources": "TSL:686"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 32,
+      "word": "preliminary",
+      "level": 1,
+      "sources": "TSL:687|NAWL:301|NGSL-GR:3453"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 33,
+      "word": "salesman",
+      "level": 1,
+      "sources": "TSL:688"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 34,
+      "word": "sauna",
+      "level": 1,
+      "sources": "TSL:689"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 35,
+      "word": "smoothly",
+      "level": 1,
+      "sources": "TSL:690|NGSL-GR:4910"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 36,
+      "word": "sunshine",
+      "level": 1,
+      "sources": "TSL:691|NGSL-GR:4618"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 37,
+      "word": "tow",
+      "level": 1,
+      "sources": "TSL:692"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 38,
+      "word": "translator",
+      "level": 1,
+      "sources": "TSL:693|NGSL-GR:4305"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 39,
+      "word": "tuition",
+      "level": 1,
+      "sources": "TSL:694|NGSL-GR:4223"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 40,
+      "word": "unavailable",
+      "level": 1,
+      "sources": "TSL:695"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 41,
+      "word": "violation",
+      "level": 1,
+      "sources": "TSL:696|NGSL-GR:3467"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 42,
+      "word": "webpage",
+      "level": 1,
+      "sources": "TSL:697"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 43,
+      "word": "acceptance",
+      "level": 1,
+      "sources": "TSL:698|NGSL-GR:3110"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 44,
+      "word": "allocate",
+      "level": 1,
+      "sources": "TSL:699|NAWL:557|NGSL-GR:3402"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 45,
+      "word": "ambitious",
+      "level": 1,
+      "sources": "TSL:700|NGSL-GR:3544"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 46,
+      "word": "appendix",
+      "level": 1,
+      "sources": "TSL:701|NAWL:286"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 47,
+      "word": "booth",
+      "level": 1,
+      "sources": "TSL:702"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 48,
+      "word": "clarify",
+      "level": 1,
+      "sources": "TSL:703|NAWL:490|NGSL-GR:3338"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 49,
+      "word": "classmate",
+      "level": 1,
+      "sources": "TSL:704|NGSL-GR:4852"
+    },
+    {
+      "boundary": "level-1-last-50",
+      "boundaryIndex": 50,
+      "word": "compile",
+      "level": 1,
+      "sources": "TSL:705|NGSL-GR:4273"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 1,
+      "word": "correction",
+      "level": 2,
+      "sources": "TSL:706|NAWL:384|NGSL-GR:4095"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 2,
+      "word": "customize",
+      "level": 2,
+      "sources": "TSL:707"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 3,
+      "word": "dedication",
+      "level": 2,
+      "sources": "TSL:708"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 4,
+      "word": "diagnose",
+      "level": 2,
+      "sources": "TSL:709|NAWL:483|NGSL-GR:3951"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 5,
+      "word": "discontinue",
+      "level": 2,
+      "sources": "TSL:710"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 6,
+      "word": "dishwasher",
+      "level": 2,
+      "sources": "TSL:711"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 7,
+      "word": "drought",
+      "level": 2,
+      "sources": "TSL:712|NGSL-GR:4938"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 8,
+      "word": "economize",
+      "level": 2,
+      "sources": "TSL:713"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 9,
+      "word": "firework",
+      "level": 2,
+      "sources": "TSL:715"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 10,
+      "word": "freight",
+      "level": 2,
+      "sources": "TSL:716"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 11,
+      "word": "fry",
+      "level": 2,
+      "sources": "TSL:717|NGSL-GR:3744"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 12,
+      "word": "gallon",
+      "level": 2,
+      "sources": "TSL:718|NGSL-GR:4525"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 13,
+      "word": "gardener",
+      "level": 2,
+      "sources": "TSL:719"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 14,
+      "word": "ideally",
+      "level": 2,
+      "sources": "TSL:720"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 15,
+      "word": "inclusive",
+      "level": 2,
+      "sources": "TSL:721"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 16,
+      "word": "insufficient",
+      "level": 2,
+      "sources": "TSL:722|NGSL-GR:4848"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 17,
+      "word": "introductory",
+      "level": 2,
+      "sources": "TSL:723"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 18,
+      "word": "junk",
+      "level": 2,
+      "sources": "TSL:724|NGSL-GR:4464"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 19,
+      "word": "mileage",
+      "level": 2,
+      "sources": "TSL:726"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 20,
+      "word": "noisy",
+      "level": 2,
+      "sources": "TSL:727|NAWL:875|NGSL-GR:4038"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 21,
+      "word": "pan",
+      "level": 2,
+      "sources": "TSL:728|NGSL-GR:3827"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 22,
+      "word": "parcel",
+      "level": 2,
+      "sources": "TSL:729|NAWL:859|NGSL-GR:4491"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 23,
+      "word": "pasta",
+      "level": 2,
+      "sources": "TSL:730"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 24,
+      "word": "periodical",
+      "level": 2,
+      "sources": "TSL:731"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 25,
+      "word": "pill",
+      "level": 2,
+      "sources": "TSL:732|NGSL-GR:3838"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 26,
+      "word": "portable",
+      "level": 2,
+      "sources": "TSL:733|NGSL-GR:4673"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 27,
+      "word": "punctual",
+      "level": 2,
+      "sources": "TSL:734"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 28,
+      "word": "recreation",
+      "level": 2,
+      "sources": "TSL:735"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 29,
+      "word": "relieve",
+      "level": 2,
+      "sources": "TSL:736|NGSL-GR:3007"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 30,
+      "word": "reminder",
+      "level": 2,
+      "sources": "TSL:737|NGSL-GR:4102"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 31,
+      "word": "rumor",
+      "level": 2,
+      "sources": "TSL:738|NGSL-GR:3049"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 32,
+      "word": "scarf",
+      "level": 2,
+      "sources": "TSL:739"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 33,
+      "word": "seaside",
+      "level": 2,
+      "sources": "TSL:740"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 34,
+      "word": "shorten",
+      "level": 2,
+      "sources": "TSL:741"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 35,
+      "word": "specially",
+      "level": 2,
+      "sources": "TSL:742|NGSL-GR:3134"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 36,
+      "word": "spill",
+      "level": 2,
+      "sources": "TSL:743|NGSL-GR:3741"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 37,
+      "word": "spouse",
+      "level": 2,
+      "sources": "TSL:744|NGSL-GR:4234"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 38,
+      "word": "subtract",
+      "level": 2,
+      "sources": "TSL:745|NAWL:804"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 39,
+      "word": "tablet",
+      "level": 2,
+      "sources": "TSL:746"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 40,
+      "word": "ton",
+      "level": 2,
+      "sources": "TSL:747|NAWL:679|NGSL-GR:3082"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 41,
+      "word": "vend",
+      "level": 2,
+      "sources": "TSL:748"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 42,
+      "word": "yoga",
+      "level": 2,
+      "sources": "TSL:749"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 43,
+      "word": "accent",
+      "level": 2,
+      "sources": "TSL:750|NAWL:484|NGSL-GR:3029"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 44,
+      "word": "advisory",
+      "level": 2,
+      "sources": "TSL:751|NGSL-GR:4813"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 45,
+      "word": "asleep",
+      "level": 2,
+      "sources": "TSL:752|NGSL-GR:3226"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 46,
+      "word": "authentic",
+      "level": 2,
+      "sources": "TSL:753|NGSL-GR:4608"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 47,
+      "word": "bakery",
+      "level": 2,
+      "sources": "TSL:754"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 48,
+      "word": "carton",
+      "level": 2,
+      "sources": "TSL:755"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 49,
+      "word": "compartment",
+      "level": 2,
+      "sources": "TSL:756"
+    },
+    {
+      "boundary": "level-2-first-50",
+      "boundaryIndex": 50,
+      "word": "compatible",
+      "level": 2,
+      "sources": "TSL:757|NGSL-GR:4711"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 1,
+      "word": "marginal",
+      "level": 2,
+      "sources": "NAWL:265|NGSL-GR:4296"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 2,
+      "word": "characterization",
+      "level": 2,
+      "sources": "NAWL:267"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 3,
+      "word": "ethical",
+      "level": 2,
+      "sources": "NAWL:268|NGSL-GR:3833"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 4,
+      "word": "composer",
+      "level": 2,
+      "sources": "NAWL:271|NGSL-GR:3202"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 5,
+      "word": "singular",
+      "level": 2,
+      "sources": "NAWL:272"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 6,
+      "word": "converge",
+      "level": 2,
+      "sources": "NAWL:273"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 7,
+      "word": "fetal",
+      "level": 2,
+      "sources": "NAWL:274"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 8,
+      "word": "implicit",
+      "level": 2,
+      "sources": "NAWL:276|NGSL-GR:4792"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 9,
+      "word": "span",
+      "level": 2,
+      "sources": "NAWL:277|NGSL-GR:3300"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 10,
+      "word": "oxygen",
+      "level": 2,
+      "sources": "NAWL:278|NGSL-GR:3421"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 11,
+      "word": "formulation",
+      "level": 2,
+      "sources": "NAWL:279"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 12,
+      "word": "dialect",
+      "level": 2,
+      "sources": "NAWL:280|NGSL-GR:4638"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 13,
+      "word": "colony",
+      "level": 2,
+      "sources": "NAWL:281|NGSL-GR:3341"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 14,
+      "word": "immune",
+      "level": 2,
+      "sources": "NAWL:282|NGSL-GR:4022"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 15,
+      "word": "loop",
+      "level": 2,
+      "sources": "NAWL:283|NGSL-GR:3734"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 16,
+      "word": "algebra",
+      "level": 2,
+      "sources": "NAWL:284"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 17,
+      "word": "derivative",
+      "level": 2,
+      "sources": "NAWL:285|NGSL-GR:5003"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 18,
+      "word": "diffusion",
+      "level": 2,
+      "sources": "NAWL:288"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 19,
+      "word": "specimen",
+      "level": 2,
+      "sources": "NAWL:289|NGSL-GR:4051"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 20,
+      "word": "assert",
+      "level": 2,
+      "sources": "NAWL:290|NGSL-GR:3296"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 21,
+      "word": "widespread",
+      "level": 2,
+      "sources": "NAWL:291|NGSL-GR:2957"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 22,
+      "word": "competence",
+      "level": 2,
+      "sources": "NAWL:292|NGSL-GR:3618"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 23,
+      "word": "residual",
+      "level": 2,
+      "sources": "NAWL:293"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 24,
+      "word": "fusion",
+      "level": 2,
+      "sources": "NAWL:294|NGSL-GR:4672"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 25,
+      "word": "conservation",
+      "level": 2,
+      "sources": "NAWL:295|NGSL-GR:3631"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 26,
+      "word": "constrain",
+      "level": 2,
+      "sources": "NAWL:296|NGSL-GR:4769"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 27,
+      "word": "virtue",
+      "level": 2,
+      "sources": "NAWL:297|NGSL-GR:3065"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 28,
+      "word": "differentiate",
+      "level": 2,
+      "sources": "NAWL:298|NGSL-GR:4136"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 29,
+      "word": "amino",
+      "level": 2,
+      "sources": "NAWL:299"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 30,
+      "word": "philosophical",
+      "level": 2,
+      "sources": "NAWL:302|NGSL-GR:4298"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 31,
+      "word": "pre",
+      "level": 2,
+      "sources": "NAWL:303"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 32,
+      "word": "indigenous",
+      "level": 2,
+      "sources": "NAWL:306|NGSL-GR:4833"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 33,
+      "word": "render",
+      "level": 2,
+      "sources": "NAWL:307|NGSL-GR:3009"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 34,
+      "word": "independently",
+      "level": 2,
+      "sources": "NAWL:308|NGSL-GR:4001"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 35,
+      "word": "symbolic",
+      "level": 2,
+      "sources": "NAWL:309|NGSL-GR:4046"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 36,
+      "word": "utilize",
+      "level": 2,
+      "sources": "NAWL:310|NGSL-GR:3771"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 37,
+      "word": "physiological",
+      "level": 2,
+      "sources": "NAWL:311"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 38,
+      "word": "calcium",
+      "level": 2,
+      "sources": "NAWL:313|NGSL-GR:4091"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 39,
+      "word": "unity",
+      "level": 2,
+      "sources": "NAWL:316|NGSL-GR:3867"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 40,
+      "word": "psychiatric",
+      "level": 2,
+      "sources": "NAWL:317|NGSL-GR:4931"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 41,
+      "word": "critique",
+      "level": 2,
+      "sources": "NAWL:318|NGSL-GR:4706"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 42,
+      "word": "differentiation",
+      "level": 2,
+      "sources": "NAWL:319"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 43,
+      "word": "selective",
+      "level": 2,
+      "sources": "NAWL:322|NGSL-GR:4565"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 44,
+      "word": "depict",
+      "level": 2,
+      "sources": "NAWL:324|NGSL-GR:3333"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 45,
+      "word": "cue",
+      "level": 2,
+      "sources": "NAWL:325|NGSL-GR:4396"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 46,
+      "word": "parental",
+      "level": 2,
+      "sources": "NAWL:326|NGSL-GR:3842"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 47,
+      "word": "ritual",
+      "level": 2,
+      "sources": "NAWL:327|NGSL-GR:3265"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 48,
+      "word": "fertility",
+      "level": 2,
+      "sources": "NAWL:328|NGSL-GR:5018"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 49,
+      "word": "readily",
+      "level": 2,
+      "sources": "NAWL:330|NGSL-GR:3346"
+    },
+    {
+      "boundary": "level-2-last-50",
+      "boundaryIndex": 50,
+      "word": "observer",
+      "level": 2,
+      "sources": "NAWL:331|NGSL-GR:3069"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 1,
+      "word": "inhibition",
+      "level": 3,
+      "sources": "NAWL:332"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 2,
+      "word": "qualitative",
+      "level": 3,
+      "sources": "NAWL:335"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 3,
+      "word": "tense",
+      "level": 3,
+      "sources": "NAWL:336|NGSL-GR:3284"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 4,
+      "word": "transcription",
+      "level": 3,
+      "sources": "NAWL:337"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 5,
+      "word": "nutrient",
+      "level": 3,
+      "sources": "NAWL:339|NGSL-GR:5024"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 6,
+      "word": "statistically",
+      "level": 3,
+      "sources": "NAWL:341"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 7,
+      "word": "simulate",
+      "level": 3,
+      "sources": "NAWL:342"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 8,
+      "word": "dense",
+      "level": 3,
+      "sources": "NAWL:343|NGSL-GR:4195"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 9,
+      "word": "ecology",
+      "level": 3,
+      "sources": "NAWL:344"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 10,
+      "word": "null",
+      "level": 3,
+      "sources": "NAWL:345"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 11,
+      "word": "discharge",
+      "level": 3,
+      "sources": "NAWL:348|NGSL-GR:3489"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 12,
+      "word": "adaptive",
+      "level": 3,
+      "sources": "NAWL:349"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 13,
+      "word": "ecological",
+      "level": 3,
+      "sources": "NAWL:350"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 14,
+      "word": "protocol",
+      "level": 3,
+      "sources": "NAWL:351|NGSL-GR:4439"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 15,
+      "word": "progressive",
+      "level": 3,
+      "sources": "NAWL:352|NGSL-GR:3551"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 16,
+      "word": "aesthetic",
+      "level": 3,
+      "sources": "NAWL:353|NGSL-GR:4424"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 17,
+      "word": "exploit",
+      "level": 3,
+      "sources": "NAWL:354|NGSL-GR:2951"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 18,
+      "word": "agriculture",
+      "level": 3,
+      "sources": "NAWL:355|NGSL-GR:3079"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 19,
+      "word": "practitioner",
+      "level": 3,
+      "sources": "NAWL:356|NGSL-GR:3727"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 20,
+      "word": "equivalence",
+      "level": 3,
+      "sources": "NAWL:358"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 21,
+      "word": "pragmatic",
+      "level": 3,
+      "sources": "NAWL:359|NGSL-GR:4834"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 22,
+      "word": "arrow",
+      "level": 3,
+      "sources": "NAWL:361|NGSL-GR:4072"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 23,
+      "word": "commentary",
+      "level": 3,
+      "sources": "NAWL:363|NGSL-GR:3891"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 24,
+      "word": "residue",
+      "level": 3,
+      "sources": "NAWL:364"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 25,
+      "word": "unstable",
+      "level": 3,
+      "sources": "NAWL:365"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 26,
+      "word": "consensus",
+      "level": 3,
+      "sources": "NAWL:366|NGSL-GR:3109"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 27,
+      "word": "radius",
+      "level": 3,
+      "sources": "NAWL:368"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 28,
+      "word": "artificial",
+      "level": 3,
+      "sources": "NAWL:369|NGSL-GR:3372"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 29,
+      "word": "harvest",
+      "level": 3,
+      "sources": "NAWL:370|NGSL-GR:3416"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 30,
+      "word": "suicide",
+      "level": 3,
+      "sources": "NAWL:371|NGSL-GR:2907"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 31,
+      "word": "pi",
+      "level": 3,
+      "sources": "NAWL:372"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 32,
+      "word": "monkey",
+      "level": 3,
+      "sources": "NAWL:373|NGSL-GR:3808"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 33,
+      "word": "habitat",
+      "level": 3,
+      "sources": "NAWL:374|NGSL-GR:4318"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 34,
+      "word": "replicate",
+      "level": 3,
+      "sources": "NAWL:376|NGSL-GR:5010"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 35,
+      "word": "disability",
+      "level": 3,
+      "sources": "NAWL:378|NGSL-GR:3356"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 36,
+      "word": "cattle",
+      "level": 3,
+      "sources": "NAWL:379|NGSL-GR:3086"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 37,
+      "word": "purely",
+      "level": 3,
+      "sources": "NAWL:380|NGSL-GR:3384"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 38,
+      "word": "scatter",
+      "level": 3,
+      "sources": "NAWL:382|NGSL-GR:3031"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 39,
+      "word": "problematic",
+      "level": 3,
+      "sources": "NAWL:383|NGSL-GR:4596"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 40,
+      "word": "linguistics",
+      "level": 3,
+      "sources": "NAWL:385"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 41,
+      "word": "hormone",
+      "level": 3,
+      "sources": "NAWL:386|NGSL-GR:3992"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 42,
+      "word": "primitive",
+      "level": 3,
+      "sources": "NAWL:387|NGSL-GR:4443"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 43,
+      "word": "accumulation",
+      "level": 3,
+      "sources": "NAWL:389"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 44,
+      "word": "static",
+      "level": 3,
+      "sources": "NAWL:390|NGSL-GR:4629"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 45,
+      "word": "substrate",
+      "level": 3,
+      "sources": "NAWL:392"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 46,
+      "word": "straightforward",
+      "level": 3,
+      "sources": "NAWL:393|NGSL-GR:3740"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 47,
+      "word": "discrimination",
+      "level": 3,
+      "sources": "NAWL:394|NGSL-GR:3233"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 48,
+      "word": "randomize",
+      "level": 3,
+      "sources": "NAWL:396"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 49,
+      "word": "sensory",
+      "level": 3,
+      "sources": "NAWL:397"
+    },
+    {
+      "boundary": "level-3-first-50",
+      "boundaryIndex": 50,
+      "word": "confine",
+      "level": 3,
+      "sources": "NAWL:398|NGSL-GR:3190"
+    }
+  ]
+}

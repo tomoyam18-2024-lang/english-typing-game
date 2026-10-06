@@ -1,0 +1,42 @@
+{
+  "name": "english-typing-game-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "download:word-master": "node scripts/download-word-master-sources.mjs",
+    "generate:word-master": "node scripts/generate-word-master.mjs",
+    "generate:words": "node scripts/generate-word-data.mjs",
+    "word": "node scripts/generate-word-master-v2.mjs && node scripts/generate-word-dictionary-v2.mjs",
+    "word:master-v2": "node scripts/generate-word-master-v2.mjs",
+    "word:dictionary-v2": "node scripts/generate-word-dictionary-v2.mjs",
+    "word:human-review-v2": "node scripts/create-word-master-v2-human-review.mjs",
+    "word:final-v2": "node scripts/build-word-dictionary-v2-final.mjs",
+    "word:game-data": "node scripts/generate-game-words.mjs",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "word:audit": "node scripts/audit-word-master.mjs",
+    "word:cleanup-review": "node scripts/propose-word-cleanup.mjs",
+    "word:wordnet-sample": "node scripts/generate-wordnet-sample.mjs",
+    "word:wordnet-review": "node scripts/review-wordnet-primary.mjs",
+    "word:multi-dictionary-sample": "node scripts/generate-multi-dictionary-sample.mjs",
+    "word:generate-dictionary": "node scripts/generate-full-dictionary.mjs",
+    "word:triage-review": "node scripts/triage-dictionary-review.mjs",
+    "word:ai-review": "node scripts/ai-review-dictionary-words.mjs",
+    "word:prepare-final-review": "node scripts/prepare-final-review.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2"
+  }
+}

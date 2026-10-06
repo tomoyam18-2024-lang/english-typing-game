@@ -1,0 +1,12 @@
+removedWord,level,removedSources,replacementWord,replacementSources,reason
+indoor,1,TSL:151,quantify,BSL:923,human-review-replace
+outdoor,1,TSL:61,persist,BSL:926,human-review-replace
+carton,2,TSL:755,corn,BSL:929,human-review-replace
+cordless,2,TSL:967,skeptical,BSL:930,human-review-replace
+homemade,2,TSL:1220,legislative,BSL:931,human-review-replace
+housekeep,2,TSL:1053,negligence,BSL:934,human-review-replace
+jeans,2,TSL:1145,determinant,BSL:936,human-review-replace
+lifeguard,2,TSL:1148,redeem,BSL:937,human-review-replace
+overcrowd,2,TSL:1157,tribunal,BSL:938,human-review-replace
+steak,2,TSL:840,proprietary,BSL:941,human-review-replace
+amongst,3,NAWL:431|BSL:1442,icon,BSL:942,human-review-replace

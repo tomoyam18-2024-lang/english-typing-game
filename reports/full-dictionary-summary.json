@@ -1,0 +1,70 @@
+{
+  "totalWords": 2500,
+  "coverage": {
+    "japaneseWordNet": 2344,
+    "wiktionary": 2120,
+    "both": 2009,
+    "wordnetOnly": 335,
+    "wiktionaryOnly": 111,
+    "neither": 45
+  },
+  "goodWithoutReview": 1773,
+  "reviewRequired": 727,
+  "autoUsableRatio": 70.92,
+  "wordConfidence": {
+    "HIGH": 911,
+    "MEDIUM": 1481,
+    "LOW": 108
+  },
+  "primaryMeaningConfidence": {
+    "HIGH": 2138,
+    "MEDIUM": 1689,
+    "LOW": 49
+  },
+  "reviewBreakdown": {
+    "AMBIGUOUS_PRIMARY_SENSE": 427,
+    "UNNATURAL_JAPANESE": 3,
+    "MISSING_JAPANESE": 57,
+    "DICTIONARY_DISAGREEMENT": 48,
+    "LOW_CONFIDENCE": 49,
+    "TOO_MANY_SENSES": 323,
+    "DUPLICATE_MEANINGS": 0,
+    "POS_MISMATCH": 47,
+    "OTHER": 0
+  },
+  "levelStats": [
+    {
+      "level": 1,
+      "good": 581,
+      "review": 119
+    },
+    {
+      "level": 2,
+      "good": 619,
+      "review": 181
+    },
+    {
+      "level": 3,
+      "good": 573,
+      "review": 427
+    }
+  ],
+  "validation": {
+    "total": 2500,
+    "duplicates": 0,
+    "errors": []
+  },
+  "wiktionaryInput": {
+    "path": "data/wiktionary/kaikki-jawiktionary-english.jsonl",
+    "lineCount": 72670,
+    "parseErrors": 0,
+    "matchedEntries": 3443
+  },
+  "files": {
+    "dictionary": "src/data/generated/wordDictionary.json",
+    "review": "reports/full-dictionary-review.csv",
+    "lowConfidence": "reports/low-confidence-words.csv",
+    "missing": "reports/missing-japanese-meanings.csv",
+    "summary": "reports/full-dictionary-summary.json"
+  }
+}

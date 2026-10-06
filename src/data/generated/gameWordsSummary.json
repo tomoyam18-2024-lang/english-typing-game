@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-06T04:46:51.718Z",
+  "sourceDictionary": "src/data/generated/wordDictionaryV2Final.json",
+  "acceptedDictionaryWords": 2307,
+  "playableWords": 2307,
+  "levelCounts": {
+    "1": 700,
+    "2": 799,
+    "3": 808
+  },
+  "excludedBecauseReviewRequired": 1,
+  "excludedBecauseNoPrimaryMeanings": 0,
+  "excludedReviewRequiredWords": [
+    "proprietary"
+  ],
+  "excludedNoPrimaryMeaningWords": [],
+  "validation": {
+    "duplicates": 0,
+    "primaryMeaningsOverLimit": 0
+  }
+}

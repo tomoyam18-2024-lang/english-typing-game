@@ -1,0 +1,2 @@
+word,level,primaryMeaning1,primaryMeaning2,primaryMeaning3,wordConfidence,reviewStatus,reviewReasons,wordnetCoverage,wiktionaryCoverage,replacementFor,recommendedAction
+proprietary,2,noun: 個人企業 [low],,,low,needs_human_review,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,steak,REVIEW_PRIMARY_MEANINGS

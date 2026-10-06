@@ -1,0 +1,60 @@
+{
+  "totalWords": 2308,
+  "reusedDictionaryEntries": 1954,
+  "newDictionaryEntriesProcessed": 354,
+  "reusedEntries": {
+    "alreadyAccepted": 1900,
+    "stillRequiringReview": 54,
+    "statusBreakdown": {
+      "accepted": 1900,
+      "needs_human_review": 12,
+      "missing_data": 42
+    },
+    "previousStatusBreakdown": {
+      "accepted": 1900,
+      "needs_human_review": 12,
+      "missing_data": 42
+    }
+  },
+  "newEntries": {
+    "acceptedAutomatically": 334,
+    "reviewRequired": 0,
+    "missingData": 20
+  },
+  "finalStatus": {
+    "accepted": 2234,
+    "needsReview": 12,
+    "missingData": 62
+  },
+  "wordConfidence": {
+    "HIGH": 914,
+    "MEDIUM": 1320,
+    "LOW": 74
+  },
+  "coverage": {
+    "japaneseWordNet": 2172,
+    "wiktionary": 1850,
+    "both": 1770,
+    "neither": 56
+  },
+  "validation": {
+    "total": 2308,
+    "levelCounts": {
+      "1": 700,
+      "2": 800,
+      "3": 808
+    },
+    "duplicates": 0,
+    "errors": []
+  },
+  "humanReview": {
+    "inputPath": "reports/final-human-review-all-reviewed.csv",
+    "decisionsApplied": 0,
+    "excludedWordsInV2": []
+  },
+  "files": {
+    "dictionary": "src/data/generated/wordDictionaryV2.json",
+    "finalReview": "reports/word-master-v2-final-review.csv",
+    "summary": "reports/word-dictionary-v2-summary.json"
+  }
+}

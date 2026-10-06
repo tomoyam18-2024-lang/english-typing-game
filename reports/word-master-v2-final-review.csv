@@ -1,0 +1,75 @@
+word,level,primaryMeaning1,primaryMeaning2,primaryMeaning3,wordConfidence,reviewStatus,reviewReasons,wordnetCoverage,wiktionaryCoverage,sourceHistory,recommendedAction
+fax,1,noun: ファクシミリ機・電話ファクシミリ [low],,,low,needs_human_review,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; TSL:9|BSL:534,CHOOSE_FROM_CANDIDATES
+manual,1,noun: 便覧・入門 [low],,,low,needs_human_review,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; TSL:55|NAWL:455|BSL:418,CHOOSE_FROM_CANDIDATES
+outdoor,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:61,MISSING_DATA
+distractor,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:120,MISSING_DATA
+sunny,1,adjective: 快活・朗ら [low],,,low,needs_human_review,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; TSL:125,CHOOSE_FROM_CANDIDATES
+indoor,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:151,MISSING_DATA
+gym,1,noun: 体操場・体育館 [low],,,low,needs_human_review,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; TSL:160,CHOOSE_FROM_CANDIDATES
+shopper,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:183|BSL:668,MISSING_DATA
+flu,1,noun: 感冒・流感 [low],,,low,needs_human_review,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; TSL:225,CHOOSE_FROM_CANDIDATES
+salesperson,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:275|BSL:1090,MISSING_DATA
+taker,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:313,MISSING_DATA
+boardroom,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:437,MISSING_DATA
+realtor,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:487,MISSING_DATA
+login,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:525,MISSING_DATA
+culinary,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:629,MISSING_DATA
+hotline,1,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:679,MISSING_DATA
+payable,1,noun: 買い掛け金 [low],,,low,needs_human_review,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; TSL:686|BSL:45,CHOOSE_FROM_CANDIDATES
+receivable,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:56,MISSING_DATA
+stockmarket,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:95,MISSING_DATA
+issuer,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:103,MISSING_DATA
+regulatory,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:113,MISSING_DATA
+stakeholder,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:130,MISSING_DATA
+taxable,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:218,MISSING_DATA
+consultancy,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:306,MISSING_DATA
+payout,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:341,MISSING_DATA
+offshore,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:368,MISSING_DATA
+macroeconomic,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:517,MISSING_DATA
+albeit,2,,,,low,missing_data,MISSING_JAPANESE,false,true,reuse=new; BSL:615,MISSING_DATA
+amid,2,,,,low,missing_data,MISSING_JAPANESE,false,true,reuse=new; BSL:634,MISSING_DATA
+odds,2,,,,low,missing_data,MISSING_JAPANESE,false,true,reuse=new; BSL:650,MISSING_DATA
+bondholder,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:692,MISSING_DATA
+tuple,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:710,MISSING_DATA
+carton,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:755,MISSING_DATA
+fundraise,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:772,MISSING_DATA
+healthcare,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:776|BSL:1447,MISSING_DATA
+repairperson,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:786,MISSING_DATA
+bye,2,noun: 左様なら・おさらば [low],,,low,needs_human_review,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; TSL:807,CHOOSE_FROM_CANDIDATES
+antitrust,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:813,MISSING_DATA
+reinvest,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:821,MISSING_DATA
+ceasefire,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:835,MISSING_DATA
+handset,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:836,MISSING_DATA
+steak,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:840,MISSING_DATA
+governmental,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=new; BSL:884,MISSING_DATA
+downsize,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:905,MISSING_DATA
+flextime,2,,,,low,missing_data,MISSING_JAPANESE,false,true,reuse=reused; previousStatus=missing_data; TSL:911,MISSING_DATA
+redecorate,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:937,MISSING_DATA
+refundable,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:940,MISSING_DATA
+cordless,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:967,MISSING_DATA
+prestigious,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:1004,MISSING_DATA
+revolutionize,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:1009,MISSING_DATA
+housekeep,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:1053,MISSING_DATA
+jeans,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:1145,MISSING_DATA
+lifeguard,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:1148,MISSING_DATA
+overcrowd,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:1157,MISSING_DATA
+redesign,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:1167|BSL:1637,MISSING_DATA
+homemade,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:1220,MISSING_DATA
+videoconference,2,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; TSL:1250,MISSING_DATA
+bilingual,3,noun: バイリンガル [low],,,low,needs_human_review,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; NAWL:68,CHOOSE_FROM_CANDIDATES
+syntactic,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:86,MISSING_DATA
+nonlinear,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:183,MISSING_DATA
+tumor,3,noun: 腫瘍・新生物 [low],,,low,needs_human_review,DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; NAWL:212,CHOOSE_FROM_CANDIDATES
+variability,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:220|BSL:853,MISSING_DATA
+lateral,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:256,MISSING_DATA
+longitudinal,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:263,MISSING_DATA
+psychiatric,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:317,MISSING_DATA
+practitioner,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:356|BSL:814,MISSING_DATA
+primitive,3,adjective: 元始的・原始的 [low],,,low,needs_human_review,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; NAWL:387,CHOOSE_FROM_CANDIDATES
+sensory,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:397,MISSING_DATA
+amongst,3,,,,low,missing_data,MISSING_JAPANESE,false,true,reuse=reused; previousStatus=missing_data; NAWL:431|BSL:1442,MISSING_DATA
+morality,3,noun: 人倫・倫理 [low],,,low,needs_human_review,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE,true,true,reuse=reused; previousStatus=needs_human_review; NAWL:570,CHOOSE_FROM_CANDIDATES
+communicative,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:571,MISSING_DATA
+whereby,3,,,,low,missing_data,MISSING_JAPANESE,false,false,reuse=reused; previousStatus=missing_data; NAWL:606|BSL:724,MISSING_DATA
+minus,3,noun: 減法・マイナス [low],,,low,needs_human_review,AMBIGUOUS_PRIMARY_SENSE|DICTIONARY_DISAGREEMENT|LOW_CONFIDENCE|POS_MISMATCH,true,true,reuse=reused; previousStatus=needs_human_review; NAWL:801|BSL:290,CHOOSE_FROM_CANDIDATES
+circa,3,,,,low,missing_data,MISSING_JAPANESE,false,true,reuse=reused; previousStatus=missing_data; NAWL:938,MISSING_DATA

@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+dist
+.env*
+*.log
+data/wordnet/*.db
+data/wordnet/*.db.gz
+data/wiktionary/*.jsonl
+data/wiktionary/*.jsonl.gz
+data/wiktionary/*.ndjson
+data/wiktionary/*.ndjson.gz

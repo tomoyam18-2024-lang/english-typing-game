@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-10-06T02:07:43.167Z",
+  "sourceFiles": {
+    "TSL": "data/word-master/raw/TSL_12_stats.csv",
+    "NAWL": "data/word-master/raw/NAWL_12_stats.csv",
+    "BSL": "data/word-master/raw/BSL_120_stats.csv",
+    "NGSL_CORE": "data/word-master/raw/NGSL_12_stats.csv"
+  },
+  "sourcePolicy": {
+    "primarySources": [
+      "TSL 1.2",
+      "NAWL 1.2",
+      "BSL 1.2"
+    ],
+    "excludedSource": "NGSL-GR is not used as a primary supply source for V2.",
+    "ngslCoreUse": "NGSL 1.2 core is used as an exclusion and audit set.",
+    "note": "Level sizes are caps, not fixed quotas. The generator does not backfill from NGSL-GR to force exactly 2,500 words."
+  },
+  "oldTotal": 2500,
+  "newTotal": 2308,
+  "keptFromOldMaster": 1954,
+  "removedFromOldMaster": 546,
+  "newlyAdded": 354,
+  "levelCounts": {
+    "1": 700,
+    "2": 800,
+    "3": 808
+  },
+  "audit": {
+    "total": 2308,
+    "levelCounts": {
+      "1": 700,
+      "2": 800,
+      "3": 808
+    },
+    "duplicates": 0,
+    "emptyWords": 0,
+    "invalidWords": 0,
+    "missingSources": 0,
+    "ngslCoreOverlap": 0,
+    "shortWords": 46,
+    "numerals": 0,
+    "functionWords": 0,
+    "prefixes": 0,
+    "plurals": 0,
+    "inflections": 0,
+    "properNouns": 0,
+    "abbreviations": 0
+  },
+  "existingDictionaryDataReusable": 1954,
+  "newWordsNeedingDictionaryProcessing": 354,
+  "dictionaryReuseSource": "src/data/generated/wordDictionaryReviewStatus.json",
+  "sourceCounts": {
+    "TSL": {
+      "acceptedRaw": 1242,
+      "rejectedRaw": 8,
+      "acceptedForV2": 1238,
+      "rejectedForV2": 12
+    },
+    "NAWL": {
+      "acceptedRaw": 957,
+      "rejectedRaw": 0,
+      "acceptedForV2": 945,
+      "rejectedForV2": 12
+    },
+    "BSL": {
+      "acceptedRaw": 1743,
+      "rejectedRaw": 1,
+      "acceptedForV2": 1726,
+      "rejectedForV2": 18
+    },
+    "NGSL_CORE": {
+      "acceptedRaw": 2807,
+      "rejectedRaw": 2,
+      "acceptedForV2": 2807,
+      "rejectedForV2": 2
+    }
+  }
+}

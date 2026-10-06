@@ -1,0 +1,106 @@
+word,level,wordnetEnglishEntryFound,wordnetCoverage,wiktionaryEntryFound,wiktionaryCoverage,reason
+accustom,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+banker,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+boardroom,1,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+culinary,1,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+developer,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+distractor,1,false,false,false,false,No Japanese meaning was available from either dictionary.
+familiarize,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+headquarter,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+hotline,1,false,false,false,false,No Japanese meaning was available from either dictionary.
+indoor,1,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+internship,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+laundry,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+login,1,false,false,false,false,No Japanese meaning was available from either dictionary.
+mentor,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+ongoing,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+outdoor,1,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+overdue,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+pharmaceutical,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+preview,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+rainy,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+realtor,1,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+salesperson,1,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+shopper,1,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+taker,1,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+unattended,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+verbal,1,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+advisable,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+advisory,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+architectural,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+baker,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+behavioral,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+carton,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+cognitive,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+cordless,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+courtesy,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+debit,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+departmental,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+developmental,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+dissatisfy,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+downsize,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+evolutionary,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+fetal,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+fundraise,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+healthcare,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+homemade,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+housekeep,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+inefficient,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+intently,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+jeans,2,false,false,false,false,No Japanese meaning was available from either dictionary.
+lateral,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+lifeguard,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+linear,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+longitudinal,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+marginal,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+mid,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+non,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+nonlinear,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+outer,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+overcrowd,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+phonological,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+pre,2,false,false,false,false,No Japanese meaning was available from either dictionary.
+prestigious,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+psychiatric,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+punctual,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+redecorate,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+redesign,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+refundable,2,false,false,false,false,No Japanese meaning was available from either dictionary.
+repairperson,2,false,false,false,false,No Japanese meaning was available from either dictionary.
+revolutionize,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+salespeople,2,false,false,false,false,No Japanese meaning was available from either dictionary.
+seafood,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+selective,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+semantic,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+steak,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+syntactic,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+thirsty,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+variability,2,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+videoconference,2,false,false,false,false,No Japanese meaning was available from either dictionary.
+walkway,2,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+adaptive,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+atomic,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+both,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+communicative,3,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+dimensional,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+either,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+globalization,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+industrialize,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+it,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+monetary,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+multi,3,false,false,false,false,No Japanese meaning was available from either dictionary.
+neo,3,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+not,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+photographic,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+practitioner,3,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+quadrillion,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+quantum,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+reactive,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+sensory,3,true,false,false,false,No Japanese meaning was available from either dictionary. Japanese WordNet had English synsets but no Japanese lemmas.
+standardize,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+sustainable,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+trans,3,false,false,false,false,No Japanese meaning was available from either dictionary.
+underneath,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+unintelligible,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.
+whereby,3,false,false,false,false,No Japanese meaning was available from either dictionary.
+who,3,true,false,true,true,Japanese WordNet had English synsets but no Japanese lemmas.

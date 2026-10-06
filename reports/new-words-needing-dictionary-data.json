@@ -1,0 +1,3542 @@
+[
+  {
+    "word": "equity",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "word": "maturity",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 18
+      }
+    ]
+  },
+  {
+    "word": "depreciation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 30
+      }
+    ]
+  },
+  {
+    "word": "valuation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 43
+      }
+    ]
+  },
+  {
+    "word": "default",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 46
+      }
+    ]
+  },
+  {
+    "word": "subsidiary",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 49
+      }
+    ]
+  },
+  {
+    "word": "volatility",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 53
+      }
+    ]
+  },
+  {
+    "word": "receivable",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 56
+      }
+    ]
+  },
+  {
+    "word": "creditor",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 59
+      }
+    ]
+  },
+  {
+    "word": "annuity",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 64
+      }
+    ]
+  },
+  {
+    "word": "disclosure",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 65
+      }
+    ]
+  },
+  {
+    "word": "risky",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 67
+      }
+    ]
+  },
+  {
+    "word": "leverage",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 68
+      }
+    ]
+  },
+  {
+    "word": "parliament",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 72
+      }
+    ]
+  },
+  {
+    "word": "coalition",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 73
+      }
+    ]
+  },
+  {
+    "word": "beta",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 75
+      }
+    ]
+  },
+  {
+    "word": "lender",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 76
+      }
+    ]
+  },
+  {
+    "word": "liquidity",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 78
+      }
+    ]
+  },
+  {
+    "word": "fraud",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 81
+      }
+    ]
+  },
+  {
+    "word": "regulator",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 83
+      }
+    ]
+  },
+  {
+    "word": "trader",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 92
+      }
+    ]
+  },
+  {
+    "word": "stockmarket",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 95
+      }
+    ]
+  },
+  {
+    "word": "breach",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 98
+      }
+    ]
+  },
+  {
+    "word": "subsidy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 99
+      }
+    ]
+  },
+  {
+    "word": "issuer",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 103
+      }
+    ]
+  },
+  {
+    "word": "borrower",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 104
+      }
+    ]
+  },
+  {
+    "word": "insurer",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 105
+      }
+    ]
+  },
+  {
+    "word": "profitability",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 107
+      }
+    ]
+  },
+  {
+    "word": "terrorism",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 111
+      }
+    ]
+  },
+  {
+    "word": "regulatory",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 113
+      }
+    ]
+  },
+  {
+    "word": "infrastructure",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 121
+      }
+    ]
+  },
+  {
+    "word": "disclose",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 122
+      }
+    ]
+  },
+  {
+    "word": "offset",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 123
+      }
+    ]
+  },
+  {
+    "word": "conversion",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 128
+      }
+    ]
+  },
+  {
+    "word": "stakeholder",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 130
+      }
+    ]
+  },
+  {
+    "word": "taxpayer",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 132
+      }
+    ]
+  },
+  {
+    "word": "debtor",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 136
+      }
+    ]
+  },
+  {
+    "word": "scandal",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 141
+      }
+    ]
+  },
+  {
+    "word": "defer",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 143
+      }
+    ]
+  },
+  {
+    "word": "payoff",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 146
+      }
+    ]
+  },
+  {
+    "word": "publicly",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 148
+      }
+    ]
+  },
+  {
+    "word": "governance",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 150
+      }
+    ]
+  },
+  {
+    "word": "marketer",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 152
+      }
+    ]
+  },
+  {
+    "word": "benchmark",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 153
+      }
+    ]
+  },
+  {
+    "word": "rebel",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 154
+      }
+    ]
+  },
+  {
+    "word": "statute",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 155
+      }
+    ]
+  },
+  {
+    "word": "restructure",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 156
+      }
+    ]
+  },
+  {
+    "word": "arbitrage",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 159
+      }
+    ]
+  },
+  {
+    "word": "deem",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 166
+      }
+    ]
+  },
+  {
+    "word": "defendant",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 168
+      }
+    ]
+  },
+  {
+    "word": "allowance",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 172
+      }
+    ]
+  },
+  {
+    "word": "enforce",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 175
+      }
+    ]
+  },
+  {
+    "word": "warrant",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 180
+      }
+    ]
+  },
+  {
+    "word": "telecom",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 182
+      }
+    ]
+  },
+  {
+    "word": "diversify",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 184
+      }
+    ]
+  },
+  {
+    "word": "referendum",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 189
+      }
+    ]
+  },
+  {
+    "word": "taxation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 200
+      }
+    ]
+  },
+  {
+    "word": "technological",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 203
+      }
+    ]
+  },
+  {
+    "word": "plaintiff",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 205
+      }
+    ]
+  },
+  {
+    "word": "tariff",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 209
+      }
+    ]
+  },
+  {
+    "word": "shrink",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 211
+      }
+    ]
+  },
+  {
+    "word": "foreigner",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 213
+      }
+    ]
+  },
+  {
+    "word": "consolidate",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 217
+      }
+    ]
+  },
+  {
+    "word": "taxable",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 218
+      }
+    ]
+  },
+  {
+    "word": "subordinate",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 223
+      }
+    ]
+  },
+  {
+    "word": "inflow",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 225
+      }
+    ]
+  },
+  {
+    "word": "pledge",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 226
+      }
+    ]
+  },
+  {
+    "word": "collateral",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 229
+      }
+    ]
+  },
+  {
+    "word": "modest",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 230
+      }
+    ]
+  },
+  {
+    "word": "convertible",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 231
+      }
+    ]
+  },
+  {
+    "word": "ledger",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 233
+      }
+    ]
+  },
+  {
+    "word": "summit",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 235
+      }
+    ]
+  },
+  {
+    "word": "repay",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 236
+      }
+    ]
+  },
+  {
+    "word": "ministry",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 238
+      }
+    ]
+  },
+  {
+    "word": "presidency",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 248
+      }
+    ]
+  },
+  {
+    "word": "con",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 250
+      }
+    ]
+  },
+  {
+    "word": "surge",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 260
+      }
+    ]
+  },
+  {
+    "word": "predecessor",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 265
+      }
+    ]
+  },
+  {
+    "word": "deputy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 267
+      }
+    ]
+  },
+  {
+    "word": "sole",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 270
+      }
+    ]
+  },
+  {
+    "word": "outsource",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 271
+      }
+    ]
+  },
+  {
+    "word": "chancellor",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 273
+      }
+    ]
+  },
+  {
+    "word": "lawsuit",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 274
+      }
+    ]
+  },
+  {
+    "word": "notably",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 275
+      }
+    ]
+  },
+  {
+    "word": "fluctuation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 276
+      }
+    ]
+  },
+  {
+    "word": "goodwill",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 281
+      }
+    ]
+  },
+  {
+    "word": "diversification",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 282
+      }
+    ]
+  },
+  {
+    "word": "metric",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 287
+      }
+    ]
+  },
+  {
+    "word": "insider",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 288
+      }
+    ]
+  },
+  {
+    "word": "constitutional",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 291
+      }
+    ]
+  },
+  {
+    "word": "privatization",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 292
+      }
+    ]
+  },
+  {
+    "word": "remedy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 296
+      }
+    ]
+  },
+  {
+    "word": "accordance",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 298
+      }
+    ]
+  },
+  {
+    "word": "parliamentary",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 299
+      }
+    ]
+  },
+  {
+    "word": "activist",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 304
+      }
+    ]
+  },
+  {
+    "word": "consultancy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 306
+      }
+    ]
+  },
+  {
+    "word": "charter",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 312
+      }
+    ]
+  },
+  {
+    "word": "vulnerable",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 314
+      }
+    ]
+  },
+  {
+    "word": "citation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 316
+      }
+    ]
+  },
+  {
+    "word": "lessee",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 318
+      }
+    ]
+  },
+  {
+    "word": "bust",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 321
+      }
+    ]
+  },
+  {
+    "word": "rally",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 327
+      }
+    ]
+  },
+  {
+    "word": "intangible",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 328
+      }
+    ]
+  },
+  {
+    "word": "successor",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 329
+      }
+    ]
+  },
+  {
+    "word": "exempt",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 330
+      }
+    ]
+  },
+  {
+    "word": "weaken",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 334
+      }
+    ]
+  },
+  {
+    "word": "accrue",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 335
+      }
+    ]
+  },
+  {
+    "word": "interim",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 340
+      }
+    ]
+  },
+  {
+    "word": "payout",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 341
+      }
+    ]
+  },
+  {
+    "word": "suppress",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 342
+      }
+    ]
+  },
+  {
+    "word": "electoral",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 344
+      }
+    ]
+  },
+  {
+    "word": "jurisdiction",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 345
+      }
+    ]
+  },
+  {
+    "word": "ambition",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 346
+      }
+    ]
+  },
+  {
+    "word": "outsider",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 348
+      }
+    ]
+  },
+  {
+    "word": "prevail",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 349
+      }
+    ]
+  },
+  {
+    "word": "virtual",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 350
+      }
+    ]
+  },
+  {
+    "word": "counterpart",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 362
+      }
+    ]
+  },
+  {
+    "word": "diminish",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 363
+      }
+    ]
+  },
+  {
+    "word": "repayment",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 367
+      }
+    ]
+  },
+  {
+    "word": "offshore",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 368
+      }
+    ]
+  },
+  {
+    "word": "marketplace",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 369
+      }
+    ]
+  },
+  {
+    "word": "proxy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 374
+      }
+    ]
+  },
+  {
+    "word": "municipal",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 377
+      }
+    ]
+  },
+  {
+    "word": "hostile",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 378
+      }
+    ]
+  },
+  {
+    "word": "tonne",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 379
+      }
+    ]
+  },
+  {
+    "word": "mandate",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 389
+      }
+    ]
+  },
+  {
+    "word": "gamble",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 395
+      }
+    ]
+  },
+  {
+    "word": "tighten",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 399
+      }
+    ]
+  },
+  {
+    "word": "amend",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 400
+      }
+    ]
+  },
+  {
+    "word": "squeeze",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 401
+      }
+    ]
+  },
+  {
+    "word": "scrap",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 413
+      }
+    ]
+  },
+  {
+    "word": "petrol",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 414
+      }
+    ]
+  },
+  {
+    "word": "uncertain",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 415
+      }
+    ]
+  },
+  {
+    "word": "pipeline",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 417
+      }
+    ]
+  },
+  {
+    "word": "terror",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 420
+      }
+    ]
+  },
+  {
+    "word": "quota",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 421
+      }
+    ]
+  },
+  {
+    "word": "trustee",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 424
+      }
+    ]
+  },
+  {
+    "word": "frontier",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 427
+      }
+    ]
+  },
+  {
+    "word": "seize",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 428
+      }
+    ]
+  },
+  {
+    "word": "beneficiary",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 429
+      }
+    ]
+  },
+  {
+    "word": "solely",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 437
+      }
+    ]
+  },
+  {
+    "word": "capitalization",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 438
+      }
+    ]
+  },
+  {
+    "word": "pioneer",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 440
+      }
+    ]
+  },
+  {
+    "word": "diplomat",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 441
+      }
+    ]
+  },
+  {
+    "word": "endorse",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 443
+      }
+    ]
+  },
+  {
+    "word": "cheque",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 444
+      }
+    ]
+  },
+  {
+    "word": "intent",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 447
+      }
+    ]
+  },
+  {
+    "word": "lessor",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 449
+      }
+    ]
+  },
+  {
+    "word": "affiliate",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 452
+      }
+    ]
+  },
+  {
+    "word": "statutory",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 453
+      }
+    ]
+  },
+  {
+    "word": "exporter",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 458
+      }
+    ]
+  },
+  {
+    "word": "prosecutor",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 460
+      }
+    ]
+  },
+  {
+    "word": "slump",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 463
+      }
+    ]
+  },
+  {
+    "word": "lag",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 464
+      }
+    ]
+  },
+  {
+    "word": "volatile",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 465
+      }
+    ]
+  },
+  {
+    "word": "sack",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 467
+      }
+    ]
+  },
+  {
+    "word": "obstacle",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 472
+      }
+    ]
+  },
+  {
+    "word": "coup",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 474
+      }
+    ]
+  },
+  {
+    "word": "issuance",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 478
+      }
+    ]
+  },
+  {
+    "word": "capitalize",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 480
+      }
+    ]
+  },
+  {
+    "word": "contractual",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 481
+      }
+    ]
+  },
+  {
+    "word": "amortization",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 483
+      }
+    ]
+  },
+  {
+    "word": "unfair",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 484
+      }
+    ]
+  },
+  {
+    "word": "nationalist",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 491
+      }
+    ]
+  },
+  {
+    "word": "demographic",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 496
+      }
+    ]
+  },
+  {
+    "word": "conglomerate",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 499
+      }
+    ]
+  },
+  {
+    "word": "senator",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 506
+      }
+    ]
+  },
+  {
+    "word": "adoption",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 507
+      }
+    ]
+  },
+  {
+    "word": "consolidation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 511
+      }
+    ]
+  },
+  {
+    "word": "headline",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 514
+      }
+    ]
+  },
+  {
+    "word": "deploy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 516
+      }
+    ]
+  },
+  {
+    "word": "macroeconomic",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 517
+      }
+    ]
+  },
+  {
+    "word": "concession",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 518
+      }
+    ]
+  },
+  {
+    "word": "contingent",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 520
+      }
+    ]
+  },
+  {
+    "word": "privately",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 523
+      }
+    ]
+  },
+  {
+    "word": "guerrilla",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 524
+      }
+    ]
+  },
+  {
+    "word": "repurchase",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 528
+      }
+    ]
+  },
+  {
+    "word": "plunge",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 531
+      }
+    ]
+  },
+  {
+    "word": "legally",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 538
+      }
+    ]
+  },
+  {
+    "word": "installment",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 539
+      }
+    ]
+  },
+  {
+    "word": "revive",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 541
+      }
+    ]
+  },
+  {
+    "word": "inevitable",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 543
+      }
+    ]
+  },
+  {
+    "word": "ballot",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 545
+      }
+    ]
+  },
+  {
+    "word": "treasury",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 546
+      }
+    ]
+  },
+  {
+    "word": "intermediary",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 547
+      }
+    ]
+  },
+  {
+    "word": "boast",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 549
+      }
+    ]
+  },
+  {
+    "word": "militant",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 550
+      }
+    ]
+  },
+  {
+    "word": "discourage",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 551
+      }
+    ]
+  },
+  {
+    "word": "fate",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 554
+      }
+    ]
+  },
+  {
+    "word": "widen",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 555
+      }
+    ]
+  },
+  {
+    "word": "gang",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 561
+      }
+    ]
+  },
+  {
+    "word": "curb",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 565
+      }
+    ]
+  },
+  {
+    "word": "robust",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 567
+      }
+    ]
+  },
+  {
+    "word": "brokerage",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 568
+      }
+    ]
+  },
+  {
+    "word": "devise",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 572
+      }
+    ]
+  },
+  {
+    "word": "speculation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 573
+      }
+    ]
+  },
+  {
+    "word": "incremental",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 575
+      }
+    ]
+  },
+  {
+    "word": "fighter",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 576
+      }
+    ]
+  },
+  {
+    "word": "grip",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 578
+      }
+    ]
+  },
+  {
+    "word": "underwrite",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 581
+      }
+    ]
+  },
+  {
+    "word": "compel",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 584
+      }
+    ]
+  },
+  {
+    "word": "multiplier",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 588
+      }
+    ]
+  },
+  {
+    "word": "slowdown",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 589
+      }
+    ]
+  },
+  {
+    "word": "suspicion",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 591
+      }
+    ]
+  },
+  {
+    "word": "flee",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 593
+      }
+    ]
+  },
+  {
+    "word": "bureaucracy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 594
+      }
+    ]
+  },
+  {
+    "word": "wholesale",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 597
+      }
+    ]
+  },
+  {
+    "word": "privacy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 599
+      }
+    ]
+  },
+  {
+    "word": "tangible",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 601
+      }
+    ]
+  },
+  {
+    "word": "dump",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 602
+      }
+    ]
+  },
+  {
+    "word": "bail",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 610
+      }
+    ]
+  },
+  {
+    "word": "outflow",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 614
+      }
+    ]
+  },
+  {
+    "word": "albeit",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 615
+      }
+    ]
+  },
+  {
+    "word": "spokesman",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 617
+      }
+    ]
+  },
+  {
+    "word": "contingency",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 619
+      }
+    ]
+  },
+  {
+    "word": "surrender",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 623
+      }
+    ]
+  },
+  {
+    "word": "judicial",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 624
+      }
+    ]
+  },
+  {
+    "word": "certainty",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 625
+      }
+    ]
+  },
+  {
+    "word": "mainstream",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 626
+      }
+    ]
+  },
+  {
+    "word": "rebuild",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 629
+      }
+    ]
+  },
+  {
+    "word": "corrupt",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 630
+      }
+    ]
+  },
+  {
+    "word": "integrity",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 631
+      }
+    ]
+  },
+  {
+    "word": "litigation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 633
+      }
+    ]
+  },
+  {
+    "word": "amid",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 634
+      }
+    ]
+  },
+  {
+    "word": "bold",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 636
+      }
+    ]
+  },
+  {
+    "word": "handful",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 640
+      }
+    ]
+  },
+  {
+    "word": "unchanged",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 643
+      }
+    ]
+  },
+  {
+    "word": "queue",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 644
+      }
+    ]
+  },
+  {
+    "word": "bidder",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 645
+      }
+    ]
+  },
+  {
+    "word": "respective",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 646
+      }
+    ]
+  },
+  {
+    "word": "deliverable",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 647
+      }
+    ]
+  },
+  {
+    "word": "odds",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 650
+      }
+    ]
+  },
+  {
+    "word": "allegation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 653
+      }
+    ]
+  },
+  {
+    "word": "redemption",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 654
+      }
+    ]
+  },
+  {
+    "word": "downward",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 655
+      }
+    ]
+  },
+  {
+    "word": "depreciate",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 659
+      }
+    ]
+  },
+  {
+    "word": "digit",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 661
+      }
+    ]
+  },
+  {
+    "word": "hybrid",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 664
+      }
+    ]
+  },
+  {
+    "word": "provoke",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 666
+      }
+    ]
+  },
+  {
+    "word": "info",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 671
+      }
+    ]
+  },
+  {
+    "word": "secular",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 673
+      }
+    ]
+  },
+  {
+    "word": "cease",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 674
+      }
+    ]
+  },
+  {
+    "word": "distress",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 675
+      }
+    ]
+  },
+  {
+    "word": "withhold",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 676
+      }
+    ]
+  },
+  {
+    "word": "sterling",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 677
+      }
+    ]
+  },
+  {
+    "word": "legacy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 678
+      }
+    ]
+  },
+  {
+    "word": "thrive",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 679
+      }
+    ]
+  },
+  {
+    "word": "commander",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 681
+      }
+    ]
+  },
+  {
+    "word": "accountability",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 683
+      }
+    ]
+  },
+  {
+    "word": "incorporation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 684
+      }
+    ]
+  },
+  {
+    "word": "batch",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 686
+      }
+    ]
+  },
+  {
+    "word": "bondholder",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 692
+      }
+    ]
+  },
+  {
+    "word": "unveil",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 693
+      }
+    ]
+  },
+  {
+    "word": "intrinsic",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 694
+      }
+    ]
+  },
+  {
+    "word": "diplomatic",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 698
+      }
+    ]
+  },
+  {
+    "word": "formerly",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 705
+      }
+    ]
+  },
+  {
+    "word": "optimization",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 706
+      }
+    ]
+  },
+  {
+    "word": "tuple",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 710
+      }
+    ]
+  },
+  {
+    "word": "halt",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 720
+      }
+    ]
+  },
+  {
+    "word": "shed",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 722
+      }
+    ]
+  },
+  {
+    "word": "median",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 725
+      }
+    ]
+  },
+  {
+    "word": "wholly",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 726
+      }
+    ]
+  },
+  {
+    "word": "commissioner",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 729
+      }
+    ]
+  },
+  {
+    "word": "legislature",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 737
+      }
+    ]
+  },
+  {
+    "word": "predictable",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 741
+      }
+    ]
+  },
+  {
+    "word": "liquidation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 742
+      }
+    ]
+  },
+  {
+    "word": "chaos",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 743
+      }
+    ]
+  },
+  {
+    "word": "impairment",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 745
+      }
+    ]
+  },
+  {
+    "word": "migrant",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 751
+      }
+    ]
+  },
+  {
+    "word": "macroeconomics",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 753
+      }
+    ]
+  },
+  {
+    "word": "accrual",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 757
+      }
+    ]
+  },
+  {
+    "word": "confront",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 758
+      }
+    ]
+  },
+  {
+    "word": "passive",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 760
+      }
+    ]
+  },
+  {
+    "word": "scrutiny",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 764
+      }
+    ]
+  },
+  {
+    "word": "exile",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 766
+      }
+    ]
+  },
+  {
+    "word": "inherent",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 768
+      }
+    ]
+  },
+  {
+    "word": "payback",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 772
+      }
+    ]
+  },
+  {
+    "word": "sacrifice",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 773
+      }
+    ]
+  },
+  {
+    "word": "feasible",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 775
+      }
+    ]
+  },
+  {
+    "word": "conviction",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 776
+      }
+    ]
+  },
+  {
+    "word": "continuously",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 777
+      }
+    ]
+  },
+  {
+    "word": "tier",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 780
+      }
+    ]
+  },
+  {
+    "word": "inadequate",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 782
+      }
+    ]
+  },
+  {
+    "word": "acre",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 783
+      }
+    ]
+  },
+  {
+    "word": "levy",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 784
+      }
+    ]
+  },
+  {
+    "word": "reliance",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 786
+      }
+    ]
+  },
+  {
+    "word": "covenant",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 787
+      }
+    ]
+  },
+  {
+    "word": "prosecute",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 789
+      }
+    ]
+  },
+  {
+    "word": "materially",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 790
+      }
+    ]
+  },
+  {
+    "word": "convict",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 791
+      }
+    ]
+  },
+  {
+    "word": "procurement",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 792
+      }
+    ]
+  },
+  {
+    "word": "clash",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 793
+      }
+    ]
+  },
+  {
+    "word": "deter",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 794
+      }
+    ]
+  },
+  {
+    "word": "prosecution",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 795
+      }
+    ]
+  },
+  {
+    "word": "condemn",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 797
+      }
+    ]
+  },
+  {
+    "word": "operative",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 799
+      }
+    ]
+  },
+  {
+    "word": "privatize",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 800
+      }
+    ]
+  },
+  {
+    "word": "endure",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 801
+      }
+    ]
+  },
+  {
+    "word": "doctrine",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 802
+      }
+    ]
+  },
+  {
+    "word": "distort",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 803
+      }
+    ]
+  },
+  {
+    "word": "triple",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 804
+      }
+    ]
+  },
+  {
+    "word": "textile",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 805
+      }
+    ]
+  },
+  {
+    "word": "alpha",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 809
+      }
+    ]
+  },
+  {
+    "word": "refine",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 810
+      }
+    ]
+  },
+  {
+    "word": "deflation",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 812
+      }
+    ]
+  },
+  {
+    "word": "antitrust",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 813
+      }
+    ]
+  },
+  {
+    "word": "prosperity",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 815
+      }
+    ]
+  },
+  {
+    "word": "riot",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 816
+      }
+    ]
+  },
+  {
+    "word": "align",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 820
+      }
+    ]
+  },
+  {
+    "word": "reinvest",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 821
+      }
+    ]
+  },
+  {
+    "word": "provincial",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 823
+      }
+    ]
+  },
+  {
+    "word": "concede",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 826
+      }
+    ]
+  },
+  {
+    "word": "fierce",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 832
+      }
+    ]
+  },
+  {
+    "word": "veto",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 833
+      }
+    ]
+  },
+  {
+    "word": "instant",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 834
+      }
+    ]
+  },
+  {
+    "word": "ceasefire",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 835
+      }
+    ]
+  },
+  {
+    "word": "handset",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 836
+      }
+    ]
+  },
+  {
+    "word": "sentiment",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 837
+      }
+    ]
+  },
+  {
+    "word": "vest",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 838
+      }
+    ]
+  },
+  {
+    "word": "beef",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 839
+      }
+    ]
+  },
+  {
+    "word": "combat",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 841
+      }
+    ]
+  },
+  {
+    "word": "parity",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 842
+      }
+    ]
+  },
+  {
+    "word": "centralize",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 844
+      }
+    ]
+  },
+  {
+    "word": "sovereign",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 845
+      }
+    ]
+  },
+  {
+    "word": "lucrative",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 849
+      }
+    ]
+  },
+  {
+    "word": "strive",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 854
+      }
+    ]
+  },
+  {
+    "word": "bribe",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 857
+      }
+    ]
+  },
+  {
+    "word": "militia",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 861
+      }
+    ]
+  },
+  {
+    "word": "enact",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 863
+      }
+    ]
+  },
+  {
+    "word": "controller",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 864
+      }
+    ]
+  },
+  {
+    "word": "shield",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 866
+      }
+    ]
+  },
+  {
+    "word": "pact",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 867
+      }
+    ]
+  },
+  {
+    "word": "discretion",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 868
+      }
+    ]
+  },
+  {
+    "word": "supervision",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 870
+      }
+    ]
+  },
+  {
+    "word": "pursuit",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 875
+      }
+    ]
+  },
+  {
+    "word": "endowment",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 881
+      }
+    ]
+  },
+  {
+    "word": "governmental",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 884
+      }
+    ]
+  },
+  {
+    "word": "logistics",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 891
+      }
+    ]
+  },
+  {
+    "word": "scarce",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 892
+      }
+    ]
+  },
+  {
+    "word": "restraint",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 894
+      }
+    ]
+  },
+  {
+    "word": "follower",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 895
+      }
+    ]
+  },
+  {
+    "word": "torture",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 896
+      }
+    ]
+  },
+  {
+    "word": "crunch",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 897
+      }
+    ]
+  },
+  {
+    "word": "receiver",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 899
+      }
+    ]
+  },
+  {
+    "word": "encyclopedia",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 904
+      }
+    ]
+  },
+  {
+    "word": "aversion",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 908
+      }
+    ]
+  },
+  {
+    "word": "reconcile",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 909
+      }
+    ]
+  },
+  {
+    "word": "indirectly",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 910
+      }
+    ]
+  },
+  {
+    "word": "yuan",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 912
+      }
+    ]
+  },
+  {
+    "word": "liberty",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 914
+      }
+    ]
+  },
+  {
+    "word": "decent",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 916
+      }
+    ]
+  },
+  {
+    "word": "appetite",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 918
+      }
+    ]
+  },
+  {
+    "word": "tobacco",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 919
+      }
+    ]
+  },
+  {
+    "word": "unpopular",
+    "level": 2,
+    "sources": [
+      {
+        "name": "BSL",
+        "rank": 920
+      }
+    ]
+  }
+]
